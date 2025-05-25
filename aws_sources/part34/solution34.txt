@@ -1,0 +1,86 @@
+shibboleth femenenrie
+
+s
+u
+s
+kiss albert
+
+p
+d
+d
+talk to youssef
+u
+u
+p
+
+
+s
+x porthole
+open porthole
+open closet
+x closet
+x luggage
+take umbrella
+pull the ladder
+d
+u
+u
+a
+s
+a
+search desk
+take gun
+f
+x hatch
+open manhole
+d
+s
+x tools
+take hammer
+take nails
+p
+p
+x canisters
+get paper
+s
+d
+f
+f
+search compartments
+get matches
+a
+search workbench
+get knife
+a
+u
+u
+p
+f
+d
+d
+pull the cannon
+spike the cannon
+take gunpowder
+u
+u
+a
+s
+d
+x door
+put gunpowder in the lock
+ignite gunpowder
+a
+
+x rubbish
+take wedge
+e
+sharpen wedge with the knife
+put wedge in hatch
+hammer wedge
+talk to briccorosso
+w
+w
+x bar
+x cutlery
+w
+

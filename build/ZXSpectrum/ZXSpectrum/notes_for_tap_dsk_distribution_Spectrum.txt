@@ -1,0 +1,21 @@
+                                    SILK DUST
+
+                         A text adventure, by Davide Bucci
+
+This archive contains the tape files of the game for the ZXSpectrum 48k and the +3.
+
+IMPORTANT NOTE: versions before 1.0.3 contained a bug that prevented an object to be
+dropped correctly and caused it to vanish. This prevented to complete part 2.
+
+				Zx Spectrum 48k
+
+The version for the 48k is distributed as three different .TAP files (a WAV distribution
+is also available on the website, but it is a much larger download).
+This version of Silk Dust can not save the game state: you should use the passwords
+provided by the game.
+
+				Zx Spectrum 3+
+
+The version for the Spectrum +3 is distributed as a single .dsk disk image with a small
+menu that allow you to choose which version to play. This version can save and load the 
+game state on the disk with the LOAD and SAVE commands.

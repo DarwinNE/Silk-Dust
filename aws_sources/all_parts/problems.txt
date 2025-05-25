@@ -1,0 +1,78 @@
+Version 0.3.3
+-------------
+ feedback by George Nakos:
+ 
+Part two:
+[FIXED] - Entrance  of the abbey: when I get the  key (dropped by Salvatore) no confirmation message is written (like "okay"), just a blank line
+[FIXED] - East balcony: when I speak to Father, I can speak to him again and he'll  say  the  same things, even though at the end of that he says  that  he  should  go  back  to  his  spiritual exercises. Perhaps we  shouldn't  be  allowed  to speak to him again (this is subjective of  course).
+[FIXED] - Entrance   of  the  abbey: Even though I can give the key back to Salvatore  before  leaving,  and  the  game  saying  that  Salvatore  actually takes the key, it is still left in the inventory.
+
+Part three:
+[FIXED] - Briccorosso's cabin: When I talk to  the princess, the game seems to  be printing the same text as she spoke on part one. Even down to the location of Albert.
+[FIXED] - Promenade deck (starboard): Again I'm sure that the actors recite the   same   dialog  as in part one. So there's zero indication that Emilia has to kiss Albert.
+[FIXED] - Emilia's cabin: After you grab the ladder using the umbrella, the game  does  not say that you can go up and down. I had to guess both and it was quite confusing!
+[FIXED] - Loading  deck:  again,  when  you  open  the  manhole there is no indication you can go down.
+[FIXED] - Main  hold:  after you go down from the manhole, you can actually type  "N" to go north! the f/a/p/s rules don't seem to apply in that room!  This  might of course be true before the pirates are on board the  boat, but this is what I tried, and was able to go North to the dining room. (This is the "game breaking" bit I mentioned above)
+[FIXED] - Main  hold: Also, no indication you can go down to the engine room here, more confusion.
+[FIXED] - Loading deck: Just tried to go E by mistake and it worked.
+
+Part four:
+[FIXED] - Pirate's ship: Game displays "You can go: west" twice every time.
+
+Version 0.4
+-----------
+Part one:
+[FIXED] - Twisty road: I was able to get the wheel, go west, throw the wheel in water, get the wheel, and then I looked at the wheel. It was then that Albert triggered his dialogue about tying the wheel with a rope. The wheel was still not fixed by the way.
+
+Version 0.4.2
+-------------
+Benedikt Weiss
+Part one:
+[FIXED] - In Varenna, the bakery and the haberdashery won't be described when examining them, you can't enter them either.
+[FIXED] - In the alley you mention the leaves that creak under your feet. Mention the acorns, also (as you mention them in "you notice"). I would write "Leaves and acorns that have fallen from the trees creak under your feet, as you walk among them."
+[FIXED] - Trying to fill the BOTTLE with water will result in filling the BUCKET with water.  (only with "get water with bottle").
+[FIXED] - Maybe you should consider making more clear, why Emilia wants to drive the car. Does she want to go to Milan to investigate? Or does she really just want to take a test drive? Whatever the reason (the latter is appropriate here, as she first will talk to the Princess before going for investigation), let her think about it, so the player knows what Emilia is up to.
+
+Part two:
+[FIXED] - Arriving at the factory, you notice a rolling chassis, but are not able to examine it. You might add that, because if Emilia explicitly notices it, it should be described more detailed.
+[FIXED] - Anteo can be examined, Marcellino cannot.
+[FIXED] - The crash with the rolling chassis is triggered too early: If you pull the lever on the compressor, and after that open the valve, back at the voicepipe Emilia finds it is too loud for using it - after that the event with the chassis should be triggered, not earlier. If you do NOT open the valve after pulling the lever (and subsequently still cannot use the voicepipe) and go back to Anteo, the chassis-event is triggered, although Emilia never encountered the noise-problem.
+[FIXED] - A follow-up-problem: When the chassis-event is triggered without Emilia having opened the valve after pulling the lever and Anteo stops the hammer, Emilia cannot talk to the voicepipe - but not because there still is no pressure, but Emilia states it is too loud in the room. It now stays too loud in the room, because after now opening the valve, the chassis-event will (of course) not be triggered again. This problem should be eliminated with triggering the chassis-event only after having pulled the lever, having opened the valve, discovering it is too loud to use the voicepipe and having left and again entered the factory.
+[FIXED] - Emilia can also take a wrench when examining the workbench in Nannas room. When the player tries to open the valve with it, Emilia states it is stuck. In my opinion it would be better to let her say, that she fears to break the valve, if she puts too much pressure on it with the wrench. Maybe also let her find the oiler in another place than the wrenches - or maybe even let Nanna give the oiler to Emilia after Emilia fails to open the valve with the wrench, if Emilia again talks to Nanna. SHOW APPROPRIATE MESSAGE WITH "OPEN VALVE WITH A WRENCH"
+[FIXED] - In Tullios Office, you can neither examine the painting, the desk or the drawing board. If it fits in, maybe at least add the painting and the drawing board.
+[FIXED] - After getting the key from Salvatore you do not need to unlock the door to the toolshed, but instead just enter it. I guess it would add to the logic (and the atmosphere) if you have to explicitly unlock the door first, OR Emilia states, that she unlocks it for the first time entering the shed. -> MESSAGE WHEN EMILIA ENTERS THE SHED THE FIRST TIME
+[WON'T FIX] - When entering the church, Emilia gets shouted at by a monk when not dressed in the tunic (great, that you built that in!). She then retreats to a balcony. Wouldn't it be more logic, if she descended the stairs again to the entrance to the abbey?
+[FIXED] - When descending the stairway of the dead, it would be nice if one could examine the skeletons.
+[FIXED] - Maybe you should find a way to make the abbey seem larger, for example by adding a hallway that leads to the dorm rooms. Emilia could say, she won't enter there because it is inappropriate.
+[FIXED] - Talking to Salvatore again after leaving the abbey leads to Emilia repeating the little roadtrip with him. He AGAIN loses the key, he has already lost. The key isn't to be found in the car again, though. ;)
+
+Part three:
+[FIXED] - When first entering the kitchen, it is now possible to directly enter the pantry. If I remember correctly, that was not possible in older versions, which I liked better. Youssef the cook looking after the things in the pantry seems absolutely appropriate.
+[FIXED] - Aft the loading deck there is the captains cabin. When trying to enter it, Emilia denies that because she needs permission. What is missing is that the captians cabin is mentioned when Emilia arrives on the loading deck. It does make sense that she mentions that the captains cabin is aft.
+[FIXED] - After the pirates have taken over the Dylamene, you can use the ladder to climb up and down outside the ship. If you are standing on the promenade deck (port) where the ladder is fixated, Emilia doesn't mention that you can go down via the ladder.
+[WON'T FIX] - I noticed that the directions on the ship don't appear in different colour like the normal "north, east, west, south" directions
+In chapter three, on the Dylamene, when standing on the loading deck (with the new description, that the captain's cabin is aft), the possible directions where Emilia can go are missing.
+
+
+Part four:
+[FIXED] - Chapter four is stunningly short! I don't know if it is a memory issue that you have to cut it short, but if not, it should be expanded. Let me know and I'll think about ways of making the last chapter longer.
+[FIXED] - Leaving the tavern to the east will result in directly getting on the pirate boat, although Emilia should first be at the harbour. 
+
+
+Version 0.5.1
+-------------
+
+Part 1:
+[FIXED] Use spelling tyres instead of tires.
+
+Part 2:
+[FIXED] "Examine set of wrenches" does not work. "Take set of wrenches" does not work as expected. "Set" creates a conflict as it is recognised as a verb.
+- the prompt
+[FIXED] - "I wear" -> "(worn)" in the inventory 
+[FIXED] - maybe the place where friars escort you if you don't wear the tunic when you enter the church.
+
+Version 1.0.1
+-------------
+
+Part 2:
+Can't take the oiler in the single file version of the game (Amiga, Mac68k, Atari, etc...)

@@ -1,0 +1,152 @@
+Version 0.1 -> 0.1.1
+--------------------
+(suggestions: Chris Carter)
+[FIXED] I tried 'use voicepipe' in the villa and for some reason that resulted
+        in repairing the bucket with an acorn!
+[FIXED] Mechanician -> Mechanic.
+[FIXED] Implement "Talk to Sergio" with the voicepipe -> "Try talking to the
+        voicepipe"
+[FIXED] correct "tow trail" to "tow trailer"
+[FIXED] Don't carry with you the bucket, the can and the rake while testing the
+        car.
+[FIXED] Mechanician should be Mechanic.
+[FIXED] `towing a trail` should be `towing a trailer`
+[FIXED] In the Red Room, you enter from the North, so are presumably facing
+        South. The text says there is a tapestry in front of you, IE on the
+        South wall, but when you examine the tapestry it tells you the tapestry
+        is to the east.
+[FIXED] After having come back from the car test, talk to Sergio : old message
+        about gasoline.
+[FIXED] Gasoline -> Kerosene.
+[FIXED] In the house, it is a little odd that there is nothing to the East at
+        the bottom of the stairs... maybe something along the lines of `to the
+        east is the servants part of the house, including  the kitchen.  You
+        have no reason to go there`
+[FIXED] In the start (bedroom) a window looks East to a garden. All the garden
+        locations I have found (so far) have been West, then North/South from
+        the house - This is a slight puzzle for me, especially as the Black
+        Room voicepipe state that Sergio can be talked to if he is in the Barn
+        - I have not found a Barn (yet). -> describe the barn seen from the
+        window.
+[FIXED] Place the barn behind a closed gate, with dogs.
+[FIXED] Now also activate help message from maid if voicepipe has not been used
+        yet to say something like, `Perhaps Sergion can help, you should try to
+        speak to him."
+[FIXED] In the bedroom at the start, there is  a library.  If you examine it
+        you get a list of some books there.  I was wondering if it might amuse
+        you to have one or two with titles which hint to the older 2 games.
+
+Version 0.1.1 -> 0.1.2
+----------------------
+[FIXED] Problem.1: After repairing wheel and going back to car Drive car: now 
+        gives the message about not having fuel !
+[FIXED] `he went searching his tools` -> `he's gone to look for his tools`
+[FIXED] `deliver guys` -> `delivery guys`
+[FIXED] `carry another car in Milan` -> `take another car to Milan`
+[FIXED] `certainly: you would have known it` -> `you would certainly have known
+        about it!`
+[FIXED] `eggplants seeds` -> `eggplant seeds`
+[FIXED] `tank is empty. You should search some.` -> `tank is empty. You should
+        search for some.` or perhaps:-
+[FIXED] `Your see that the fuel tank is empty.  You should find some, it can
+        run on paraffin or kerosene.`
+[FIXED] Black room:-Talk to voicepipe:  I've not heard of `persil` seeds ? is
+        this the correct word ?
+[FIXED] Bike shop:  -`keeps there the paraffin` -> `keeps the paraffin there`
+[FIXED] Twisty road:-`tampered by someone.` -> `tampered with by someone.` or
+        just `tampered with.`
+[FIXED] When driving car back to house:- `install again the wheel onssssss` ->
+        `put the wheel onto`
+
+Version 0.1.2 -> 0.1.3
+----------------------
+(suggestions: Chris Carter)
+[FIXED] that these phrases do not work... `talk to mechanic about race`
+        `tell mechanic about race` I resorted to `talk to mechanic race`
+        which works :-)
+
+
+
+Version 0.1.3 -> 0.2
+--------------------
+(suggestions: Benedikt Weiss)
+
+TODO:
+
+[FIXED] - When you first walk into the botanical garden, Emilia finds a small gate leading to the barn behind the villa. The direction "east" isn't given as a possibility for movement, [cut] When arriving in the garden, give the direction "east" as a possibility, as there IS in fact a way behind the gate. When going east, don't let the program say "You can't." but instead say something like "You try to make your way to the barn, but find your path blocked by the gate. It obviously is locked, as Sergio keeps the two Briccorosso's dogs there." 
+[FIXED] - Would you mind describing the church? It would certainly add to the atmosphere.
+[FIXED] - Furthermore, add a description for the exterior of the Motorcycle shop or the bakery, in case it gets examined. 
+[FIXED] - Maybe, instead of just the direction to go, allow "enter shop" or "enter church", too. It would make things easier, I assume. When one tries to enter the church, find a reason that isn't possible, of course.
+[FIXED] - Say clearly that the car's wheels are made on wood.
+[FIXED] - Add a puzzle in the villa (wet floor? Can't use the voicepipe as Elisa is washing floor -> open the window in a neighboring room).
+[FIXED] - What you should consider is expanding the villa. Compared to Villa Vittorini it seems rather small -> Add one or two rooms in the villa. Maybe it can be related to the wet floor puzzle.
+[FIXED] - When stranded with the car, you directly hint to using wood and expand it, to strenghten the ropes. If the player walks through the city and looks at everything, like he should, this hint is not necessary. Of course you can't rule out, that someone doesn't read the poster in the city, but in that case find another way to hint to the solution - not that directly. 
+[FIXED] - I noticed that the bucket with water, I carried around, disappeared from the inventory; if it is useful on a later occasion, let Emilia put it on the floor, don't just let it disappear. Like that she can collect it again later on. If it is just a red herring, let her put it down, too - but in that case with a comment on that like "I have no clue, why I carried this around with me." -> I see what you mean. You need the clean water to start the car, but this is not sufficiently explicit in the current version of the game. There is clearly something missing on this.
+[FIXED] - Describe the role of the bucket of water.
+- Let Albert look for a rope but not find any, so the player needs to search for some. This could be a starting point for a small string of events.
+
+Version 0.2.1
+-------------
+(suggestions: Benedikt Weiss, Alberto Z., Benedikt Weiss)
+[FIXED] - Add the description of the bakery.
+[FIXED] - The shop with the poster should be to the west, but has to be entered to the east (or the other way round), however, the directions are mismatched there.
+[FIXED] - If you examine the post, the bucket magically comes back there even if you had it already in your inventory.
+[FIXED] - If you talk with Sergio, he continues suggesting you mentioning Briccorosso to the mechanic, even after you got the paraffin.
+[FIXED] - Maybe I didn't find the correct verb, but it doesn't seem possible to fill the water and the oil into the tank of the ITA. Instead, you have to "drive ITA" when having collected water and oil. Maybe you would consider implementing "fill water into ITA" and "fill oil into ITA" als commands (or something equivalent).
+[FIXED] - The idea with the water on the floor in the black room is great. When opening the first window, let Emilia feel a slight breeze of morning air entering the room. Let her think if this would be enough to dry the water but get to the conclusion that it won't, as the breeze isn't strong enough. This should lead to opening a second window by the player.
+[FIXED] - Let Emilia take the leaves (red herring).
+[FIXED] - First, I'd like to talk about the riddle with the bucket for the water: In my opinion the conclusion with the acorns is somewhat strange and not something I would consider doing. Maybe something else would work - maybe implement it as a secondary way of getting water: When Emilia encounters the Princess for the first time, let her drink some wine. The bottle with the cork then could be left on the table when the Princess leaves. Using the cork would be a better fit to fix the bucket in my opinion. Alternatively let Emilia recall she had wine the last day in the evening, the empty bottle could be found in the kitchen. The bottle then could, additionally to the usable cork, be a kind of red herring. The player would maybe carry it with him to get some water from the fountain, but when wanting to get water in it, let Emilia remark it is way to small to fill the tank of the ITA with it.
+[FIXED] - Regarding the acorns: Let them still be there and let them be useable for the bucket. But I would consider not "hiding" them, but describe them in the initial description of the location. Maybe something like "Oaks line up at the side of the road. As you walk among them, you step on leaves and acorns that have fallen from the trees." Allow the player to also collect leaves - just because it's possible. ;) For fixing the bucket the player could now use the cork OR the acorns.
+[INTERESTING] - In "Tristam Island" Hugo Labrande uses "enter xxx" for the buildings in the town. Directions to enter a building are mostly not used. Like that you could enter more than one building in a location, for example the bakery, the haberdashery and the bicycle-shop. Directions would only be used in bigger buildings like the villa, that also has more than one entrance.
+[FIXED] - (added "odd looking" to the description of the post) The bucket on the pole is something very obvious, something one would see directly when entering a location. Maybe describe it in the initial description of the location. Let Emilia notice, that the pole looks strange or something like that, then when examining it, tell the player that someone indeed put a bucket on the pole for whatever reason.
+[FIXED] - Add descriptions of haberdashery (also add "enter haberdashery"), workshop (exterior), bar (also add "enter bar"). 
+[FIXED] - After learning about the second car in Milan, point out that Emilia wants to go there to investigate. In my opinion this doesn't stand out enough acutally. 
+
+- You might want to make the descriptions of the following rooms / locations / items more extensively or add them if missing: Red room, Fountain, Statue in the garden, bakery (exterior), 
+
+Version 0.3
+-----------
+(suggestions: Benedikt Weiss, Davide Bucci)
+[FIXED] - (all_parts, parts34) BUG: Talk with Briccorosso in the bedroom shows "- Emilia, I can't wait to arrive in Egypt. We will have plenty of work to do!"
+[FIXED] - Regarding the acorns on the alley, maybe you would want to alter the initial description? I suggest this: "You are in a small and twisted alley lined with tall oaks and surrounded by high walls. Leaves that have fallen from the trees creak under your feet as you walk among them." You see: oak leaves When examining the leaves: "These leaves have fallen from the trees, they are brown and dry. Beneath them you spot some acorns."
+[FIXED] - Have you removed the haberdashery from the locations? It was supposed to be next to the bakery?
+[FIXED] - Entering the shops / locations: The bakery only has "enter", but no direction (which is perfectly fine), but the bicycle shop and the workshop as well as the church have "enter" and a direction. As they all are "one-room-locations" I would consider removing the directions and relying only on the "enter" command. This would be different with the villa, that has many entrances and many rooms. You also write: "...you can enter in particular in a bakery and into one selling bicycles and bikes." What do you think about: "...you in particular notice a bakery, (a haberdashery) and a shop selling bicycles and bikes."
+[.....] - Regarding the riddle with the water / wine bottle / cork some suggestions for alternate use:
+[NO]    a) When Emilia first enters the room with the Princess, let Elisa exit the room just in this moment, carrying the empty bottle of wine and two glasses from the evening prior today. This way Emilia and the player will know there is an empty bottle in the kitchen. Like this Elisa could of course not be in the black room prior to Emilia encountering her upstairs - but still the floor in the black room could be wet. Emilia then could state she doesn't want to step on it, as she doesn't want to ruin Elisas work. After encountering Elisa upstairs, you can place Elisa in the black room.
+[NO]    b) The empty wine bottle could be placed in the black room on a table. Elisa could then carry it from there to the kitchen, after remarking Emilia should not step on the floor: "Please do not step on the floor, I have just wiped it and it first has to dry. I am just carrying the glasses and the bottle to the kitchen now."
+[DONE]  -> in a description of the oval table in the salon. c) In the introduction let Emilia remember that she had wine for example in the red room, maybe together with the Princess. She could remember that as she went to sleep, Elisa cleared the table and took the glasses and the empty bottle with her, as the Princess and Emilia left the room. This explains the bottle in the kitchen and lets the player search for it.
+[NO] For all three possibilities: I don't know how much space for example the PET still leaves, but make the kitchen accessible. Similar to the kitchen on board of the ship you could keep the description "small", but you can place the bottle and the glasses there. That would be better than the current solution.
+[FIXED] - An error I encountered is this: When carrying the empty bottle, you can command Emilia to fill it with water - but she will fill the bucket instead. This happens regardless if you have found the bucket or not. If you carry the bucket and the bottle, filling the bottle of course still ends with filling the bucket - but it will stay empty.
+
+Version 0.3.4
+-------------
+(suggestions: Benedikt Weiss)
+[CAN'T REPLICATE] - In Varenna, the bakery and the haberdashery won't be described when examining them, you can't enter them either.
+[FIXED] - In the alley you mention the leaves that creak under your feet. Mention the acorns, also (as you mention them in "you notice"). I would write "Leaves and acorns that have fallen from the trees creak under your feet, as you walk among them."
+[CAN'T REPLICATE] - Trying to fill the BOTTLE with water will result in filling the BUCKET with water.
+[FIXED] - Maybe you should consider making more clear, why Emilia wants to drive the car. Does she want to go to Milan to investigate? Or does she really just want to take a test drive? Whatever the reason (the latter is appropriate here, as she first will talk to the Princess before going for investigation), let her think about it, so the player knows what Emilia is up to.
+
+Version 0.5.1
+-------------
+
+Part 1:
+[FIXED] Use spelling tyres instead of tires.
+
+Version 0.5.2
+-------------
+(Hugo Labrande)
+
+[FIXED] - Bedroom x bed: you slept there this night => last night?
+[CAN'T REPLICATE] - Bedroom x library doesn't do anything, should it be a synonym of "books"? (x books works)    oh maybe it's a bug actually
+[FIXED] Bathroom - "well equipped" => well-equipped
+[CAN'T REPLICATE] - Salon x chandelier only worked the 3rd time... odd. x burners worked fine
+[FIXED] Under the magnolia should "x garden" be recognized as a synonym of the magnolia/citrus description?
+[WON'T FIX] - "cared for by skilful hands" => skillful
+[FIXED] - "albert seems embarassed" => embarrassed
+[FIXED] - x rose: I personally feel like the punctuation should be outside the quotes; in any case, there's a missing end quote after Officinalis :)
+[FIXED] - Upper square x church: elsewhere in the game you went with the European-style "XVIII", "XIX" for centuries, but here you have "14th and 16th centuries"
+[FIXED] - (when the car is delivered) missing quotes around sergio's dialogue
+[FIXED] - Implement "out" "leave" "exit" or "exit shop" 
+[WON'T FIX] "repair shop" as a synonym for "bike shop"? (Too complicated as "repair" is interpreted as a verb). I changed the description to avoid using that expression in the description.
+[WON'T FIX] Sergio is gone to buy seeds, and talking to the maid gives me "perhaps sergio can help, you should try to speak with him"
+[WON'T FIX] I was by the lake and typed "put bucket in water" and it fixed the bucket with the acorn for me. Inadvertantly solved that puzzle I guess...

@@ -1,0 +1,745 @@
+; Note: CDC: My alternatives & comments added in new lines starting with `;`
+
+LOCAZIONI
+60
+  This is the place where the captain and the crew control the ferry.
+; This is where the captain and the crew navigate and control the ferry.
+
+Main deck
+; Bridge
+0
+62
+0
+0
+0
+0
+0
+0
+0
+0
+61
+You stand on a deck that is covered; there are wooden deckchairs aligned towards the sea.
+; You are standing on a covered deck; there are wooden deckchairs pointing towards the sea.
+
+Promenade deck (port)
+0
+64
+62
+0
+0
+0
+0
+0
+0
+0
+62
+You are inside the ferry's central deckhouse. Wood panels kept together by brass elements cover the floor, forming a parquet.
+You are inside the ferry's central deckhouse. Wood panels kept together by brass elements cover the floor, forming a parquet pattern.
+
+Deckhouse
+60
+65
+63
+61
+0
+72
+0
+0
+0
+0
+63
+You stand on a deck that is covered; there are wooden deckchairs aligned towards the sea.
+; You are standing on a covered deck; there are wooden deckchairs pointing towards the sea.
+
+Promenade deck (starboard)
+0
+66
+0
+62
+0
+0
+0
+0
+0
+0
+64
+Nothing but sea is visible at the horizon.
+; Nothing but sea is visible to the horizon.
+
+Deck (port)
+61
+0
+65
+0
+0
+0
+0
+0
+0
+0
+65
+  You see the large hatch from which the ferry is loaded, closed by a heavy metallic cover. A large crane on a king post is used for this.
+; You see the large hatch, through which the ferry is loaded, closed by a heavy metallic cover. A large crane on a king post is used for this.
+
+Loading deck
+62
+67
+66
+64
+0
+0
+0
+0
+0
+0
+66
+You are standing in front of the sea.
+; You are standing next to the sea.
+
+Deck (starboard)
+63
+0
+0
+65
+0
+0
+0
+0
+0
+0
+67
+It's a sparsely decorated place, lit by a small lamp. You see a desk with two chairs, a library, the bed of the captain and a closet.
+; It's a sparsely decorated place, lit by a small lamp. You see a desk with two chairs, a library, the captain's bed and a closet.
+
+Captain's room
+; Captain's cabin
+65
+0
+0
+0
+0
+0
+0
+0
+0
+0
+70
+This is the cabin where Princess Briccorosso sleeps during the journey. It's larger than yours and the mahogany furniture is more refined, but apart from that is not very different. You see books and maps open on her desk lit by an elegant table lamp.
+; This is the cabin where Princess Briccorosso sleeps. It's larger than yours and the mahogany furniture is more refined, but apart from that it is not very different. You see books and maps open on her desk which is lit by an elegant table lamp.
+
+Briccorosso's room
+; Briccorosso's cabin
+0
+72
+0
+0
+0
+0
+0
+0
+0
+0
+71
+This is your place during the journey. Your cabin is clean but is not very large, equipped with a bed, a small table with two chairs and a closet. That gives a monastic appearance to this place, lit by a small paraffin lamp. You see the calm Mediterranean sea from a porthole.
+; This is your home during the journey. Your cabin is clean but is not very large, equipped with a bed, a small table with two chairs and a closet. This gives a monastic appearance to this place, lit by a small paraffin lamp. You see the calm Mediterranean sea from a porthole.
+
+Emilia's room
+; Emilia's cabin
+0
+0
+72
+0
+0
+0
+0
+0
+0
+0
+72
+This is a relatively large room lit by a larger paraffin lamp, with a long table where you and all the other passengers eat and spend time together discussing in the evening before going to sleep.
+; This is a relatively large room lit by a larger paraffin lamp, with a long table where you and all the other passengers eat and spend time together in discussion in the evenings before going to sleep.
+;(or?) This is a relatively large room lit by a larger paraffin lamp, with a long table where you and all the other passengers eat and spend time together in the evenings before going to sleep.
+
+Central room
+; Dining room
+;(or?) Lounge / Dining room
+70
+75
+73
+71
+62
+81
+0
+0
+0
+0
+73
+This is the place where Albert sleeps, very similar to your own room.
+
+Albert's room
+; Albert's cabin
+0
+0
+0
+72
+0
+0
+0
+0
+0
+0
+74
+Several goods that Briccorosso prepared for the adventure are here: several large canisters containing spare pieces, large jars of paraffin and cans of oil and other lubricants.
+; Several items that Briccorosso prepared for the adventure are here: numerous large canisters containing spare pieces, large jars of paraffin, cans of oil and other lubricants.
+
+Hold (port)
+0
+0
+75
+0
+0
+0
+0
+0
+0
+0
+75
+You stand in the middle of a large hold where goods are stored during the ferry's journeys. A large iron door to the aft leads towards the crew's quarter.
+; You stand in the middle of a large hold where goods are stored during the ferry's journeys. A large iron door leads aft towards the crew's quarters.
+;(or?) You stand in the middle of a large hold where goods are stored for transport. A large iron door leads aft towards the crew's quarters.
+
+Main hold
+72
+77
+76
+74
+0
+0
+0
+0
+0
+0
+76
+Many goods are stored here: cans of paraffin, oil, many tires and spare pieces and tools.
+; Many goods are stored here: cans of paraffin, oil, many tires, spares and tools.
+;^^^ Note: I'll forgive `tires` instead of `tyres` as I guess you have to please the USA market :-)
+
+Hold (starboard)
+0
+0
+0
+75
+0
+0
+0
+0
+0
+0
+77
+This is the place where the crew, composed by three men and two women, sleeps. You see their berths, separated by curtains, small cabinets and two portholes.
+
+Crew's quarters
+75
+0
+0
+0
+0
+0
+0
+0
+0
+0
+80
+Food and a reserve of drinking water is stored here, kept neatly in boxes placed in compartments.
+
+Pantry
+0
+81
+0
+0
+0
+0
+0
+0
+0
+0
+81
+This is the kingdom of Youssef, the cook of the Dynamene. You see a large stove, a basin and a workbench.
+
+Kitchen
+; Galley
+80
+82
+0
+0
+72
+0
+0
+0
+0
+0
+82
+This place is very hot and contains the main ship engine and the ancillary equipments: steam generators, a large water reservoir, fire extinguishing tools, etc.
+; This place is very hot and contains the main ship's engine and ancillary equipment: steam generators, a large water reservoir, fire extinguishers, etc.
+
+Engine room
+81
+83
+0
+0
+0
+0
+0
+0
+0
+0
+83
+Ferry steam engines burn coal, much less expensive than paraffin. A large quantity is stored there, in containers kept separated from the rest of the Dynamene by an air-tight bulkhead. In case of fires, water can be pumped from the bottom of the coal containers to extinguish it.
+; Ferry steam engines burn coal, much less expensive than paraffin. A large quantity is stored there, in bunkers kept separated from the rest of the Dynamene by an air-tight bulkhead. In case of fire, water can be pumped in from the bottom of the coal bunkers to extinguish it.
+
+Coal bunker
+82
+0
+0
+0
+0
+0
+0
+0
+0
+0
+84
+The pirate's ship is much smaller than the Dynamene, but is faster. Nobody is around, all the pirates have boarded the Dynamene, not having left much here.
+
+The bridge of the pirate ship
+0
+0
+0
+0
+71
+0
+0
+0
+0
+0
+90
+This place is a filthy little harbour used by fishermen and small boats in Alexandria's suburb.^M^MYou can go: east, west
+
+Fishing harbour
+0
+0
+91
+92
+0
+0
+0
+0
+0
+0
+91
+You stand on the deck of the pirate's ship. There is the cannon you spiked before, but now you notice a hatch to inspect the engine and store some luggage.^M^MYou can go: west
+
+Pirate's ship
+0
+0
+0
+90
+0
+0
+0
+0
+0
+0
+92
+You are in a crowded and smelly tavern next to the harbour. Fishermen go there after they finish their duties in the sea.^M^MYou can go: east, west
+
+Tavern
+0
+0
+91
+93
+0
+0
+0
+0
+0
+0
+93
+Back room^M^MYou can go: east
+
+Back room
+0
+0
+92
+0
+0
+0
+0
+0
+0
+0
+102
+You spent some weeks working closely with Briccorosso to prepare the Silk Road rally. It's now July 23, 1907. Four days ago, you have boarded a steam ferry called Dynamene to get to Alexandria, in Egypt. It contains the car and all the goods will be useful for the expedition. For the moment, it has been a nice cruise; you spent a lot of time with Briccorosso studying maps and routes between Egypt and India. It's the last evening you will spend onboard: tomorrow morning you are supposed to berth at Alexandria.^M^MTo move on the Dynamene, use fore (f), aft (a), port (p) and starboard (s).
+; You have spent some weeks working closely with Briccorosso to prepare for the Silk Road rally. It's now July 23, 1907. Four days ago, you have boarded a steam ferry called Dynamene to get to Alexandria, in Egypt. It contains the car and everything needed for the expedition. For the moment, it has been a nice cruise; you spent a lot of time with Briccorosso studying maps and routes between Egypt and India. It's the last evening you will spend onboard: tomorrow morning you are supposed to berth at Alexandria.^M^MTo move on the Dynamene, use fore (f), aft (a), port (p) and starboard (s).
+
+Introduction
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+103
+You and captain Maalouf interrogated the two criminals. They are poor guys seeking some easy money and they did not know much. You only learn that they use a fishing harbour, not far from where you are berth the Dynamene. Once on the ground, you leave the crew deliver those two criminals to the local police. In the meanwhile, you and captain Maalouf leave immediately to search for the hostages.
+; You and captain Maalouf interrogate the two criminals. They are poor guys looking for easy money and they did not know much. You only learn that they use a fishing harbour not far from where the Dynamene is berthed. Once on shore, you leave the crew to deliver the two criminals to the local police. In the meantime, you and captain Maalouf leave to search for the hostages.
+
+Part 4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+130
+Enter password
+
+Introduction
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+MESSAGGI
+61
+Certainly not here!
+66
+You don't want to disturb him. He's occupied.
+122
+You won't need violence to complete this part of the game.
+231
+You may try, but it will probably not work.
+400
+No. You aren't tired now.
+401
+No need to do that now.
+402
+Use 'bye' if you want to stop playing.
+403
+Oh, no, we are not going to stay here all day!
+407
+This is a text adventure game. Read descriptions carefully and type commands such as 'examine bed'. Type "north", "south", ... to move in the desired direction.. Abbreviations are possible "x" for "examine", "l" to "look" (i.e. describe your current location again), "i" for "inventory," "n" for "north" and so on. To quit the game, type "bye". To restart it, type "restart".
+408
+Please, type a more specific action...
+504
+Please feel free to continue, if you wish to... I've become impervious to swearing and profanity a long time ago.
+505
+No, you don't feel the need.
+518
+You'll examine yourself much better with a mirror.
+600
+Khalil Maalouf is the captain and is an athletic man, about 40 years old. He is respected by the crew.
+601
+He must be 24 or 25 years old, is slightly taller than you, with brown hair and a wispy beard. He has a gentle stare in his brown eyes. You like him a lot.
+;...Note: If people are having problems guessing that ALbert needs kissing, then perhaps somethong like:-
+;... He must be 24 or 25 years old, is slightly taller than you, with brown hair and a wispy beard. He has a gentle stare in his brown eyes. You are quite attracted to him.
+602
+You haven't yet had the opportunity to talk to Albert alone and nobody is around. You look at him seriously and you say to him, coldly:^M- Mr. Pinel, I received your message while I was in Turin. I would like to inform you that I am perfectly able to decide by myself when to take part to an adventure or not.^M^MAlbert looks stunned and mortified.^M^M- Euh, I meant... I wanted to... I'm sorry, I did not want to...^M^MThen you smiles and you kiss him intensely. Albert looks even more stunned, yet full of joy.^M^M- Oh, Emilia, I love you, I love you since the first moment I saw you in the rose garden, I love you...^M^M- I know...^M^MYou both stay embraced kissing for a while, but then you stop, as you don't want to be seen. You both continue to stare into each other's eyes in the amber light of one of the most beautiful sunsets the Mediterranean sea can offer to its lucky travellers.
+; You haven't yet had the opportunity to talk to Albert alone and nobody is around. You look at him seriously and you say to him, coldly:^M- Mr. Pinel, I received your message while I was in Turin. I would like to inform you that I am perfectly able to decide for myself when to take part to an adventure or not.^M^MAlbert looks stunned and mortified.^M^M- Euh, I meant... I wanted to... I'm sorry, I did not want to...^M^MYou then smile and you kiss him intensely. Albert looks even more stunned, yet full of joy.^M^M- Oh, Emilia, I love you, I have loved you since the first moment I saw you in the rose garden, I love you...^M^M- I know...^M^MYou both stay embraced and kissing for a while, but then you stop, as you don't want to be seen. You both continue to stare into each other's eyes in the amber light of one of the most beautiful sunsets the Mediterranean sea can offer to its lucky travellers.
+603
+Princess Lucilla Briccorosso is 35 years old and is an energetic woman, born into one of the oldest Italian families. She has short blonde hair, is relatively thin and not very tall, but her body is athletic and her green eyes shine with a light of determination.
+604
+Youssef is the cook of the Dynamene. He has the physique du rôle you would expect from a cook: large shoulders and belly.
+605
+- Youssef, what are you preparing?^M- Oh, hello Madam! Sarah caught some nice sea breams this afternoon and I am preparing them with a side dish of escarole endive stewed Neapolitan style.^M^MThe smell is delicious!
+; - Youssef, what are you preparing?^M- Oh, hello Madam! Sarah caught some nice sea bream this afternoon and I am preparing them with a side dish of escarole endive stewed Neapolitan style.^M^MThe smell is delicious!
+606
+A stare from the cook makes you understand it's better not explore the pantry while he sees you.
+; A stare from the cook makes you understand it's better not explore the pantry while he can see you.
+607
+Vittorio is the youngest member of the crew and is nicknamed Toyo. He works swiftly and does not speak very much.
+608
+Sarah is tall, about 30 years old, wearing a working suit. She keeps her red hair tied up and is greasing the steam engine.
+609
+No, she's working.
+610
+It's a large triple-action steam engine. Steam comes from the steam generator next to the coal bunker.
+611
+- We are going to berth tomorrow morning in Alexandria, captain?^M- Yes, the sea will be calm tonight and I expect we will be there at around 8 in the morning.
+612
+You hear Youssef calling: dinner is served! You meet with the crew, the captain, princess Briccorosso and Albert in the central room.^M^MThe sea breams prepared by Youssef are excellent and so is the stewed escarole endive accompanying them. It's the last evening you spend onboard and the crew members have been your friends and family for the last four days. After having eaten, the captain returns to his duties and takes the place of Neda, while she eats at her turn.^M^MYou spend the rest of the evening listening to Youssef, a great storyteller who had many adventures sailing the seven seas. You tried to act casually, but you intercept Albert's stare once or twice.^M^MAt the end of the evening, everybody not on duty goes to rest. You go in your cabin, too, but you can't sleep, thinking to Albert.^M
+; You hear Youssef calling: dinner is served! You meet the crew, the captain, princess Briccorosso and Albert in the dining room.^M^MThe sea bream prepared by Youssef are excellent and so is the stewed escarole endive accompanying them. It's the last evening you will spend aboard and the crew members have been your friends and family for the last four days. After eating, the captain returns to his duties and relieves Neda, so she can take her turn eating.^M^MYou spend the rest of the evening listening to Youssef, a great storyteller who has had many adventures sailing the seven seas. You tried to act casually, but you intercept Albert's stare once or twice.^M^MAt the end of the evening, everybody not on duty goes to rest. You go to your cabin, too, but you can't sleep, thinking to Albert.^M
+613
+While you open the door, you hear a loud thump. You run on the main deck: a smaller boat is close to the ferry and shot a a grappling hook that got caught in the railing. The small boat sports a 5cm cannon pointed towards the Dynamene. Captain Maalouf comes, cursing.^M^M- I've heard bands of marauders rob small commercial ferries. Unfortunately, a shot from that 5 cm cannon would probably get through us from side to side.^M^MYou hear a order shout from the boat:^M^M- Stop engines or we sink you.^M^MCaptain Maalouf can't but follow the order and in a few minutes four heavily armed individuals mount onboard.^M^M- Captain remains with us. Everybody else in the cabins or we shoot!^MWhile an unceremonious pirate escorts you to your cabin, you hear the chief of the pirates asking to captain Maalouf:^M^M- Where is the princess?^M^MAh, they know about Briccorosso!
+; When you open the door, you hear a loud thump. You run to the main deck: a smaller boat is close to the ferry and has shot a grappling hook that has caught the railing. The small boat has a 5cm cannon pointing towards the Dynamene. Captain Maalouf comes, cursing.^M^M- I've heard bands of marauders rob small commercial ferries. Unfortunately, a shot from that 5cm cannon would probably go through us from side to side.^M^MYou hear an order shouted from the boat:^M^M- Stop engines or we will sink you.^M^MCaptain Maalouf has to follow the order and in a few minutes four heavily armed individuals come aboard.^M^M- Captain remains with us. Everybody else to their cabins or we shoot!^MWhile an unceremonious pirate escorts you to your cabin, you hear the leader of the pirates asking captain Maalouf:^M^M- Where is the princess?^M^MAh, they know about Briccorosso!
+614
+You see the pirates' ship not too far below. There is a rope ladder on the bulwark, close to the porthole.
+615
+No, the door is blocked from outside and those criminals have left someone on lookout.
+616
+You open the porthole, noticing you can almost reach the ladder.
+617
+You keep your personal belongings there. It's closed, now.
+618
+You open your closet, to see if you can find something useful inside.
+619
+You see your luggage.
+620
+You search your luggage for something useful. No arms there, but you see an umbrella.
+621
+You are currently heading towards Egypt, but you are Piemontese, after all. Not really menacing, but maybe it can cause some harm?
+622
+Don't you think you have talked enough with him?
+623
+Yay! With the umbrella you pull the rope ladder towards you. You can descend to the pirates' ship, as nobody remained there.
+624
+Examined in detail, the cannon does not seem so impressive. It is probably 50 years old and has to be ignited with a linstock through its touch hole.
+625
+You would like to talk a lot with him, but not now.
+626
+No, somebody is there!
+627
+You examine the loading hatch to see if there is a way to get inside, you notice a manhole close to it.
+628
+There is a service ladder, below.
+629
+It's the main loading hatch. Through it, the holds have been loaded using the crane.
+630
+It looks promising.
+631
+The door leading to the crew's quarters is shut.
+632
+Among the tools, you find a hammer and some large nails.
+633
+You insert one of the nails in the touch hole. It is the right size to completely block it. Covered by the noise of the sea, you hit it with the hammer and you break it inside. This cannon will not be usable very soon!
+; You insert one of the nails in the touch hole. It is the right size to completely block it. Covered by the noise of the sea, you hit it with the hammer and you break it off inside. This cannon will not be usable any time soon!
+634
+Good idea, but better unload the cannon first.
+635
+Indeed, but how?
+636
+You push and pull a little the cannon, it can move to absorb the recoil. After a while, you realize that you can lower the muzzle and the ball rolls on the deck and falls in the sea, followed by the wadding and a little bit of gunpowder that remains on the deck.^MThat's great, but not enough! The pirates would certainly reload it in a matter of minutes.
+; You push and pull the cannon a little, it can move to absorb the recoil. After a while, you realize that you can lower the muzzle and the ball rolls to the deck and falls into the sea, followed by the wadding and a little bit of gunpowder which remains on the deck.^MThat's great, but not enough! The pirates would certainly reload it in a matter of minutes.
+637
+You search among the canisters and you find some wax paper supposed to be used to close the jars of paraffin.
+638
+The door is kept closed by a large padlock.
+639
+You pour some gunpowder in the padlock. You hope the explosion will blow it, allowing to open the door.
+; You pour some gunpowder in the padlock. You hope the explosion will blow it apart, allowing the door to open.
+640
+You find a box of long matches.
+650
+That's an... explosive idea!
+651
+You insert the head of one match in the padlock full of gunpowder. With a certain apprehension, you light a second match and you ignite the first one. Then you run in the starboard hold, hiding yourself behind the car. You hear a loud BANG! When you return, the padlock is open!
+; You insert the head of one match in the padlock full of gunpowder. With some apprehension, you light a second match and you ignite the first one. Then you run to the starboard hold, hiding yourself behind the car. You hear a loud BANG! When you return, the padlock is open!
+652
+You see a kitchen knife on the workbench. Better than nothing.
+653
+The explosion will draw the pirates here. You need other arms for the crew.
+; The explosion will bring the pirates here. You need other arms for the crew.
+654
+Urray! You find a small gun hidden in a desk drawer.
+655
+^MThe crew seems to be surprised yet relieved to see you. You say:^M^M- I've found this knife and the captain's gun, we can fight the pirates!^M^MNeda smiles and answers:^M- Well, we had hidden some... let's say... hardware... for special occasions. We were trying to open the door when you blew the padlock.^M^MYou notice some large calibers, definitely much better than what you found. Then you hear steps coming.^M^MTwo criminals enters, but they are easily surprised and disarmed by the crew.^MSarah and Toyo take them in charge. You and the rest of the crew then run on the main deck. Unfortunately, the two remaining pirates fight back and take Princess Briccorosso and Albert as hostages. When they board their boat, you hear a curse when they notice what you did to the cannon. Then they leave, kidnapping your friend and your love.^MYou are mad at it.^M^MThe password for the fourth part of the game is SHIBBOLETH FINIANTLABAGNA
+; ^MThe crew seems to be surprised yet relieved to see you. You say:^M^M- I've found this knife and the captain's gun, we can fight the pirates!^M^MNeda smiles and answers:^M- Well, we had hidden some... let's say... hardware... for special occasions. We were trying to open the door when you blew the padlock.^M^MYou notice some large caliber guns, definitely much better than yours. Then you hear steps coming.^M^MTwo criminals enter, but they are easily surprised and disarmed by the crew.^MSarah and Toyo take charge of them. You and the rest of the crew then run to the main deck. Unfortunately, the two remaining pirates fight back and take Princess Briccorosso and Albert as hostages. As they board their boat you hear a curse when they notice what you did to the cannon. Then they leave, kidnapping your friend and your love.^MYou are angry at this !^M^MThe password for the fourth part of the game is SHIBBOLETH FINIANTLABAGNA
+656
+The explosion may draw draw here the criminals. You may definitely do something to neutralize their cannon, first.
+; The explosion may attract the criminals. You must definitely do something to neutralize their cannon first.
+657
+You see the cylinder, the shackle and the body, torn apart.
+658
+Solid!
+659
+What you are you thinking? You should go in the crew's quarters immediately. Someone is coming from the dining room !
+660
+This place, as everywhere below deck, is lit by small flat-wick paraffin lamps equipped with their characteristic glass chimney.
+661
+No!
+662
+No need to hurry!
+663
+No, you don't want that someone else see you kissing. You will create a situation later.
+; No, you don't want someone else to see you kissing. That would create a situation later.
+664
+You see a metallic table solidly secured to the ground, with wooden chairs next to it.
+665
+No, leave it alone.
+666
+You see the waves of the Mediterranean sea, tinted by the delicate light of sunset.
+667
+- Emilia, I can't wait to arrive in Egypt. We will have plenty of work to do!
+668
+You have worked on those maps for weeks, now! You almost know them by heart.
+669
+Slightly younger than the captain, Neda is a small woman with black hair and black eyes.
+670
+Roy is the oldest member of the crew, he must be about 60 and has candid hair and beard.
+; Note: I've never heard of `candid hair...` 
+671
+A solid wooden bed, secured to the floor.
+672
+You think it is white oak wood.
+673
+You are not going to get into the captain's cabin without his permission!
+674
+The air smells of iodine and salt, with a faint fishy undertone. You breathe it in voluptuously.
+675
+He must be 24 or 25 years old, is slightly taller than you, with brown hair and a wispy beard. You think you love him...
+676
+It's a large segmented cover made by several wooden hatch-end beams and covered by a tarp. You can not remove them.
+677
+You saw this crane lift the ITA 150 and load it delicately in the holds of the Dynamene four days ago.
+678
+Nothing useful!
+679
+You may sit there and read a book, but not now.
+680
+Books about navigation and marine literature. You see Herman Melville's Moby Dick!
+681
+You scream when you open the hatch to inspect the luggage compartment: Albert and Prince Briccorosso are there, bound and gagged. You immediately free them and kiss intensely Albert in front of Princess Briccorosso who laughs:^M^M- Well, it certainly took a while for you both to decide yourselves!
+682
+You enter the room followed by captain Maalouf, and three police officers, armed. You see a little fat individual discussing with the two pirates. They are immediately arrested.^M^MTwo hours later, the police discovers the fat man is indeed Altiero di Risso. Interrogated by the police, he confesses that he had invested a large quantity of money through the Banca Commerciale Italiana, in the construction of the Berlin-Baghdad railway. He convinced himself that the Silk Road rally would make much harm to the railway if it was successful. He feinted to participate to the rally to cover himself and sabotage other opponents.^M^MKnowing the determination of Princess Briccorosso, he understood that she would have been his most serious opponent. He paid someone to tamper the car before the delivery in Varenna. Then, he paid the pirates to damage the car or throw it in the sea, but they decided to extort some money using the hostages when they learnt that Briccorosso was a princess.^M^MWell, your adventure can continue, now. After unloading the ferry you say goodbye to the brave captain Maloouf and to the crew.^M^MNow, nothing will stop you participating to the Silk Road rally in three weeks. But that will be another story...^M^MFinal password: DUIPURUNBAGNANTLOLI
+; You enter the room followed by captain Maalouf, and three armed police officers. You see a little fat individual talking to the two pirates. They are immediately arrested.^M^MTwo hours later, the police discover the fat man is indeed Altiero di Risso. Interrogated by the police, he confesses that he had invested a large quantity of money, through the Banca Commerciale Italiana, in the construction of the Berlin-Baghdad railway. He convinced himself that the Silk Road rally would be very damaging to the railway if it was successful. He feined to participate to the rally as cover so he could sabotage the contestants.^M^MKnowing the determination of Princess Briccorosso, he understood that she would have been his most serious opponent. He paid someone to tamper with the car before delivery in Varenna. Then he paid the pirates to damage the car or throw it into the sea, but they decided to extort some money using the hostages when they learnt that Briccorosso was a princess.^M^MWell, your adventure can continue now. After unloading the ferry you say goodbye to the brave captain Maloouf and to the crew.^M^MNow nothing will stop you participating in the Silk Road rally in three weeks time. But that will be another story...^M^MFinal password: DUIPURUNBAGNANTLOLI
+683
+Briccorosso says:^M^M- I heard the pirates, they thought I could not understand them, but I learnt their dialect three years ago when I went across the Sahara desert in an expedition. They repeated they must be paid by an Italian not far from here, in a tavern or something. They repeated a name: di Risso.^M^Mdi Risso, di Risso... the director of La voce del mattino, that Milanese newspaper who sent that annoying journalist!
+684
+- I love you, Albert^M- I love you, too, Emilia!
+685
+Three agents of the local police warned by your crew arrive. After a brief discussion, you decide to search the criminals together.
+; Three agents of the local police, called by your crew, arrive. After a brief discussion, you decide to search for the criminals together.
+686
+You ask discretely for information to the innkeeper about the pirate's boat, but he says he knowns nothing.
+; You ask the innkeeper discretely for information about the pirate's boat, but he says he knowns nothing.
+687
+The innkeeper says you can't go there. Judging by the stares of the occupants of the tavern, you think it's better not to insist.
+688
+You and a police officer start to interrogate the innkeeper. People in the tavern begins to discreetly go away. He repeats he don't know nothing, but start sweating heavily.
+; You and a police officer start to interrogate the innkeeper. People in the tavern begin to discreetly go away. He repeats that he knows nothing, but starts sweating heavily.
+689
+The police officers follow you.
+690
+They are armed and ready for action.
+691
+Sweat and fish.
+692
+He seems about 50 years old, with greasy black hair and large shoulders.
+693
+They expect action, not words.
+694
+Not impressive, but better than nothing.
+695
+The furniture is decorated with nice carved wood flowers.
+696
+What a lovely car!
+697
+That will be sent forward in advance, to prepare the rally.
+698
+Large cans of paraffin, sealed with corks and wax paper.
+699
+The crew sleeps there. Let's hope for them that nobody snores!
+700
+They separate the berths to give a little privacy.
+701
+They contain the personal belongings of the crew.
+702
+It is a small, yet well equipped kitchen.
+; It is a small, yet well equipped, kitchen.
+703
+Fire is dangerous on a ship!
+704
+Water becomes steam in the steam generators and then collected back with a condenser. That moves the engine.
+; Water becomes steam in the steam generators and is then recovered with a condenser. That moves the engine.
+705
+Yum! You get hungry!
+706
+Coal and oil.
+707
+Safety first!
+708
+You personally prefer paraffin as a fuel, but at least it's inexpensive.
+709
+They avoid to keep large quantities of coal together. For safety, you know!
+; They avoid keeping large quantities of coal together. For safety, you know!
+710
+However, if you want to stop the pirates, you have to find a way to make it unusable.
+711
+It's spiked now. It will not do any harm for a while.
+996
+You see nothing interesting.
+997
+You don't smell anything in particular, apart from a barely perceptible scent of lavender, coming from your clothes.
+998
+You have a strange sensation, almost as if you were becoming lighter and lighter. After a while, everything becomes normal, again.
+999
+No time for that, now.
+1000
+Okay.
+1001
+Done.
+1002
+Done.
+1003
+a
+1004
+a
+1005
+You can't take that!
+1006
+You can't do that!
+1007
+You don't have that with you!
+1008
+You can't go that way!
+1009
+I beg your pardon?
+1010
+You can't.
+1011
+You already have that with you!
+1012
+What do you want to do?
+1013
+
+1018
+I wear
+1019
+
+1020
+You can go:
+1021
+fore
+1022
+aft
+1023
+starboard
+1024
+port
+1025
+up
+1026
+down
+1027
+
+1028
+
+1029
+
+1030
+
+1031
+
+

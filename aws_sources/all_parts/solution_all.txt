@@ -1,0 +1,256 @@
+w
+s
+talk to princess
+
+n
+d
+w
+s
+x statue
+take rake
+s
+talk to albert
+n
+n
+n
+u
+n
+n
+enter shop
+x poster
+w
+d
+x pole
+take bucket with rake
+s
+s
+x leaves
+take acorns
+put acorn in bucket
+e
+d
+talk to sergio
+drive the car
+u
+n
+enter workshop
+talk to mechanic
+w
+s
+d
+s
+e
+n
+x voicepipe
+open window
+n
+open window
+s
+talk to voicepipe
+s
+w
+s
+talk to sergio
+n
+n
+u
+n
+enter workshop
+talk to mechanic
+w
+s
+d
+fill bucket
+drive the car
+
+x wheel
+take wheel
+w
+put wheel in the lake
+take wheel
+e
+put wheel on the car
+
+s
+e
+s
+talk to princess
+
+
+n
+n
+w
+talk to father
+
+read letter
+read message
+
+e
+s
+e
+talk to voicepipe
+push button
+w
+n
+talk to nanna
+s
+s
+open the door
+e
+activate compressor
+x compressor
+open valve
+w
+n
+n
+x bench
+take oiler
+s
+s
+e
+put oil on the valve
+open valve
+activate compressor
+w
+n
+e
+talk to voicepipe
+talk to anteo
+w
+s
+x cars
+n
+e
+talk to anteo
+talk to voicepipe
+talk to uncle
+give letter to uncle
+w
+w
+w
+talk to rizzitelli
+
+read newspaper
+e
+read telegram
+e
+s
+drive car
+x handyman
+talk to handyman
+wait
+wait
+wait
+wait
+x handyman
+talk to salvatore
+
+x car
+take key
+s
+take tunic
+n
+u
+u
+n
+wear tunic
+e
+e
+talk to milieri
+w
+d
+w
+s
+drop tunic
+n
+give key to salvatore
+drive car
+
+s
+u
+s
+kiss albert
+p
+d
+d
+talk to youssef
+u
+u
+p
+
+s
+x porthole
+open porthole
+open closet
+x closet
+x luggage
+take umbrella
+pull the ladder
+d
+u
+u
+a
+s
+a
+search desk
+take gun
+f
+x hatch
+open manhole
+d
+s
+x tools
+take hammer
+take nails
+p
+p
+x canisters
+get paper
+s
+d
+f
+f
+search compartments
+get matches
+a
+search workbench
+get knife
+a
+u
+u
+p
+f
+d
+d
+pull the cannon
+spike the cannon
+take gunpowder
+u
+u
+a
+s
+d
+x door
+put gunpowder in the lock
+ignite gunpowder
+a
+
+x rubbish
+take wedge
+e
+sharpen wedge with the knife
+put wedge in hatch
+hammer wedge
+talk to briccorosso
+w
+w
+x bar
+x cutlery
+w
+
+
+
+
+
+
+List of verbs: talk, examine (x), take, enter, drop, drive, open, close, put, read, push, pull, activate, give, sharpen...

@@ -1,0 +1,141 @@
+There was a bug for versions <1.0.3 that prevented objects to be dropped.
+This bug affects all Z80 versions of the game and is due to a bug in the
+z88dk compiler:
+
+https://z88dk.org/forum/viewtopic.php?f=12&t=12036&sid=4a97c304b0ca5119ec751cb5ad835560
+
+
+NOTE: to build z88dk, I used this command:
+
+ sudo make install CPATH="/opt/local:$CPATH" LIBRARY_PATH="/opt/local/lib:$LIBRARY_PATH"
+
+
+Test for the bug in part 2:
+---------------------------
+
+shibboleth ohbastala
+
+n
+n
+w
+talk to father
+
+drop letter
+l
+
+If the letter is not visible anywhere, there is an issue.
+
+
+
+
+
+z88dk 23469-0b7d9f00a9-20250517
+
+Correct code that yields a problematic asm on z88dk:
+
+boolean drop(unsigned int o) FASTCALL
+{
+    odummy=search_object_p(o);\
+    if(odummy->position==CARRIED){\
+        odummy->position=current_position;\
+        dummy=odummy->position;
+    } else {\
+        show_message(message1007);\
+        return true;\
+    }\
+    return false;\
+}
+
+Problematic asm:
+
+; Function drop flags 0x00000208 __smallc __z88dk_fastcall 
+; unsigned char booleandrop(unsigned int o)
+; parameter 'unsigned int o' at sp+2 size(2)
+	C_LINE	1476,"silkdust2_no_UTF8.c::drop::0::32"
+._drop
+	push	hl
+	call	_search_object_p
+	ld	(_odummy),hl
+	inc	hl
+	inc	hl
+	inc	hl
+	call	l_gint	;
+	ld	de,1500
+	and	a
+	sbc	hl,de
+	jp	nz,i_290	;
+	ld	hl,(_odummy)
+	inc	hl
+	inc	hl
+	inc	hl
+	ex	de,hl
+	ld	a,(_current_position)
+	ld	(de),a
+	jp	i_291	;EOS
+.i_290
+	ld	hl,_message1007
+	call	_show_message
+	ld	hl,1	;const
+	pop	bc
+	ret
+
+
+.i_291
+	ld	hl,0	;const
+	pop	bc
+	ret
+
+"Corrected" code to avoid the bug:
+
+boolean drop(unsigned int o) FASTCALL
+{
+    odummy=search_object_p(o);\
+    if(odummy->position==CARRIED){\
+        odummy->position=current_position;\
+        dummy=odummy->position;
+    } else {\
+        show_message(message1007);\
+        return true;\
+    }\
+    return false;\
+}
+
+
+Resulting asm code:
+; Function drop flags 0x00000208 __smallc __z88dk_fastcall 
+; unsigned char booleandrop(unsigned int o)
+; parameter 'unsigned int o' at sp+2 size(2)
+	C_LINE	1476,"silkdust2_no_UTF8.c::drop::0::32"
+._drop
+	push	hl
+	call	_search_object_p
+	ld	(_odummy),hl
+	call	l_gint3	;
+	ld	de,1500
+	and	a
+	sbc	hl,de
+	jp	nz,i_290	;
+	ld	hl,(_odummy)
+	inc	hl
+	inc	hl
+	inc	hl
+	ex	de,hl
+	ld	hl,(_current_position)
+	ld	h,0
+	call	l_pint
+	ld	hl,(_odummy)
+	call	l_gint3	;
+	ld	(_dummy),hl
+	jp	i_291	;EOS
+.i_290
+	ld	hl,_message1007
+	call	_show_message
+	ld	hl,1	;const
+	pop	bc
+	ret
+
+
+.i_291
+	ld	hl,0	;const
+	pop	bc
+	ret

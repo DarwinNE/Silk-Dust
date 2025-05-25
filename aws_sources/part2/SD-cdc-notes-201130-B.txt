@@ -1,0 +1,134 @@
+==
+Silk Dust part.2
+30th Nov 2020
+
+SHIBBOLETH OHBASTALA
+
+Notes:
+
+1) After talking to Nanna and getting her message, then wandered about and went back to her:
+she still has that message - everybody else seems to shut up after saying their current
+message.
+
+DB: you mean Roberta? I found a problem with her, indeed.
+
+2) It took me a while to realise that I had been given a letter directly to my inventory
+- I should revisit the start to check the text telling me about it.
+
+DB: I added a hint "You take it [the letter] the letter and put it in your pocket."
+
+3) On entry to barn, it is titled `Your uncle's office` (isn't cut & paste fun !)
+
+DB: oh, yes!  :-) I corrected it.
+
+4) Have started compressor OK and it's still too noisy to speak to uncle via voicepipe
+`x engine`: No description of steam engine : I'm trying to stop it to kill noise at voicepipe
+
+DB: I added it.
+
+not getting any clues as to what to do. I must be missing something. AHA: Found solution now !
+`x valve`: No description.  Would be nice to have somthing.
+
+DB: I added it.
+
+5) I am in the Coach-building hall and I thought I'd try tapping the voicepipe with the key.
+Unsurprisingly, this gets me nowhere :-) ... so I thought I'd drop it - it shows in my inventory,
+`drop key` and variants like `drop rusty key` and `drop large rusty key` result in
+`you don't have that with you!`
+
+DB: I see. Fixed it! Do you think it would be nice to add a message for "tap voicepipe?"
+
+6) In Coach-building hall: Have dropped the personal message and am not allowed to pick it back up.
+
+DB: I see. Fixed it!
+
+7) Forecourt: I have now seen the message about the dent in the ITA 100 
+and have told Anteo, talked to uncle, given letter to uncle, talked to journalist, got card, got tlegram from Roberta, driven ITA, got past the handyman to talk to father AM and driven back to finish part.2 :-)
+
+
+SHIBBOLETH FEMENENRIE 
+
+DB: That's cool!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+For later on, when you are at the text review stage...
+I have seen some other mistakes, which I failed to note down and can wait for next review.
+
+Text change ideas:-
+
+Introduction: 
+You have arrived in Turin on friday evening, told your father, then spent the weekend reading. Now it's Tuesday April 23, 1907.  You arrived at the ITA factory this morning to organise details of the delivery of spare parts to Princess Briccorosso. When you left her, she instructed Albert to write a message which should have arrived at the factory by now. You should find your father and discuss it.
+
+DB: Ok. There is a repetition of "arrived" in the first two lines. Can I write "reached" at the place of the second one, in your opinion?
+
+Admin & Archives:
+`x shelves` ... `ad` instead of `at`
+            ... `yet` instead of `now` (?)
+
+DB: Ok. Thank you!
+
+Talk to Roberta:
+...apart he is been discussing with... -> ...apart from that he has been in discussion with...
+
+DB: Ok.
+
+Coach building room:
+`Helve hammer` ( never heard of it !) ...  I have heard of it as a `Trip hammer` before though
+
+DB: I had to search the term on Wikipedia: 
+https://en.wikipedia.org/wiki/Trip_hammer
+I don't remember exactly why I used "helve hammer" instead of "trip hammer," though. I recall I started from the term in French, that is "martinet" and I think "helve hammer" was the first translation I found. Do you think there is a difference of American/British English on there? I changed as "trip hammer" as I overall prefer the British spelling and terms for the game.
+ 
+drawing power -> taking power   (?)
+`lineshaft` ... could be described as `pulley shaft` (if 2 words are possible)
+
+I found that "Line shaft" (that I also found spelt "Lineshaft") indicates a more specific object:
+
+https://en.wikipedia.org/wiki/Line_shaft
+
+This was exactly what I had in mind. There would not be an issue to write "Line shaft" with two words.
+
+x belt:
+you wandered -> you wondered
+
+DB. Ok! I recall I already did the same mistake elsewhere, by the way.
+
+Note: When I was young, growing up on a farm in the early 1950s & 60s, we had some pulley driven stuff, driven by a tractor - I remember being told the same thing about the driving pulley shape and being warned not to touch the belt as a `great big metal joint` will come around the loop and will take off your finger !
+
+DB: Interesting story! My father always used to say to me he could not understand why the belts never walked off the pulleys in such systems. I have to say I remained with the same curiosity until fairly recently, when I discovered that the flat belts tend to "climb" towards larger diameters in a pulley.
+
+
+Talk to Nanna:
+...
+- Emilia, it looks like I'll have a lot of work to do to repair the car when you get back from the rally. Do try to bring it back in one piece !
+...
+
+DB: Ok.
+
+Message from Albert (with letter )
+...
+Dear Miss Emilia,
+ I just learned that Princess Briccorosso asked you to take part in the rally. My hear is full of joy, as I would be honoured to go on this adventure with a driver as gifted as you. However, my conscience tells me to warn you that it may be dangerous and my life would becme meaningless if something happened to you. Please remain assured that whatever your decision, I would be very happy at prospect of meeting you again.
+
+Yours truly,
+  Albert Pinel
+  
+DB: Ok.
+
+It's quite awkward: you can see that the young man seems interested in knowing you better. You blush nontheless.
+...
+Note: I could not quite understand the original meaning of the last sentence - so my thought could be way off the mark !
+
+DB: The meaning is that Albert with this letter seems to be a little bit too protective for Emilia's tastes. She will have the occasion to show that she can care for herself (not "look for" as I wrote in the original message), before the end of the story. :-)
+
+Give letter to uncle:
+introduced in --> intruded into -or-> broke into
+
+DB: Ok.
+
+Uncle's office:
+When talking to journalist, he gives you an `envelope`, but in your inventory it is called a calling card.
+
+DB: This is a remainder of a previous version, where the envelope contained a message.
+
+==

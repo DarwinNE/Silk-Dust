@@ -1,0 +1,67 @@
+w
+s
+talk to princess
+
+n
+d
+w
+s
+x statue
+take rake
+s
+talk to albert
+n
+n
+n
+u
+n
+n
+enter shop
+x poster
+w
+d
+x pole
+take bucket with rake
+s
+s
+e
+d
+talk to sergio
+drive the car
+u
+n
+enter workshop
+talk to mechanic
+w
+s
+d
+s
+e
+n
+x voicepipe
+open window
+n
+open window
+s
+talk to voicepipe
+s
+w
+s
+talk to sergio
+n
+n
+u
+n
+enter workshop
+talk to mechanic
+w
+s
+d
+drive the car
+s
+e
+e
+w
+n
+repair bucket
+get water with bottle

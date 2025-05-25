@@ -1,0 +1,1965 @@
+AWS
+VERSIONE
+3.0
+0
+7
+7
+0
+Silk Dust, part 1
+Davide Bucci
+Version 1.0.3, Sept. 2020 - May 2025
+
+1
+
+0
+0
+100
+FALSE
+0
+0
+CONDIZIONIHI
+IF AT 100 THEN PRESSKEY GOTO 1 ENDIF Print the introduction and wait a key.
+IF AT 19 AND SET? 1 AND SET? 2 AND SET? 6 AND RES? 5 THEN TO 29 9 TO 30 9 SET 5 MESS 73 ENDIF Car is delivered while you are at the harbour.
+IF AT 20 THEN BRIN 25 ENDIF Albert follows you in the accident site.
+IF AT 21 THEN BRIN 25 ENDIF Albert follows you on the shore.
+IF AT 5 AND SET? 16 AND SET? 17 AND RES? 18 THEN SET 18 MESS 133 ENDIF Air stream -> dries the floor.
+IF AT 5 AND SET? 16 AND RES? 17 AND RES? 18 THEN MESS 136 ENDIF Notice some air.
+IF AT 5 AND SET? 17 AND RES? 16 AND RES? 18 THEN MESS 136 ENDIF Notice some air.
+CONDIZIONILOW
+if verb 70 and noun 409 then mess 518 wait endif Examine me
+if verb 73 then quit endif
+if verb 74 or verb 0 and noun 72 then inve wait endif
+if verb 987 then restart endif
+if verb 110 then look wait endif
+IF verb 100 OR vbnoeq 0 AND noun 80 THEN nord WAIT ENDIF  Go north.
+IF verb 100 OR vbnoeq 0 AND noun 81 THEN sud WAIT ENDIF   Go south.
+IF verb 100 OR vbnoeq 0 AND noun 82 THEN est WAIT ENDIF   Go east.
+IF verb 100 OR vbnoeq 0 AND noun 83 THEN ovest WAIT ENDIF Go west.
+IF verb 100 OR vbnoeq 0 AND noun 84 THEN alto WAIT ENDIF  Go up.
+IF verb 100 OR vbnoeq 0 AND noun 85 THEN basso WAIT ENDIF Go down.
+IF verb 201 THEN MESS 400 WAIT ENDIF Sleep
+IF verb 12 and noun 10 THEN MESS 401 WAIT ENDIF Open window -> no
+IF verb 1000 then MESS 998 WAIT ENDIF XYZZY
+IF verb 400 THEN MESS 504 WAIT ENDIF Curse
+IF VERB 401 THEN MESS 61 WAIT ENDIF Pee
+IF VERB 143 THEN MESS 997 WAIT ENDIF Smell...
+IF AT 13 OR AT 14 OR AT 9 OR AT 8 OR AT 16 OR AT 17 AND VERB 70 AND NOUN 53 THEN MESS 82 WAIT ENDIF Examine lake from a place where you can see it.
+IF AT 2 OR AT 6 AND VERB 70 AND NOUN 68 OR NOUN 159 THEN MESS 56 WAIT ENDIF Examine panels in the stairs.
+IF AT 2 OR AT 6 AND VERB 70 AND NOUN 22 THEN MESS 57 WAIT ENDIF Examine frescoes.
+IF VERB 70 AND ACTOR 30 AND AVAI 30 THEN MESS 70 WAIT ENDIF Examine Sergio.
+IF VERB 75 AND ACTOR 30 AND AVAI 30 THEN MESS 71 TO 30 0 TO 25 0 WAIT ENDIF Talk to Sergio. Albert leaves.
+IF VERB 56 AND NOUN 29 AND AVAI 29 AND NOTAVAI 27 AND NOTAVAI 31 THEN MESS 134 SET 3 SET 8 WAIT ENDIF Drive the car, needs paraffin and water.
+IF VERB 86 OR VERB 71 AND NO1EQ 87 AND AVAI 31 AND NO2EQ 29 AND AVAI 29 THEN MESS 137 WAIT ENDIF Fill water in the ITA
+IF VERB 86 OR VERB 71 AND NO1EQ 27 AND AVAI 27 AND NO2EQ 29 AND AVAI 29 THEN MESS 137 WAIT ENDIF Fill paraffin in the ITA
+IF VERB 56 AND NOUN 29 AND AVAI 29 AND NOTAVAI 27 THEN MESS 74 SET 3 WAIT ENDIF Drive the car, needs paraffin.
+IF VERB 56 AND NOUN 29 AND AVAI 29 AND NOTAVAI 31 THEN MESS 75 SET 8 WAIT ENDIF Drive the car, needs water.
+IF VERB 56 AND NOUN 29 AND AVAI 29 THEN MESS 76 TO 29 20 TO 25 20 TO 31 0 TO 27 0 TO 41 0 GOTO 20 WAIT ENDIF Drive the car with Albert, goes to the accident site.
+IF VERB 70 AND NOUN 29 AND AVAI 29 THEN MESS 72 WAIT ENDIF Examine car.
+IF VERB 70 AND NOUN 34 AND AVAI 34 AND RES? 7 THEN MESS 77 SET 7 WAIT ENDIF Examine squeaky wheel.
+IF VERB 50 AND NOUN 34 AND AVAI 34 AND RES? 7 THEN MESS 145 WAIT ENDIF Take wheel without having examined it, first.
+IF VERB 70 AND NOUN 34 AND AVAI 34 THEN MESS 86 WAIT ENDIF Examine squeaky wheel, tied together but not wet.
+IF VERB 70 AND NOUN 34 AND AVAI 36 THEN MESS 89 WAIT ENDIF Examine repaired wheel.
+IF VERB 70 AND NOUN 35 AND AVAI 35 THEN MESS 87 WAIT ENDIF Examine dock
+IF VERB 70 AND ACTOR 24 AND AVAI 24 THEN MESS 24 WAIT ENDIF Examine Briccorosso
+IF VERB 70 AND ACTOR 25 AND AVAI 25 AND SET? 7 THEN MESS 25 MESS 85 WAIT ENDIF Examine Albert
+IF VERB 70 AND ACTOR 25 AND AVAI 25 THEN MESS 25 MESS 55 WAIT ENDIF Examine Albert
+IF VERB 406 AND ACTOR 25 AND AVAI 25 THEN MESS 69 WAIT ENDIF Kiss Albert -> uuuh... too fast!
+IF VERB 75 AND ACTOR 37 AND AVAI 37 AND SET? 12 THEN MESS 42 WAIT ENDIF Talk to Elisa. Need paraffin.
+IF VERB 75 AND ACTOR 37 AND AVAI 37 THEN MESS 93 WAIT ENDIF Talk to Elisa.
+IF VERB 70 AND ACTOR 37 AND AVAI 37 THEN MESS 94 WAIT ENDIF Examine Elisa.
+IF VERB 70 AND NOUN 32 AND AVAI 38 THEN MESS 97 WAIT ENDIF Examine bucket with hole.
+IF VERB 70 AND NOUN 32 AND AVAI 32 THEN MESS 98 WAIT ENDIF Examine repaired bucket
+IF VERB 50 AND NOUN 32 AND AVAI 38 THEN GET 38 OKAY ENDIF Take bucket with the hole.
+IF VERB 55 AND NOUN 32 AND AVAI 38 THEN DROP 38 OKAY ENDIF Drop bucket with the hole.
+IF AT 13 OR AT 14 OR AT 9 OR AT 8 OR AT 16 OR AT 17 AND AVAI 38 OR AVAI 42 AND NO1EQ 32 OR NO1EQ 42 AND NO2EQ 53 THEN MESS 101 WAIT ENDIF * bucket with lake.
+IF VERB 70 AND NOUN 39 THEN MESS 95 WAIT ENDIF Examine acorns
+IF VERB 111 OR VERB 71 AND NO1EQ 32 OR NO1EQ 39 AND AVAI 38 AND AVAI 39 THEN MESSNOLF 96 MESS 98 TO 38 0 TO 32 1500 WAIT ENDIF Repair bucket (acorn)
+IF VERB 111 OR VERB 71 AND NO1EQ 32 OR NO1EQ 253 AND AVAI 38 AND AVAI 253 THEN MESSNOLF 140 MESS 98 TO 253 0 TO 38 0 TO 32 1500 WAIT ENDIF Repair bucket (cork)
+IF VERB 70 AND NOUN 27 AND AVAI 27 THEN MESS 105 WAIT ENDIF Examine can.
+IF VERB 70 AND NOUN 42 AND AVAI 42 THEN MESS 139 WAIT ENDIF Examine bottle of wine.
+IF VERB 70 AND NOUN 253 AND AVAI 253 THEN MESS 141 WAIT ENDIF Examine cork.
+IF VERB 70 AND NOUN 28 AND AVAI 28 THEN MESS 67 WAIT ENDIF Examine steam generator
+IF VERB 70 AND NOUN 41 AND AVAI 41 THEN MESS 33 WAIT ENDIF Examine rake
+IF VERB 50 AND NOUN 28 AND AVAI 28 THEN MESS 66 WAIT ENDIF Take steam generator
+IF VERB 75 AND ACTOR 25 AND AVAI 25 AND RES? 1 THEN MESS 54 SET 1 WAIT ENDIF Talk with Albert the first time.
+IF VERB 75 AND ACTOR 25 AND AVAI 25 THEN MESS 68 WAIT ENDIF Talk with Albert after you already met him.
+IF VERB 75 AND ACTOR 24 AND AVAI 24 AND RES? 1 THEN MESS 50 MESS 51 MESS 53 TO 24 0 SET 2 WAIT ENDIF Talk with Briccorosso, has not met Albert yet (flag 1 false). Briccorosso leaves
+IF VERB 75 AND ACTOR 24 AND AVAI 24 THEN MESS 50 MESS 52 MESS 53 TO 24 0 SET 2 WAIT ENDIF Talk with Briccorosso, has already met Albert (flag 1 true)
+IF AT 13 OR AT 14 OR AT 9 OR AT 8 OR AT 16 OR AT 17 AND VERB 63 THEN MESS 112 WAIT ENDIF Swim...
+IF ROOMLT 8 AND VERB 70 AND NOUN 159 THEN MESS 4 WAIT ENDIF Examine floor inside Villa Briccorosso.
+IF VERB 211 OR VERB 406 OR VERB 67 THEN mess 401 WAIT ENDIF Touch..., Drink..., Wash...
+IF VERB 50 AND NO1GT 24 AND NO1LT 50 THEN GET NO1 OKAY ENDIF Take an object
+IF VERB 55 AND NO1GT 24 AND NO1LT 50 THEN DROP NO1 OKAY ENDIF Drop an object
+IF VERB 407 THEN MESS 407 WAIT ENDIF
+IF VERB 70 AND NOUN 79 THEN LOOK WAIT ENDIF Examine room = look
+IF VERB 210 THEN MESS 231 WAIT ENDIF Pray
+IF VERB 70 THEN MESS 996 WAIT ENDIF Examine (without a known object)
+IF VERB 15 THEN MESS 408 WAIT ENDIF Use... "use a more specific verb".
+IF VERB 78 THEN MESS 122 WAIT ENDIF Break/Destroy/Kill...
+IF VERB 988 THEN LOAD WAIT ENDIF Load
+IF VERB 989 THEN SAVE WAIT ENDIF Save
+IF VERB 76 THEN MESS 402 WAIT ENDIF Exit/Quit -> use "bye"
+IF VERB 408 THEN MESS 92 WAIT ENDIF Hint 1.
+CONDIZIONILOCALI
+1
+IF VERB 70 AND NOUN 10 THEN MESS 58 WAIT ENDIF Examine window.
+1
+IF NOUN 3 OR NOUN 68 AND VERB 70 THEN MESS 107 WAIT ENDIF Examine upholstery/walls.
+1
+IF VERB 70 AND NOUN 18 THEN MESS 108 WAIT ENDIF Examine bed.
+1
+IF VERB 201 THEN MESS 400 WAIT ENDIF Sleep
+1
+IF VERB 15 AND NOUN 18 THEN MESS 400 WAIT ENDIF Sleep
+1
+IF VERB 70 AND NOUN 51 THEN MESS 109 WAIT ENDIF Examine table/chair
+1
+IF VERB 70 AND NOUN 200 THEN MESS 110 WAIT ENDIF Examine library
+1
+IF VERB 50 AND NOUN 200 THEN MESS 999 WAIT ENDIF Take book.
+1
+IF VERB 143 THEN MESS 113 WAIT ENDIF Smell
+2
+IF NOUN 19 OR NOUN 101 AND VERB 70 THEN MESS 2 WAIT ENDIF Examine plants.
+2
+IF VERB 70 AND NOUN 7 THEN MESS 3 WAIT ENDIF Examine staircase.
+3
+IF VERB 70 AND NOUN 14 THEN MESS 59 WAIT ENDIF Examine tub.
+3
+IF VERB 67 THEN MESS 60 WAIT ENDIF Wash... something.
+3
+IF VERB 401 THEN MESS 505 WAIT ENDIF Pee.
+3
+IF VERB 70 AND NOUN 59 THEN MESS 62 WAIT ENDIF Examine basins.
+3
+IF VERB 70 AND NOUN 219 THEN MESS 1 WAIT ENDIF Examine mirror.
+3
+IF AVAI 36 OR AVAI 39 AND NO1EQ 32 AND NO2EQ 59 THEN MESS 99 WAIT ENDIF * bucket with basin.
+3
+IF AVAI 32 AND NO1EQ 32 AND NO2EQ 14 THEN MESS 100 TO 32 0 TO 31 1500 WAIT ENDIF * bucket with tub
+3
+IF NOUN 159 OR NOUN 68 OR NOUN 7 AND VERB 70 THEN MESS 111 WAIT ENDIF Examine floor/marble/steps.
+3
+IF VERB 70 AND NOUN 8 THEN MESS 5 WAIT ENDIF Examine maiolica
+4
+IF NOUN 3 OR NOUN 68 AND VERB 70 THEN MESS 116 WAIT ENDIF Examine upholstery/walls.
+4
+IF VERB 70 AND NOUN 51 THEN MESS 117 WAIT ENDIF Examine table/chairs.
+4
+IF VERB 70 AND NOUN 58 THEN MESS 118 WAIT ENDIF Examine chandelier.
+4
+IF VERB 70 AND NOUN 61 THEN MESS 119 WAIT ENDIF Examine paintings.
+5
+IF VERB 70 AND NOUN 97 AND RES? 18 THEN MESS 130 SET 19 WAIT ENDIF Examine voicepipe.
+5
+IF VERB 70 AND NOUN 97 THEN MESS 91 WAIT ENDIF Examine voicepipe.
+5
+IF VERB 75 AND ACTOR 30 THEN MESS 38 WAIT ENDIF Talk to Sergio.
+5
+IF VERB 75 AND NOUN 97 AND SET? 18 AND SET? 12 THEN TO 30 16 RESE 12 MESS 106 WAIT ENDIF Talk to the voicepipe, you need to find Sergio
+5
+IF VERB 75 AND NOUN 97 AND RES? 12 THEN MESS 401 WAIT ENDIF Talk to the voicepipe.
+5
+IF VERB 75 AND NOUN 97 THEN MESS 130 SET 19 WAIT ENDIF Talk to the voicepipe.
+5
+IF VERB 70 AND NOUN 144 AND RES? 18 THEN MESS 130 SET 19 WAIT ENDIF Examine furniture/credenza/dresser.
+5
+IF VERB 70 AND NOUN 144 THEN MESS 6 WAIT ENDIF Examine furniture/credenza/dresser.
+5
+IF NOUN 3 OR NOUN 68 AND VERB 70 THEN MESS 7 WAIT ENDIF Examine wall/upholstery.
+5
+IF VERB 70 AND NOUN 10 THEN MESS 8 WAIT ENDIF Examine window.
+5
+IF VERB 70 AND NOUN 159 AND SET? 18 THEN MESS 131 WAIT ENDIF Examine floor inside Villa Briccorosso.
+5
+IF VERB 70 AND NOUN 159 THEN MESS 132 WAIT ENDIF Examine floor inside Villa Briccorosso.
+5
+IF VERB 12 AND NOUN 10 AND SET? 19 THEN SET 16 OKAY ENDIF Open the window.
+6
+IF verb 100 OR vbnoeq 0 AND noun 82 AND SET? 8 AND RES? 9 THEN MESS 138 TO 42 1500 TO 253 1500 SET 9 WAIT ENDIF Go east -> Find the bottle of wine
+6
+IF verb 100 OR vbnoeq 0 AND noun 82 THEN MESS 40 WAIT ENDIF Go east.
+7
+IF VERB 75 AND ACTOR 24 AND AVAI 24 THEN MESS 120 EXIT ENDIF End of part 1: Talk to Briccorosso, decide to get back in Turin.
+7
+IF VERB 70 AND NOUN 3 THEN MESS 10 WAIT ENDIF Examine draperies/wallpaper.
+7
+IF NOUN 228 OR NOUN 159 AND VERB 70 THEN MESS 11 WAIT ENDIF Examine carpet/floor.
+7
+IF VERB 70 AND NOUN 22 THEN MESS 12 WAIT ENDIF Examine ceiling.
+8
+IF VERB 70 AND NOUN 101 OR NOUN 60 THEN MESS 80 WAIT ENDIF Examine magnolia tree (or the garden).
+8
+IF VERB 143 THEN MESS 81 WAIT ENDIF Smell.
+8
+IF VERB 70 AND NOUN 57 THEN MESS 13 WAIT ENDIF Examine villa.
+8
+IF VERB 70 AND NOUN 54 THEN MESS 14 WAIT ENDIF Examine porch.
+9
+IF VERB 50 AND NOUN 87 AND NO2EQ 32 AND AVAI 32 THEN TO 32 0 TO 31 1500 MESS 84 WAIT ENDIF Take some water from the fountain.
+9
+IF VERB 86 AND NOUN 32 AND AVAI 32 THEN TO 32 0 TO 31 1500 MESS 84 WAIT ENDIF Fill bucket-> take some water from the fountain.
+9
+IF VERB 86 AND NOUN 42 AND AVAI 42 THEN MESS 142 WAIT ENDIF Fill bottle-> too small.
+9
+IF VERB 70 AND NOUN 5 THEN MESS 17 WAIT ENDIF Examine fountain.
+10
+IF VERB 143 THEN MESS 19 WAIT ENDIF Smell.
+10
+IF VERB 100 OR VBNOEQ 0 AND NOUN 81 THEN MESS 125 WAIT ENDIF   Go south -> enter church.
+10
+IF VERB 56 AND NOUN 99 THEN MESS 125 WAIT ENDIF Enter church.
+10
+IF VERB 70 AND NOUN 98 THEN MESS 20 WAIT ENDIF Examine buildings.
+10
+IF VERB 70 AND NOUN 99 THEN MESS 21 WAIT ENDIF Examine church.
+11
+IF VERB 56 AND NO1EQ 98 OR NO2EQ 98 THEN GOTO 18 WAIT ENDIF Enter shop.
+11
+IF VERB 56 AND NOUN 381 AND RES? 15 THEN MESS 127 SET 15 WAIT ENDIF Enter bakery -> Eat a part of miascia.
+11
+IF VERB 56 AND NOUN 380 THEN MESS 143 WAIT ENDIF Enter haberdashery -> no.
+11
+IF VERB 70 AND NOUN 380 THEN MESS 144 WAIT ENDIF Examine haberdashery
+11
+IF VERB 56 AND NOUN 381 THEN MESS 128 WAIT ENDIF Enter bakery -> no, you are not hungry!
+11
+IF VERB 143 THEN MESS 126 WAIT ENDIF Smell -> bread!
+11
+IF VERB 70 AND NOUN 98 THEN MESS 22 WAIT ENDIF Examine shops.
+11
+IF VERB 70 AND NO1EQ 17 AND NO2EQ 98 THEN MESS 124 WAIT ENDIF Examine bicycle shop.
+11
+IF VERB 70 AND NOUN 381 THEN MESS 135 WAIT ENDIF Examine bakery.
+12
+IF VERB 56 AND NOUN 98 THEN GOTO 19 ENDIF Enter workshop.
+12
+IF VERB 70 AND NOUN 98 THEN MESS 129 WAIT ENDIF Examine shop.
+13
+IF VERB 70 AND NOUN 2 THEN MESS 104 WAIT ENDIF Examine boat.
+13
+IF VERB 50 AND NOUN 2 THEN MESS 39 WAIT ENDIF Take boat -> no
+13
+IF VERB 143 THEN MESS 115 WAIT ENDIF Smell
+13
+IF VERB 70 AND NOUN 90 AND RES? 11 THEN MESS 34 BRIN 38 SET 11 WAIT ENDIF Examine pole, find bucket
+13
+IF VERB 70 AND NOUN 90 THEN MESS 35 WAIT ENDIF Examine pole, bucket already found 
+13
+IF VERB 50 AND NOUN 32 AND NO2EQ 41 AND RES? 14 THEN GET 38 MESS 37 SET 14 WAIT ENDIF Grab the bucket with the rake
+13
+IF VERB 50 AND NOUN 32 AND RES? 14 THEN MESS 36 WAIT ENDIF Try to reach the bucket without the rake
+14
+IF VERB 70 OR VERB 56 AND NOUN 6 THEN MESS 28 WAIT ENDIF Examine bar
+14
+IF VERB 70 AND NOUN 20 THEN MESS 29 WAIT ENDIF Examine waves.
+15
+IF VERB 70 AND NOUN 68 THEN MESS 30 WAIT ENDIF Examine walls.
+15
+IF VERB 70 AND NOUN 40 THEN MESS 102 WAIT ENDIF Examine leaves.
+16
+IF VERB 70 AND NOUN 4 THEN MESS 41 WAIT ENDIF Examine gate.
+16
+IF VERB 75 AND ACTOR 30 AND AVAI 30 AND RES? 4 THEN MESS 78 SET 4 WAIT ENDIF Talk to Sergio. If he is here, you have already discussed with the mechanic to ask some paraffin.
+16
+IF VERB 75 AND ACTOR 30 AND AVAI 30 THEN MESS 66 WAIT ENDIF Talk to Sergio a second time.
+16
+IF VERB 70 AND NOUN 60 THEN MESS 15 WAIT ENDIF Examine herbs.
+16
+IF VERB 70 AND NOUN 89 AND RES? 13 THEN MESS 31 BRIN 41 SET 13 WAIT ENDIF Examine statue
+16
+IF VERB 70 AND NOUN 89 THEN MESS 32 WAIT ENDIF Examine statue
+16
+IF VERB 143 THEN MESS 15 WAIT ENDIF Smell (herbs).
+16
+IF verb 100 OR vbnoeq 0 AND noun 82 THEN MESS 123 WAIT ENDIF   Go east -> blocked!
+17
+IF VERB 143 THEN MESS 9 WAIT ENDIF Smell (roses).
+17
+IF VERB 70 AND NOUN 103 THEN MESS 16 WAIT ENDIF Examine roses.
+17
+IF VERB 75 AND ACTOR 30 AND AVAI 30 THEN MESS 66 WAIT ENDIF Talk to Sergio. If he is here, you have come back from the car test.
+18
+IF VERB 70 AND NOUN 51 THEN MESS 27 WAIT ENDIF Examine bench.
+18
+IF VERB 70 AND NOUN 27 THEN MESS 26 WAIT ENDIF Examine can.
+18
+IF VERB 70 AND NOUN 17 THEN MESS 23 WAIT ENDIF Examine bicycles/motorbikes.
+18
+IF VERB 70 AND ACTOR 26 THEN MESS 63 WAIT ENDIF Examine bike mechanic.
+18
+IF VERB 75 AND ACTOR 26 AND RES? 3 THEN MESS 66 WAIT ENDIF Talk to bike mechanic, you still don't know you will need paraffin
+18
+IF VERB 75 AND ACTOR 26 AND RES? 4 THEN MESS 64 MESS 65 SET 12 WAIT ENDIF Ask for paraffin, without mentioning Briccorosso. Sergio goes away.
+18
+IF VERB 75 AND ACTOR 26 THEN MESS 64 MESS 79 TO 27 1500 RESE 3 WAIT ENDIF Ask for paraffin, mentioning Briccorosso.
+18
+IF VERB 143 THEN MESS 114 WAIT ENDIF Smell
+18
+IF VERB 76 THEN OVEST WAIT ENDIF Exit shop
+19
+IF VERB 70 AND NOUN 33 THEN MESS 83 SET 6 WAIT ENDIF Examine poster in the stonemason's workshop.
+19
+IF VERB 70 AND NOUN 69 THEN MESS 18 WAIT ENDIF Examine plates.
+19
+IF VERB 76 THEN OVEST WAIT ENDIF Exit shop
+20
+IF VERB 71 AND NOUN 34 AND AVAI 36 THEN MESS 90 TO 37 7 TO 24 7 TO 30 17 GOTO 9 WAIT ENDIF Install repaired wheel, come back to villa Briccorosso. Put Briccorosso in the green room.
+20
+IF VERB 56 AND NOUN 29 THEN MESS 43 WAIT ENDIF Drive car.
+21
+IF VERB 71 OR VERB 55  AND NOUN 34 AND SET? 7 THEN MESS 88 SET 10 TO 34 0 TO 36 1500 WAIT ENDIF Put the wheel in the lake to let wood expand.
+22
+IF VERB 12 AND NOUN 10 AND SET? 19 THEN SET 17 OKAY ENDIF Open the window.
+22
+IF VERB 70 AND NOUN 10 THEN MESS 8 WAIT ENDIF Examine window.
+DIZIONARIO
+MAKE
+1
+VERBO
+BOAT
+2
+NOME
+BOATS
+2
+NOME
+DRAPERIES
+3
+NOME
+TAPESTRIES
+3
+NOME
+TAPESTRY
+3
+NOME
+PATTERN
+3
+NOME
+PATTERNS
+3
+NOME
+UPHOLSTERY
+3
+NOME
+WALLPAPER
+3
+NOME
+PAPER
+3
+NOME
+DOOR
+4
+NOME
+GATE
+4
+NOME
+FOUNTAIN
+5
+NOME
+BAR
+6
+NOME
+STAIRCASE
+7
+NOME
+STAIRS
+7
+NOME
+STEPS
+7
+NOME
+MAIOLICA
+8
+NOME
+POTTERY
+8
+NOME
+WINDOW
+10
+NOME
+WINDOWS
+10
+NOME
+DRAWER
+11
+NOME
+DRAWERS
+11
+NOME
+OPEN
+12
+VERBO
+UNLOCK
+12
+VERBO
+CLOSET
+13
+NOME
+TUB
+14
+NOME
+BATTHUB
+14
+NOME
+USE
+15
+VERBO
+BICYCLE
+17
+NOME
+BICYCLES
+17
+NOME
+BIKE
+17
+NOME
+MOTORBIKE
+17
+NOME
+BIKES
+17
+NOME
+MOTORBIKES
+17
+NOME
+BED
+18
+NOME
+HOUSEPLANT
+19
+NOME
+HOUSEPLANTS
+19
+NOME
+FICUS
+19
+NOME
+WAVES
+20
+NOME
+FRESCOES
+22
+NOME
+FRESCO
+22
+NOME
+CEILING
+22
+NOME
+PRINCESS
+24
+ATTORE
+LUCILLA
+24
+ATTORE
+BRICCOROSSO
+24
+ATTORE
+MADAM
+24
+ATTORE
+ALBERT
+25
+ATTORE
+PINEL
+25
+ATTORE
+MECHANIC
+26
+ATTORE
+VITTORIO
+26
+ATTORE
+CAN
+27
+NOME
+TIN
+27
+NOME
+JAR
+27
+NOME
+KEROSENE
+27
+NOME
+PARAFFIN
+27
+NOME
+GENERATOR
+28
+NOME
+CAR
+29
+NOME
+ITA
+29
+NOME
+150
+29
+NOME
+SERGIO
+30
+ATTORE
+GARDENER
+30
+ATTORE
+BUCKET
+32
+NOME
+POSTER
+33
+NOME
+WHEEL
+34
+NOME
+DOCK
+35
+NOME
+ELISA
+37
+ATTORE
+MAID
+37
+ATTORE
+ACORNS
+39
+NOME
+ACORN
+39
+NOME
+LEAF
+40
+NOME
+LEAVES
+40
+NOME
+RAKE
+41
+NOME
+BOTTLE
+42
+NOME
+WINE
+42
+NOME
+GET
+50
+VERBO
+GRAB
+50
+VERBO
+TAKE
+50
+VERBO
+TABLE
+51
+NOME
+BENCH
+51
+NOME
+CHAIR
+51
+NOME
+CHAIRS
+51
+NOME
+DESK
+51
+NOME
+THANK
+52
+VERBO
+LAKE
+53
+NOME
+VIEW
+53
+NOME
+SHORE
+53
+NOME
+PORCH
+54
+NOME
+DROP
+55
+VERBO
+LEAVE
+55
+VERBO
+SET
+55
+VERBO
+THROW
+55
+VERBO
+TOSS
+55
+VERBO
+DRIVE
+56
+VERBO
+ENTER
+56
+VERBO
+VILLA
+57
+NOME
+CHANDELIER
+58
+NOME
+LAMP
+58
+NOME
+LAMPS
+58
+NOME
+BURNER
+58
+NOME
+BURNERS
+58
+NOME
+BASIN
+59
+NOME
+BASINS
+59
+NOME
+GARDEN
+60
+NOME
+HERBS
+60
+NOME
+PAINTING
+61
+NOME
+PAINTINGS
+61
+NOME
+FLOWER
+62
+NOME
+FLOWERS
+62
+NOME
+SWIM
+63
+VERBO
+DIVE
+63
+VERBO
+GIVE
+66
+VERBO
+OFFER
+66
+VERBO
+BRUSH
+67
+VERBO
+WASH
+67
+VERBO
+WALL
+68
+NOME
+WALLS
+68
+NOME
+PANEL
+68
+NOME
+PANELS
+68
+NOME
+PANELING
+68
+NOME
+PANELLING
+68
+NOME
+MARBLE
+68
+NOME
+PLATE
+68
+NOME
+PLATES
+69
+NOME
+PULL
+69
+VERBO
+PUSH
+69
+VERBO
+MOVE
+69
+VERBO
+EX
+70
+VERBO
+EXAMINE
+70
+VERBO
+X
+70
+VERBO
+READ
+70
+VERBO
+SEARCH
+70
+VERBO
+SLIDE
+71
+VERBO
+PUT
+71
+VERBO
+I
+72
+NOME
+INV
+72
+NOME
+INVE
+72
+NOME
+INVENTORY
+72
+NOME
+BYE
+73
+VERBO
+SHOW
+74
+VERBO
+CHAT
+75
+VERBO
+SPEAK
+75
+VERBO
+TALK
+75
+VERBO
+SHOUT
+75
+VERBO
+EXIT
+76
+VERBO
+STOP
+76
+VERBO
+QUIT
+76
+VERBO
+OUT
+76
+VERBO
+PLAY
+77
+VERBO
+BREAK
+78
+VERBO
+DESTROY
+78
+VERBO
+STRANGLE
+78
+VERBO
+KILL
+78
+VERBO
+ROOM
+79
+NOME
+N
+80
+NOME
+NORTH
+80
+NOME
+S
+81
+NOME
+SOUTH
+81
+NOME
+E
+82
+NOME
+EAST
+82
+NOME
+W
+83
+NOME
+WEST
+83
+NOME
+ABOVE
+84
+NOME
+U
+84
+NOME
+UP
+84
+NOME
+UPSTAIRS
+84
+NOME
+BELOW
+85
+NOME
+D
+85
+NOME
+DOWN
+85
+NOME
+DOWNSTAIRS
+85
+VERBO
+UNDER
+85
+NOME
+FILL
+86
+VERBO
+POUR
+86
+VERBO
+WATER
+87
+NOME
+BUY
+88
+VERBO
+STATUE
+89
+NOME
+NYMPH
+89
+NOME
+POLE
+90
+NOME
+POST
+90
+NOME
+PICK
+95
+VERBO
+VOICEPIPE
+97
+NOME
+WORKSHOP
+98
+NOME
+SHOP
+98
+NOME
+SHOPS
+98
+NOME
+BUILDING
+98
+NOME
+BUILDINGS
+98
+NOME
+PALACE
+98
+NOME
+PALACES
+98
+NOME
+HOUSE
+98
+NOME
+HOUSES
+98
+NOME
+CHURCH
+99
+NOME
+GO
+100
+VERBO
+RUN
+100
+VERBO
+WALK
+100
+VERBO
+TREE
+101
+NOME
+TREES
+101
+NOME
+PLANT
+101
+NOME
+PLANTS
+101
+NOME
+MAGNOLIA
+101
+NOME
+STONE
+102
+NOME
+STONES
+102
+NOME
+ROSE
+103
+NOME
+ROSES
+103
+NOME
+STORE
+108
+NOME
+STORES
+108
+NOME
+L
+110
+VERBO
+LOOK
+110
+VERBO
+REPAIR
+111
+VERBO
+WEAR
+120
+VERBO
+UNDRESS
+121
+VERBO
+UNWEAR
+121
+VERBO
+SMELL
+143
+VERBO
+FURNITURE
+144
+NOME
+CREDENZA
+144
+NOME
+DRESSER
+144
+NOME
+OBJECT
+156
+NOME
+FLOOR
+159
+NOME
+GROUND
+159
+NOME
+LIFT
+160
+VERBO
+FIRE
+164
+NOME
+LIBRARY
+200
+NOME
+BOOK
+200
+NOME
+BOOKS
+200
+NOME
+SIT
+201
+VERBO
+SLEEP
+201
+VERBO
+CLOTHES
+202
+NOME
+CLOSE
+203
+VERBO
+TOOL
+206
+NOME
+TOOLS
+206
+NOME
+PRAY
+210
+VERBO
+DRINK
+211
+VERBO
+EAT
+211
+VERBO
+SWALLOW
+211
+VERBO
+TURN
+213
+VERBO
+MIRROR
+219
+NOME
+CARPET
+228
+NOME
+HANDRAIL
+229
+NOME
+SHIBBOLETH
+230
+VERBO
+KNOCK
+236
+VERBO
+CORK
+253
+NOME
+HABERDASHERY
+380
+NOME
+BAKERY
+381
+NOME
+CURSE
+400
+VERBO
+FUCK
+400
+VERBO
+CUNT
+400
+VERBO
+CUNTS
+400
+VERBO
+PISS
+400
+VERBO
+PEE
+401
+VERBO
+SHIT
+401
+VERBO
+POO
+401
+VERBO
+CARESS
+406
+VERBO
+PET
+406
+VERBO
+TOUCH
+406
+VERBO
+KISS
+406
+VERBO
+HELP
+407
+VERBO
+INFO
+407
+VERBO
+HINT
+408
+VERBO
+EMILIA
+409
+NOME
+ME
+409
+NOME
+MYSELF
+409
+NOME
+RESTART
+987
+VERBO
+LOAD
+988
+VERBO
+SAVE
+989
+VERBO
+XYZZY
+1000
+VERBO
+THEN
+9999
+SEPARATORE
+AND
+9999
+SEPARATORE
+LOCAZIONI
+1
+You are in a bedroom. You slept here last night. The walls are covered by elegant upholstery. You see your bed in a corner and a small desk with a chair. The room is brightly lit by a window to the east and a large library occupies the entire south wall.
+
+Bedroom
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+2
+You admire the landing at the top of a large staircase, decorated with marble panelling and a fresco. Large houseplants adorn two corners of the room.
+
+Staircase top
+3
+4
+1
+0
+0
+6
+0
+0
+0
+0
+3
+You stand in a well-equipped bathroom. In front of you there is an impressive tub recessed into the floor, in maiolica and marble, accessible through three steps. On your right there are two basins and a large mirror hung to the wall. The floor is covered in marble.
+
+Bathroom
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+4
+A vast room opens in front of you. Red upholstery covers the wall and a large wooden table with chairs occupies its centre. Above it hangs a large chandelier with decorated burners. Paintings on the wall represent views of Lake Como.
+
+Salon
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+5
+You are in a room decorated with carved walnut furniture and the walls are covered with dark wallpaper. The atmosphere is cosy and muffled, there is the brass voicepipe system in a corner and a large window to the west lightens the room.
+
+Black room
+22
+6
+0
+0
+0
+0
+0
+0
+0
+0
+6
+You stand at the bottom of the staircase. You see the marble panelling and the fresco visible from upstairs, too.
+
+Staircase bottom
+5
+7
+-1
+8
+2
+0
+0
+0
+0
+0
+7
+You are in a large room wich has walls covered with wallpaper and a painted ceiling. A large tapestry is at your left whilst you walk on the soft carpet that covers the floor.
+
+Red room
+6
+0
+0
+0
+0
+0
+0
+0
+0
+0
+8
+You stand outside Villa Briccorosso, in the shade of a magnificent Magnolia tree. You admire the view of Lake Como through the marble columns of a small porch just in front of the lake.
+
+Garden, Magnolia tree
+9
+16
+6
+0
+0
+0
+0
+0
+0
+0
+9
+You are in front of a fountain, not far from the lake shore. A path leads upwards, towards the city centre of Varenna.
+
+Garden, Fountain
+0
+8
+22
+0
+10
+0
+0
+0
+0
+0
+10
+You are in a square in the city centre, surrounded by a church and other buildings. You feel a slight breeze blowing.
+
+Upper square
+11
+255
+0
+15
+0
+9
+0
+0
+0
+0
+11
+You are walking on a road. Carriages must pass here, as the alleys below are too small and too steep for them. Small shops surround the road, you can enter a bakery, a haberdashery or a bicycle and motorbike shop.
+
+Upper road, south
+12
+10
+0
+0
+0
+14
+0
+0
+0
+0
+12
+You have arrived at the entrance to the village, beside the road that passes the upper part of it. You can enter in a stonemason's workshop from here.
+
+Upper road, north
+0
+11
+0
+0
+0
+13
+0
+0
+0
+0
+13
+You are in a typical small harbour. There is an old fisherman's boat abandoned on the shore in bad shape. You see an odd-looking post in the lake to delimit a channel in the harbour.
+
+Small harbour
+0
+14
+0
+0
+12
+0
+0
+0
+0
+0
+14
+You stand in the middle of a small square, just above Lake Como. Placid waves come from the lake to the shore, nearby. It's a charming place and there is a little bar with tables outside.
+
+Lowest square
+13
+15
+0
+0
+11
+0
+0
+0
+0
+0
+15
+You are in a small and twisted alley lined with tall oaks and surrounded by high walls. Such places are common and characteristic here. Leaves and acorns that have fallen from the trees crunch under your feet as you walk among them.
+
+Alley
+14
+0
+10
+0
+0
+0
+0
+0
+0
+0
+16
+You are in a beautiful botanical garden on the shore of Lake Como, full of aromatic herbs. A statue of a nymph embellishes the place. A small gate leads to the east, towards the barn behind the villa.
+
+Botanical garden
+8
+17
+255
+0
+0
+0
+0
+0
+0
+0
+17
+Many roses of multiple shapes and colours grow neatly around you, cared for by skilful hands.
+
+Rose garden
+16
+0
+0
+0
+0
+0
+0
+0
+0
+0
+18
+You are in a room with several bicycles hung from the roof and a working bench. Two motorbikes are parked on the other side of the room, in front of a large fuel can.
+
+Bicycle and motorbike shop
+0
+0
+0
+11
+0
+0
+0
+0
+0
+0
+19
+You are in a small shop. Decorative marble plates are hung to the wall, which showcase the products sold. Varenna is close to marble quarries and the stone is worked here.
+
+Stonemason's workshop
+0
+0
+0
+12
+0
+0
+0
+0
+0
+0
+20
+You are stranded in a road, very close to the lake.
+
+Twisty road
+0
+0
+0
+21
+0
+0
+0
+0
+0
+0
+21
+You are in a small shore. The place is beautiful and the late morning sun is very pleasant, but you are not in the right mood to appreciate it.
+
+Lake shore
+0
+0
+20
+0
+0
+0
+0
+0
+0
+0
+22
+Princess Briccorosso invites the Italian Exploration Society to do conferences here as she is a former president and funder. You can see the lake from the window to the west and the usual set of chairs and desks that are appropriate in such a place.
+
+Conference room
+0
+5
+0
+9
+0
+0
+0
+0
+0
+0
+100
+Today is April 19, 1907. You, Emilia Vittorini, arrived yesterday in Varenna, on the shore of the beautiful Lake Como. You are hosted at the magnificent Villa Briccorosso; Princess Lucilla Briccorosso is preparing for the Silk Road Race, a 10,000km rally raid between Cairo in Egypt and Peking in China, to be done by car.^M^MYou represent ITA, founded by your father, the company that built the car the Princess just bought to use during the rally. The car is supposed to be delivered today. Your role will be to assist the delivery, do a test drive and make sure everything is perfectly functional.
+
+Introduction
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+MESSAGGI
+1
+In the mirror you see a young woman, about 5 ft 6 in tall, with brown-red hair, blue eyes and elegantly arched eyebrows, clad in a simple and elegant dress. That's you.
+2
+Two ficus Benjamin there.
+3
+It is an Imperial staircase, relatively large.
+4
+You walk on a wooden parquet floor, covered with carpets.
+5
+It depicts scenes from Ovid's Metamorphosis.
+6
+There are a credenza, a dresser, a large mirror and a large table with chairs. They are made in dark walnut wood, carved with a neo-Renaissance style.
+7
+It's a rather dark wallpaper, roll-printed with lighter decorations depicting leaves and stylised flowers.
+8
+You see the fountain before the villa and a view of the lake.
+9
+The roses emanate a delicate scent.
+10
+The draperies and the wallpaper are red. That makes an intriguing contrast with the large tapestry to the east, representing a hunting scene.
+11
+The Savonnerie carpet is of an intense red and represents leafy rinceaux.
+12
+The paintings on the ceiling represent Diana hunting with her nymphs.
+13
+Certainly, the villa is very elegant!
+14
+How romantic!
+15
+Parsley, Sage, Rosemary and Rose!
+16
+Tags say things such as "Madame Hardy", "Rosa Mundi", "Rosa Officinalis", and "Charles de Mills."
+17
+The water is clear.
+18
+Some of those are tombstones! After all, this is what you'd expect here.
+19
+The breeze carries the smell of the road dust, fish and a piney scent of resin.
+20
+Many typical little houses, painted in pastel colours. Inhabitants of Varenna live there.
+21
+The church is dedicated to St. John the Baptist and is a comparatively small Romanesque building. The interior contains colourful frescoes made between the XIVth and the XVIth centuries.
+22
+There are a bakery and a haberdashery as well as a bicycle and motorbike shop to the east.
+23
+On sale.
+24
+Princess Lucilla Briccorosso is 35 years old and is an energetic woman, born into one of the oldest Italian families. She has short blonde hair, is relatively thin and not very tall, but her body is athletic and her green eyes shine with a light of determination. Last night, you had a pleasant dinner with her, with an exquisite bottle of Marzemino: she has voyaged to many places around the word and told you many anecdotes of her adventures. And she loves cars, as you do.
+25
+Briccorosso described Albert as a mother would describe her own child. She rescued him when he was 15 years old in a train wreck, where he lost his father. He must be 24 or 25 years old, is slightly taller than you, with brown hair and a wispy beard. He has a gentle stare in his brown eyes.
+26
+The mechanic probably keeps the paraffin there for the motorbikes.
+27
+Full of spare parts.
+28
+You may come back to get a coffee there, a day or another, but not now.
+29
+They are created by steam boats crossing the lake.
+30
+There are private gardens behind them. You see some oak branches above the walls.
+31
+Behind the statue, you find a leaf rake.
+32
+Elegant posture.
+33
+Quite an ordinary short rake.
+34
+You can almost touch it from the dock. There is an old bucket on top of it.
+35
+It's a wooden post, sticking out of the water.
+36
+You can't reach the bucket, it's too far.
+37
+Success! You now have the bucket in your hands.
+38
+Try talking to the voicepipe.
+39
+No, it will not float.
+40
+It leads towards the kitchen, no reason to go there.
+41
+It's locked. Sergio keeps the two Briccorosso's dogs there.
+42
+Perhaps Sergio can help, you should try to speak to him.
+43
+You must first put the repaired wheel back on!
+50
+Briccorosso smiles and says:^M- My dear Emilia, you woke up early, did you sleep well?^M- Yes, thank you, Princess.^M- I received a telegram, the car will be delivered in two hours; you have time to visit Varenna. By the way, Albert, my mechanic is there already. He is in the garden now. He is a fervent admirer of ITA cars and I am sure he will be delighted to meet you. In the meantime, I will have to meet some people in Menaggio, I will be back this afternoon.
+51
+- Thank you, Princess, with pleasure.
+52
+- Yes, I have already meet him, Princess.
+53
+- Emilia, please, call me Lucilla. I inherited that title, but there is no need to use it every time...^MYou smile:^M- Thank you, Lucilla!^MBriccorosso then leaves the room.
+54
+Albert blushes when you speak to him:^M- Ah, you are... I mean, good morning, Madam Vittorini...^MYou smile.^M- You know, I am... I am... well, I have always admired your cars... Uh... I mean ITA cars...^M- Thank you. Princess Briccorosso said to me you were the best mechanic of all Lombardy.^MAlbert blushes even more intensely.^M- Ah... Well... I mean... The Princess is as always too kind...^MYou continue chatting for a while, but Albert seems embarrassed.
+55
+He seems shy and intimidated by your presence.
+56
+The staircase is embellished with yellow and red Verona marbles, peach blossom as well white ones from Carrara. In the red marble, you notice the characteristic ammonite fossils embedded.
+57
+It's a large fresco painted on the walls of the staircase. Princess Briccorosso told you it was commissioned by the previous owner of the villa, a German from Leipzig. You recognise portraits of H. Helmholtz, the physicist, I. Kant the philosopher, A. Schluter the architect and J.S. Bach, the composer. Your uncle always said that Bach was one of the greatest geniuses of the history of mankind.
+58
+You see a barn behind the villa.
+59
+Charming! Earlier this morning, you took a warm bath and you washed your hair. Hot and cold water flow through faucets with the shape of a swan's head!
+60
+No, you already completed your morning toilette.
+61
+Certainly not here!
+62
+The two marble basins are thin and sleek.
+63
+He is an old man and is occupied cleaning a minute steam generator from a motorbike.
+64
+The mechanic speaks to you with a strong Lombard accent:^M- Good morning, Miss (he used the term "sciorina"), what can I do for you?
+65
+You ask for paraffin.^M- No, I don't sell it, sorry, it's for the bikes I repair.
+66
+You don't want to disturb him. He's occupied.
+67
+It's a small paraffin burner inside a coil of copper pipe. When it's on, water in the pipe becomes steam that pushes pistons in the steam engine.
+68
+He seems to be too shy, you don't want to make him uncomfortable.
+69
+Not so fast, Emilia!
+70
+Sergio is the princess' handyman, he takes care of the villa. He is about 45 years old, tall and thin, and is an excellent gardener.
+71
+- Look, Madam, the car was delivered a few minutes ago. It's beautiful! Albert was very excited, he's gone to look for his tools for the test drive. The delivery guys were in a hurry, they had to take another car to Milan and had to leave.^MAnother car in Milan? It's certainly not an ITA, but you think you will try to find who ordered it.^MSergio leaves to buy eggplant seeds for the garden.
+72
+It's a wonderful steam car! A paraffin burner heats the water that becomes pressurised steam. A two cylinder double-action engine is connected to the back axle, generating a power of 45 HP transmitted to wooden wheels, equipped with Ritaione tyres. A condenser recycles steam, so the car can run for hours without needing water supply. Briccorosso thought that a powerful, albeit relatively heavy, car would be better fit to the harsh conditions of the rally.
+73
+While you are in the shop, you see a delivery truck passing by, towing a trailer with a car: it's the ITA being delivered! 
+74
+You see that the fuel tank is empty. You should find some, it can run on paraffin or kerosene.
+75
+Steam cars need water. You need to fill that tank.
+76
+Albert comes with his tools.^M- Madam, do you want to... test.. the car?^MIt's clear that he is eager to see it in motion!^MYou load the car with the paraffin and the water, then ignite the paraffin burner. After a few minutes, the car's pressure gauges rise. You take the driving seat and Albert sits on your side, you turn a knob at the centre of the steering wheel and the car begins to move.^MYou decide to go towards the north of the Lake via Bellano, Dervio, Dorio.^M^MWhen you pass Olgiasca, Albert says:^M- Madam, there is a strange squeak coming from the rear left wheel.^M^MThe car immediately begins to shake violently and you stop it.
+77
+Albert becomes instantly focused on the wheel. He is not blushing anymore: without hesitation he lifts the rear of the car and quickly removes it. You have seen many mechanics working on the field and you can appreciate his expertise.^M^M- The wheel has been tampered with. The wooden spokes are half cut through. We need something to keep them together. I have a rope and I can tie them, but probably not strong enough.^M^MAlbert finds a rope among his tools and ties the spokes the best he can. You need something to increase the tension.
+78
+You ask where you can find paraffin.^M- You should go see Vittorio, he has a motorbike repair shop in the town.^MYou mention you have already been there but you could not get some.^M- But... did you say it was for the Princess? Vittorio knows her well. She is a longtime client: if you mention the race, he will be eager to help.
+79
+You say that you are in Varenna to test the ITA car Briccorosso will use in the Silk Road race. You need paraffin.^M- Briccorosso? The race? Of course! Always busy the Princess!^MHe hands you a can.^M- Don't bother to pay.
+80
+There is a stately Magnolia Grandiflora. It must be at least 50 years old. On the path towards the garden, numerous large vases form a neat citrus garden.
+81
+Delicate smells of orange, bergamot, lemon and citron surround you.
+82
+Lake Como is beautiful, surrounded by verdant mountains. You see the Pescallo harbour, in Bellagio, at distance.
+83
+It describes marble extraction techniques in quarries. Curiously enough, the most antique one is to carve slots and force wooden wedges into them. Then, the wood is wetted and it expands, breaking the stone.
+84
+You submerge the bucket in the fountain, then you lift it. The water in the bucket is clear.
+85
+You find him cute.
+86
+It's a wooden wheel, Albert has put a rope on it to keep everything together, but you still need a way to expand wood so that the rope will be kept under tension.
+87
+Fishermen probably use it, you can see the clear lake water under the wooden planks.
+88
+You explain your idea to Albert: together, you put the wheel in the lake from the dock. In a few minutes, the water impregnates the wooden spokes and they expand, slightly. The tension of the rope increases, holding everything together.
+89
+The expanded spokes keep the rope under tension. If you proceed carefully, that should be enough to get you back to villa Briccorosso.
+90
+With the help of Albert, you put the wheel onto the car. You begin to drive very carefully: it works! You get back to Varenna at the beginning of the afternoon. When you enter the beautiful garden of villa Briccorosso, Albert says:^M- Eh, ... well... Madam Vittorini... yours was a clever idea.^M- Albert, please, call me Emilia.^MHe turns his head, but you catch a smile on his face out of the corner of your eye.^M^MBriccorosso may have come back, you should find her.^M
+91
+It allows you to talk to someone elsewhere in the villa via several pipes. You may call Sergio, the handyman, if he is in the barn.
+92
+Carefully examine every object. Talk to people. Smell. Draw a map.
+93
+Elisa smiles at you while she is dusting the furniture. She looks occupied and you don't want to bother her.
+94
+She is a tall energetic woman, about fifty years old, with a broad smile and large shoulders.
+95
+They must have fallen from an oak last autumn.
+96
+You force an acorn into the hole: the bucket is repaired. 
+97
+It's an old wooden bucket, it has probably been scrapped because of the hole in the bottom.
+98
+It doesn't look too solid, but it will carry liquid for a while.
+99
+No, it is too big.
+100
+You put the bucket in the tub and you open the swan-shaped faucet to fill it with cold water.
+101
+No, you may take some mud, too.
+102
+Oak leaves.
+104
+It is full of garbage.
+105
+That will be enough for the test ride.
+106
+You call into the voicepipe and Sergio answers from the barn:^M - Oh, Madam Emilia! I'm just going to plant parsley and basil seeds in the garden. Let's talk there.
+107
+It's fabric decorated with golden and green leaves on pale green.
+108
+You slept there last night.
+109
+The table and the chair are made of wood, decorated with floral themes. The centre of the table top is covered with leather and there is a gas burner: an ideal place for reading and writing.
+110
+It is the library of an explorer: it contains a collection of travel stories from adventurers of the XVIII and XIX century: mainly in Asia, Africa and South America. You recognise Darwin's "The Voyage of the Beagle", Nellie Bly's "Around the World in Seventy-Two Days", Eliza Scidmore's "China, the Long-Lived Empire." You also see DeVitte's "The Vittorini brothers: Modern motor pioneers" and "Du sentiment religieux des Egyptiens" by Ernesto Schiaparelli.
+111
+You think it is Carrara marble.
+112
+The lake water is too cold in April.
+113
+There is a faint smell of coffee, as you had your breakfast here.
+114
+You smell paraffin, rubber and mineral oil.
+115
+There is a smell of fish.
+116
+Red fabric with golden decorations with geometrical patterns.
+117
+The chairs are comfortable and disposed around an impressive inlayed wooden oval table. You had a pleasant dinner with Briccorosso yesterday here, you finished the bottle of wine while discussing after lunch, the empty bottle must have been brought back to the kitchen early this morning.
+118
+Decorated with oak leaves, a large chandelier lights the place with six burners, in polished brass, equipped with their fragile thorium gas mantles. They are off at the moment.
+119
+They must have been painted at the beginning of the XIX century and they represent local views. You recognise Bellagio, as seen from the lake.
+120
+- Lucilla, we tried the car. It has been sabotaged: we almost lost a wheel near Olgiasca.^M- Sabotaged? But, why?^M- I heard that another car has been delivered to Milan for the Silk Road Raid.^M- Who can possibly do this?^MYou suggest to Briccorosso you will come back to Turin to get the spare parts for the car personally. She agrees with you and the very same afternoon you take your train.^M^MPassword for the second part of the game: SHIBBOLETH OHBASTALA
+122
+You won't need violence to complete this part of the game.
+123
+You try to make your way to the barn, but find your path blocked by the gate. It obviously is locked, as Sergio keeps the two Briccorosso's dogs there.
+124
+It's an old-fashioned shop, with a wooden sign saying "Da Vittorio, cicli e motocicli."
+125
+You enter the church and stay there for a while. You admire the Adoration of the Three Wise Men and the Redeemer between the Virgin Mary and John the Baptist frescoed on the apse. Then, you exit coming back to the square, wondering what life was like for the artists who worked here, in this magnificent place just in front of the lake.
+126
+Mmm... freshly baked bread!
+127
+You put a hand in your pocket and you find a few coins. You are a little hungry and buy a part of miascia for yourself: it's a cake made with bread, milk, fresh and dried fruits flour and sugar. It's delicious.
+128
+No, you are not hungry anymore.
+129
+There is a sign saying "Marmi e graniti."
+130
+Elisa says:^M^M- Madam, please! The floor is wet in this side of the room, do not step on it!
+131
+The floor is in polished marble, very elegant. It's dry, now.
+132
+The floor is in polished marble, very elegant. Elisa has just washed it and half of the room is still wet. You can not walk on this side.
+133
+When you enter the room, you feel an air stream that comes from the open windows. It dries the floor.
+134
+Steam cars need water and paraffin. You need to fill both tanks.
+135
+It's a typical bakery selling bread and local pastry.
+136
+Not much air comes from the window. The floor will take a long time to dry.
+137
+You decide to keep it for when you will drive the car.
+138
+You explore the kitchen in search for something useful. You only find the empty bottle of wine you drank yesterday evening with Briccorosso, with its cork.
+139
+Eccellente Marzemino!
+140
+You force the cork into the hole: the bucket is repaired.
+141
+It's a pretty ordinary cork that you found in the kitchen.
+142
+The bottle is too small and unpractical to fill the car. Find a larger container.
+143
+You browse around sewing articles, buttons and cloths, but you don't need them at the moment.
+144
+It's a small old-style shop. It looks like it has been there for more than fifty years.
+145
+Examine it, first.
+231
+You may try, but it will probably not work.
+400
+No. You aren't tired, now.
+401
+No need to do that now.
+402
+Use 'bye' to stop playing.
+407
+This is a text adventure game. Read descriptions carefully and type commands such as 'examine bed'. Type "north", "south", ... to move in the desired direction.. Abbreviations are possible "x" for "examine", "l" to "look" (i.e. describe your current location again), "i" for "inventory," "n" for "north" and so on. To quit the game, type "bye". To restart it, type "restart".
+408
+Please, type a more specific action...
+504
+Please feel free to continue, if you wish to... I've become impervious to swearing and profanity a long time ago.
+505
+No, you don't feel the need.
+518
+You'll examine yourself much better with a mirror.
+996
+You see nothing interesting.
+997
+You don't smell anything in particular, apart from a barely perceptible scent of lavender, coming from your clothes.
+998
+You have a strange sensation, almost as if you were becoming lighter and lighter. After a while, everything becomes normal, again.
+999
+No time for that, now.
+1000
+Okay.
+1001
+Done.
+1002
+Done.
+1003
+a
+1004
+a
+1005
+You can't take that!
+1006
+You can't do that!
+1007
+You don't have that with you!
+1008
+You can't go that way!
+1009
+I beg your pardon?
+1010
+You can't.
+1011
+You already have that with you!
+1012
+What do you want to do?
+1013
+
+1018
+(worn)
+1019
+
+1020
+You can go: 
+1021
+north
+1022
+south
+1023
+east
+1024
+west
+1025
+up
+1026
+down
+1027
+
+1028
+
+1029
+
+1030
+
+1031
+You notice: 
+1032
+You have with you: 
+1033
+nothing.
+1035
+
+OGGETTI
+24
+
+Princess Briccorosso
+0
+0
+4
+TRUE
+FALSE
+25
+
+Albert Pinel
+0
+0
+17
+TRUE
+FALSE
+26
+
+Bicycle and motorbike mechanic
+0
+0
+18
+TRUE
+FALSE
+27
+
+A can full of paraffin
+0
+0
+0
+TRUE
+FALSE
+28
+
+Steam generator
+0
+0
+18
+TRUE
+FALSE
+29
+
+ITA model 150
+0
+0
+0
+TRUE
+FALSE
+30
+
+Sergio
+0
+0
+0
+TRUE
+FALSE
+31
+
+A bucket full of fresh water
+0
+0
+0
+FALSE
+FALSE
+32
+
+An empty bucket, repaired
+0
+0
+0
+FALSE
+FALSE
+33
+
+A poster
+0
+0
+19
+TRUE
+FALSE
+34
+
+A squeaky wheel
+0
+0
+20
+FALSE
+FALSE
+35
+
+A small dock
+0
+0
+21
+TRUE
+FALSE
+36
+
+A repaired wheel
+0
+0
+0
+FALSE
+FALSE
+37
+
+Elisa, the maid
+0
+0
+5
+TRUE
+FALSE
+38
+
+An old bucket, with a hole
+0
+0
+0
+FALSE
+FALSE
+39
+
+Acorns
+0
+0
+15
+FALSE
+FALSE
+40
+
+Oak leaves
+0
+0
+15
+FALSE
+FALSE
+41
+
+A short leaf rake
+0
+0
+0
+FALSE
+FALSE
+42
+
+A wine bottle, empty
+0
+0
+0
+FALSE
+FALSE
+253
+
+A cork
+0
+0
+0
+TRUE
+FALSE
+FINEDATI

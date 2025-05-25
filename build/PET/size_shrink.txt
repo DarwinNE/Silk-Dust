@@ -1,0 +1,20 @@
+-rw-r--r--  1 davidebucci  staff  28263 12 fév 00:06 PET40_silkdust1.prg
+-rw-r--r--  1 davidebucci  staff  26670 12 fév 00:06 PET40_silkdust2.prg
+-rw-r--r--  1 davidebucci  staff  28692 12 fév 00:06 PET40_silkdust34.prg
+-rw-r--r--  1 davidebucci  staff  28171 12 fév 00:06 PET80_silkdust1.prg
+-rw-r--r--  1 davidebucci  staff  26578 12 fév 00:06 PET80_silkdust2.prg
+-rw-r--r--  1 davidebucci  staff  28597 12 fév 00:06 PET80_silkdust34.prg
+
+-rw-r--r--  1 davidebucci  staff  28136 12 fév 02:19 PET40_silkdust1.prg
+-rw-r--r--  1 davidebucci  staff  26558 12 fév 02:19 PET40_silkdust2.prg
+-rw-r--r--  1 davidebucci  staff  28584 12 fév 02:19 PET40_silkdust34.prg
+-rw-r--r--  1 davidebucci  staff  28117 12 fév 02:19 PET80_silkdust1.prg
+-rw-r--r--  1 davidebucci  staff  26548 12 fév 02:19 PET80_silkdust2.prg
+-rw-r--r--  1 davidebucci  staff  28600 12 fév 02:19 PET80_silkdust34.prg
+
+-rw-r--r--  1 davidebucci  staff  28069 12 fév 13:21 PET40_silkdust1.prg
+-rw-r--r--  1 davidebucci  staff  26490 12 fév 13:21 PET40_silkdust2.prg
+-rw-r--r--  1 davidebucci  staff  28517 12 fév 13:21 PET40_silkdust34.prg
+-rw-r--r--  1 davidebucci  staff  28051 12 fév 13:21 PET80_silkdust1.prg
+-rw-r--r--  1 davidebucci  staff  26481 12 fév 13:21 PET80_silkdust2.prg
+-rw-r--r--  1 davidebucci  staff  28534 12 fév 13:21 PET80_silkdust34.prg

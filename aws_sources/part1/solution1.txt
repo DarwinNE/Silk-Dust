@@ -1,0 +1,85 @@
+w
+s
+talk to princess
+
+n
+d
+w
+s
+x statue
+take rake
+s
+talk to albert
+n
+n
+n
+u
+n
+n
+enter shop
+x poster
+w
+d
+x pole
+take bucket with rake
+s
+s
+x leaves
+take acorns
+put acorn in bucket
+e
+d
+talk to sergio
+drive the car
+u
+n
+enter workshop
+talk to mechanic
+w
+s
+d
+s
+e
+n
+x voicepipe
+open window
+n
+open window
+s
+talk to voicepipe
+s
+w
+s
+talk to sergio
+n
+n
+u
+n
+enter workshop
+talk to mechanic
+w
+s
+d
+fill bucket
+drive the car
+
+x wheel
+take wheel
+w
+put wheel in the lake
+take wheel
+e
+put wheel on the car
+
+s
+e
+s
+talk to princess
+
+
+
+
+
+
+*************************  ALTERNATIVE (repair bucket with cork): *************
+

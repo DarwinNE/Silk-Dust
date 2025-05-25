@@ -1,0 +1,219 @@
+Modules list:
+-------------
+artnouveau-charset.o:
+    DATA              Offs=000000  Size=000400  Align=00001  Fill=0000
+plus4splash.o:
+    CODE              Offs=000000  Size=0000F1  Align=00001  Fill=0000
+silkdust_splash_plus4.o:
+    CODE              Offs=0000F1  Size=002713  Align=00001  Fill=0000
+loader.o:
+    CODE              Offs=002804  Size=00028D  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(addeqsp.o):
+    CODE              Offs=002A91  Size=000011  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(callirq.o):
+    DATA              Offs=000400  Size=00001E  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(callmain.o):
+    CODE              Offs=002AA2  Size=000017  Align=00001  Fill=0000
+    DATA              Offs=00041E  Size=000004  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(clrscr.o):
+    LOWCODE           Offs=000000  Size=00000A  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(condes.o):
+    CODE              Offs=002AB9  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=000422  Size=000025  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(crt0.o):
+    DATA              Offs=000447  Size=000005  Align=00001  Fill=0000
+    STARTUP           Offs=000000  Size=00005E  Align=00001  Fill=0000
+    LOWCODE           Offs=00000A  Size=00003D  Align=00001  Fill=0000
+    INIT              Offs=000000  Size=00001A  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(decsp2.o):
+    CODE              Offs=002AC5  Size=00000D  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(exehdr.o):
+    EXEHDR            Offs=000000  Size=00000C  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(incsp2.o):
+    CODE              Offs=002AD2  Size=000016  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(irq.o):
+    CODE              Offs=002AE8  Size=000001  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(loadaddr.o):
+    LOADADDR          Offs=000000  Size=000002  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(pushax.o):
+    CODE              Offs=002AE9  Size=00001A  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(status.o):
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(staxsp.o):
+    CODE              Offs=002B03  Size=00000B  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(zerobss.o):
+    CODE              Offs=002B0E  Size=000023  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/plus4.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000002  00001B  00001A  00001
+LOADADDR              000FFF  001000  000002  00001
+EXEHDR                001001  00100C  00000C  00001
+STARTUP               00100D  00106A  00005E  00001
+LOWCODE               00106B  0010B1  000047  00001
+CODE                  0010B2  003BE2  002B31  00001
+ONCE                  003BE3  003BF0  00000E  00001
+RODATA                003BF1  003BF2  000002  00001
+DATA                  003BF3  00403E  00044C  00001
+INIT                  00403F  004058  00001A  00001
+
+
+Exports list by name:
+---------------------
+ST                        000090 RLZ    __BSS_RUN__               004059 RLA    
+__BSS_SIZE__              000000 REA    __CONSTRUCTOR_COUNT__     000001 REA    
+__CONSTRUCTOR_TABLE__     003BEF RLA    __DESTRUCTOR_COUNT__      000001 REA    
+__DESTRUCTOR_TABLE__      003BF1 RLA    __EXEHDR__                000001 REA    
+__HEADER_LAST__           00100D RLA    __HIMEM__                 00EFFF REA    
+__INTERRUPTOR_COUNT__     000000 REA    __INTERRUPTOR_TABLE__     003BF3 RLA    
+__LOADADDR__              000001 REA    __MAIN_SIZE__             00DDF2 REA    
+__MAIN_START__            00100D RLA    __STACKSIZE__             000200 REA    
+__STARTUP__               000001 REA    _bg1                      0038B3 RLA    
+_bg2                      0038B4 RLA    _border                   0038B5 RLA    
+_choice                   0038B6 RLA    _clrscr                   00106B RLA    
+_color                    0030E3 RLA    _doload                   00392E RLA    
+_luma                     0034CB RLA    _main                     001194 RLA    
+_screen                   0011A3 RLA    addeq0sp                  003B43 RLA    
+callirq_y                 003FF5 RLA    callmain                  003B54 RLA    
+charset                   003BF3 RLA    decsp2                    003B77 RLA    
+doneirq                   003B9A RLA    donelib                   003B6B RLA    
+incsp2                    003B8C RLA    initirq                   003B9A RLA    
+initlib                   003BE3 RLA    irq_done                  003B9A  LAI   
+irq_init                  003B9A  LAI   ptr1                      00000A RLZ    
+pushax                    003B9F RLA    sp                        000002 RLZ    
+sreg                      000004 RLZ    stax0sp                   003BB5 RLA    
+zerobss                   003BC0 RLA    
+
+
+Exports list by value:
+----------------------
+__BSS_SIZE__              000000 REA    __INTERRUPTOR_COUNT__     000000 REA    
+__EXEHDR__                000001 REA    __LOADADDR__              000001 REA    
+__DESTRUCTOR_COUNT__      000001 REA    __STARTUP__               000001 REA    
+__CONSTRUCTOR_COUNT__     000001 REA    sp                        000002 RLZ    
+sreg                      000004 RLZ    ptr1                      00000A RLZ    
+ST                        000090 RLZ    __STACKSIZE__             000200 REA    
+__MAIN_START__            00100D RLA    __HEADER_LAST__           00100D RLA    
+_clrscr                   00106B RLA    _main                     001194 RLA    
+_screen                   0011A3 RLA    _color                    0030E3 RLA    
+_luma                     0034CB RLA    _bg1                      0038B3 RLA    
+_bg2                      0038B4 RLA    _border                   0038B5 RLA    
+_choice                   0038B6 RLA    _doload                   00392E RLA    
+addeq0sp                  003B43 RLA    callmain                  003B54 RLA    
+donelib                   003B6B RLA    decsp2                    003B77 RLA    
+incsp2                    003B8C RLA    irq_done                  003B9A  LAI   
+doneirq                   003B9A RLA    initirq                   003B9A RLA    
+irq_init                  003B9A  LAI   pushax                    003B9F RLA    
+stax0sp                   003BB5 RLA    zerobss                   003BC0 RLA    
+initlib                   003BE3 RLA    __CONSTRUCTOR_TABLE__     003BEF RLA    
+__DESTRUCTOR_TABLE__      003BF1 RLA    charset                   003BF3 RLA    
+__INTERRUPTOR_TABLE__     003BF3 RLA    callirq_y                 003FF5 RLA    
+__BSS_RUN__               004059 RLA    __MAIN_SIZE__             00DDF2 REA    
+__HIMEM__                 00EFFF REA    
+
+
+Imports list:
+-------------
+ST (status.o):
+    crt0.o                    plus4/crt0.s(14)
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__EXEHDR__ (exehdr.o):
+    [linker generated]        plus4_p.cfg(6)
+__HEADER_LAST__ ([linker generated]):
+    [linker generated]        plus4_p.cfg(14)
+__HIMEM__ ([linker generated]):
+    [linker generated]        plus4_p.cfg(14)
+__INTERRUPTOR_COUNT__ ([linker generated]):
+    callirq.o                 runtime/callirq.s(36)
+    crt0.o                    plus4/crt0.s(11)
+__INTERRUPTOR_TABLE__ ([linker generated]):
+    callirq.o                 runtime/callirq.s(36)
+__LOADADDR__ (loadaddr.o):
+    [linker generated]        plus4_p.cfg(5)
+__MAIN_SIZE__ ([linker generated]):
+    crt0.o                    plus4/crt0.s(12)
+__MAIN_START__ ([linker generated]):
+    crt0.o                    plus4/crt0.s(12)
+    [linker generated]        plus4_p.cfg(14)
+__STACKSIZE__ ([linker generated]):
+    crt0.o                    plus4/crt0.s(13)
+    [linker generated]        plus4_p.cfg(14)
+__STARTUP__ (crt0.o):
+    plus4splash.o             plus4splash.s(13)
+_bg1 (silkdust_splash_plus4.o):
+    plus4splash.o             plus4splash.s(19)
+_bg2 (silkdust_splash_plus4.o):
+    plus4splash.o             plus4splash.s(20)
+_border (silkdust_splash_plus4.o):
+    plus4splash.o             plus4splash.s(18)
+_choice (loader.o):
+    plus4splash.o             plus4splash.s(21)
+_clrscr (clrscr.o):
+    plus4splash.o             plus4splash.s(14)
+_color (silkdust_splash_plus4.o):
+    plus4splash.o             plus4splash.s(16)
+_doload (loader.o):
+    plus4splash.o             plus4splash.s(184)
+_luma (silkdust_splash_plus4.o):
+    plus4splash.o             plus4splash.s(17)
+_main (plus4splash.o):
+    callmain.o                runtime/callmain.s(11)
+_screen (silkdust_splash_plus4.o):
+    plus4splash.o             plus4splash.s(15)
+addeq0sp (addeqsp.o):
+    plus4splash.o             plus4splash.s(184)
+callirq_y (callirq.o):
+    crt0.o                    plus4/crt0.s(9)
+callmain (callmain.o):
+    crt0.o                    plus4/crt0.s(10)
+charset (artnouveau-charset.o):
+    loader.o                  loader.s(34)
+decsp2 (decsp2.o):
+    plus4splash.o             plus4splash.s(184)
+doneirq (irq.o):
+    callirq.o                 runtime/callirq.s(38)
+donelib (condes.o):
+    crt0.o                    plus4/crt0.s(9)
+incsp2 (incsp2.o):
+    plus4splash.o             plus4splash.s(184)
+initirq (irq.o):
+    callirq.o                 runtime/callirq.s(37)
+initlib (condes.o):
+    crt0.o                    plus4/crt0.s(9)
+ptr1 (zeropage.o):
+    zerobss.o                 common/zerobss.s(9)
+    loader.o                  loader.s(36)
+    plus4splash.o             plus4splash.s(11)
+pushax (pushax.o):
+    callmain.o                runtime/callmain.s(11)
+sp (zeropage.o):
+    pushax.o                  runtime/pushax.s(8)
+    staxsp.o                  runtime/staxsp.s(8)
+    incsp2.o                  runtime/incsp2.s(8)
+    decsp2.o                  runtime/decsp2.s(8)
+    crt0.o                    /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/zeropage.inc(11)
+    addeqsp.o                 runtime/addeqsp.s(8)
+    plus4splash.o             plus4splash.s(10)
+sreg (zeropage.o):
+    plus4splash.o             plus4splash.s(10)
+stax0sp (staxsp.o):
+    plus4splash.o             plus4splash.s(184)
+zerobss (zerobss.o):
+    crt0.o                    plus4/crt0.s(10)
+

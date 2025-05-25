@@ -1,0 +1,517 @@
+LOCAZIONI
+30
+You stand in a large court. You have the factory entrance in front of you and a barn, with a small door, on your right.
+
+Factory court
+31
+0
+0
+0
+0
+0
+0
+0
+0
+0
+31
+The central hall is the heart of the factory. It is large and well illuminated by windows on the sides of the high roof. You see many workers busy, assembling chassis and preparing mechanical pieces.
+
+Main hall
+32
+30
+33
+35
+0
+0
+0
+0
+0
+0
+32
+In front of you, you see the place where steam engines for cars are assembled and tested. You see a large bench full of tools and a pillar drill, actioned by a large leather belt from one of the rotating lineshaft on the roof.
+
+Engine hall
+0
+31
+0
+34
+0
+0
+0
+0
+0
+0
+33
+This is the place where the coach-builders work. Two large trip hammers occupy the centre of the hall, moved by leather belts taking power from the lineshaft attached to the roof. A voicepipe is visible to the north wall.
+
+Coach-building hall
+0
+0
+0
+31
+0
+0
+0
+0
+0
+0
+34
+You know well the office of your father: his wooden desk is full of blueprints and a large book full of calculations. He is probably thinking to a new engine or something similar.
+
+You father's office.
+0
+35
+32
+0
+0
+0
+0
+0
+0
+0
+35
+Here is the place where the administrative stuff is treated. All the blueprints of the factory are conserved in this place, on large shelves.
+
+Administration and archives
+34
+0
+31
+36
+0
+0
+0
+0
+0
+0
+36
+This place is occupied by a desk, a drawing board and is elegantly decorated with a painting.
+
+Your uncle's office
+0
+0
+35
+0
+0
+0
+0
+0
+0
+0
+37
+This place contains the main steam engine of the factory.
+
+Barn
+0
+0
+0
+30
+0
+0
+0
+0
+0
+0
+40
+You stand before a staircase leading in front of a monumental wooden door. From this elevated place, the view towards east is charming.
+
+Entrance of the abbey
+0
+0
+46
+0
+41
+0
+0
+0
+0
+0
+41
+You are in a steep stairway under a high ceiling, built next to the rock of the mountain, literally under the church. Light shines through the portal at the top of the stairway. You see four skeletons, standing above you in a niche on the west wall. 
+
+Stairway of the dead
+0
+0
+0
+0
+42
+40
+0
+0
+0
+0
+42
+You see a beautiful portal, with a semicircular arch supported by pillars, finely carved in the stone.
+
+Zodiac portal
+43
+0
+0
+0
+0
+41
+0
+0
+0
+0
+43
+You are on a balcony, where you see all the Susa valley, towards the Rocciamelone mountain.
+
+West Balcony
+0
+42
+44
+0
+0
+0
+0
+0
+0
+0
+44
+You are inside the church of the abbey. You see various architectural styles, as this church has clearly been built and extended in different periods. Apses are built in bricks and the back of the church has an irregular shape. There are work in progress on the vault.
+
+Church
+0
+0
+45
+43
+0
+46
+0
+0
+0
+0
+45
+You are on a balcony, where you see across the valley the mountains in front of you, among the others the mount Musiné.
+
+East Balcony
+0
+0
+0
+44
+0
+0
+0
+0
+0
+0
+46
+You walk amongst the ruins of an abandoned part of the abbey. Some bushes with flower buds grow here and there.
+
+Ruins
+0
+0
+0
+40
+44
+0
+0
+0
+0
+0
+101
+You arrived in Turin on Friday evening, told your father, then spent the weekend reading. Now it's Tuesday April 23, 1907. You arrived at the ITA factory this morning to organise details of the delivery of spare parts to Princess Briccorosso. When you left her, she instructed Albert to write a message that should have arrived at the factory by now. You should find your father and discuss it.
+
+Introduction
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+110
+Enter password
+
+Introduction
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+MESSAGGI
+61
+Certainly not here!
+66
+You don't want to disturb him. He's occupied.
+122
+You won't need violence to complete this part of the game.
+200
+Your father smiles:^M^M- My dear Emilia, you made quite an impression to Princess Briccorosso. She wrote a letter to have an agent from ITA to join the rally. And she insisted to have you.^M^MYou can't believe it! You almost scream with joy: that will be a real adventure! And that Albert... uhm... he is a talented mechanic.^M^M- You will have to drive the car and write articles for the press, to be sent by telegraph during the rally. Coming to spares, here is a letter. Go see your uncle, he will organise the delivery.^M^MYou smile widely while you take it and put it in your pocket.
+201
+You open the letter. There is a list of the spares needed for the car. Albert discovered the rear axle has been tampered with, too. Better give that to your uncle. There is another message, addressed to you.
+202
+While you are opening the door of your uncle's office, Roberta, your uncle's secretary says:^M^M- Madam, Mister Tullio is occupied in a meeting, please come to see him at another moment.
+203
+She is young and looks to be very serious and committed to her work.
+204
+- Roberta, I hear voices from my uncle's office; who is meeting him?^M- A journalist, a certain Rizzitelli, from La voce del mattino, a newspaper in Milan. I don't know much apart from that he has been in discussion with your uncle for at least one hour.
+205
+Her name is Giovanna, but many call her Nanna. She is a young chief mechanics here and she is good at it. Giovanna has especially come from Rome to work at ITA, here in Turin. Everybody appreciates her, her energy and her accent. She is tiny, with long brown hair she keeps together with a red foulard, wearing makeup and bright orange overalls. She is currently assembling a set of five steam engines.
+206
+You summarise what your father said to you and Nanna smiles broadly:^M^M- Emilia, it looks like I'll have a lot of work to do to repair the car when you get back from the rally. Do try to bring it back in one piece!^M^MShe then becomes serious:^M^M- By the way, if I find who sabotaged the best 150 we built, I will make them deeply regret it.^M^MAnd you think she really means it, given the way she menacingly handles the 26mm spanner she has in her hand!
+207
+She looks busy. Maybe later.
+208
+It's a list of spare parts.
+209
+^MVarenna, April 25, 1907^M^MDear Miss Emilia,^M  I just learned that Princess Briccorosso asked you to take part in the rally. My heart is full of joy, as I would be honoured to go on this adventure with a driver as gifted as you. However, my conscience tells me to warn you that it may be dangerous and my life would become meaningless if something happened to you. Please remain assured that whatever your decision, I would be very happy at prospect of meeting you again.^M^MYour truly,^M  Albert Pinel^M^MIt's quite awkward: you are able to care for yourself, but you blush nonetheless with a certain pleasure reading the message: that young man seems interested to you.
+210
+If you recall well, this voicepipe is connected to your uncle's office.
+211
+You open the cover of the voicepipe and push the button. This sends compressed air that makes ring a little bell in your uncle's office. He answers:^M^M- Hello.^M- I'm Emilia. Do you think you can come? I need to speak to you.^M- Oh, yes, I'll come immediately.^M^MAfter a couple of minutes, you see your uncle arriving in the hall.
+212
+Tullio is your uncle. He is about 45 years old and he is the younger brother of your father. He sports a brown beard and is always dressed in a formal way, but without ostentation. He is a great artist in his field.
+213
+You don't need to call your uncle now. Maybe later.
+214
+No, you want to discuss with your uncle about it.
+215
+- Emilia, thanks for having called me! That young journalist was so insisting. He wanted to know everything about the model 150 we sent to Varenna and how Briccorosso is preparing the rally.
+216
+You already discussed with your uncle. He is probably waiting for the journalist to go away.
+217
+You recognise the familiar oily smell of cutting fluid.
+218
+He's a giant, but with his large hands he crafts delicate metal sculptures.
+219
+He is using one of the noisy power hammers.
+220
+No, you know that Anteo does not like at all to be interrupted while he is working.
+221
+It's too noisy here to use the voicepipe.
+222
+You look at those beautiful new cars: a model 100 and a model 50A.
+223
+- Anteo, sorry to bother you, it seems to me that there is a dent in the bonnet of the model 100 parked in the court. Is that normal?^M^M- WHAT THE...? MARCELLINOOOOO!!!^M^M The boy runs away scared and, with a grunt, Anteo says:^M^M- I'm going to check.^M^MAnteo leaves and stops the hammer. Ahhh, silence!
+224
+He is trying to remove the dent with his bare hands and a small wooden mallet! And with a certain success, from what you can judge. This man is impressive.
+225
+You give the letter with the list of spare pieces to your uncle.^M^M- Uhm, Emilia, I will arrange everything. Do you suspect someone? I contacted the chief of the transport company, he is sad about what happened and said they discovered someone broke into their warehouse in Milan the night before the delivery. Their insurance will take charge of everything.
+226
+- M'am are you Emilia Vittorini?^M^M- Yes, I am^M^M- Nice to know you, my name is Riziero Rizzitelli and I work for the Voce del mattino newspaper.^M^MThe young man starts to ask you many questions. Fortunately, you gained experience handling insisting questioners three years ago, when you came back from the mission in Egypt. You are able to extract yourself from the conversation, politely yet firmly. At the end, Rizzitelli gives you the calling card of his boss. He then asks if you think your uncle will return soon and leaves after your negative answer.
+227
+- It says: Altiero di Risso, La voce del mattino, Director, with an address in Milan.
+228
+He looks young and overly enthusiastic about his work.
+229
+It is a short wheel base rolling chassis, ready to be equipped with a model 50A body by coachbuilders.
+230
+The rolling chassis is not there anymore, the finished cars are beautiful! Wait a second: is that a dent on the side of the bonnet of the 100? Is it the result of the crash you heard?
+231
+You may try, but it will probably not work.
+232
+While you are about to speak, you understand it is better not to disturb him. Anteo yells at the workshop assistant to get the rolling chassis there. Was it a crash the sound you heard? Anteo rises an eyebrow. After a while, Marcellino pushes a rolling chassis there, whistling.
+233
+He is young and quite lazy, everybody calls him "bòcia," in Piedmontese language. He is an orphan and you know Anteo insisted to hire him to save him from poverty.
+234
+Your father is a middle-aged man, relatively tall and with bright eyes. Thirteen years ago with his brother he founded a steam car company, called ITA, i.e. Industria Torinese Automobili. He is a mechanical genius and a cultivated man.
+235
+- Marcellino, how are you?^M^M- Fine, Madam!
+236
+You try to call your uncle, but he does not hear you! You notice a button, nearby.
+237
+You push the button, but nothing happens. You notice an airline: this thing works with compressed air and there is no pressure, now.
+238
+You ask to Giovanna about the compressed air:^M^M- Oh, yes, I am going to need it, too! Go in the court, you'll find the compressor next to the steam engine, pull the lever on it and it will work. Here is the key for the barn's door.^M^MShe hands you a large rusted key.
+239
+You pull the lever, as instructed by Giovanna, but you immediately hear a burbling sound that you don't like. You switch it off.
+240
+It's a simple compressor system, the lever controls a clutch that engages on the main lineshaft moved by the steam engine. There is a valve on the bottom of the compressor.
+241
+You open the valve for a while. Some rusty water flows for a while. That compressor truly needed that. You close the valve.
+242
+When you pull the lever, the sound of the compressor is much more reassuring. You see a needle indicating the pressure, slowly rising. That will do!
+243
+The door is locked.
+244
+You push the button and you listen your uncle's voice from the voicepipe.
+245
+It's fun that a key so large opens a door so small!
+246
+It's a large door in wrought iron soberly decorated, with large glass windows.
+247
+You see a chimney. It must contain the main steam engine of the factory.
+248
+It's the barn's door.
+249
+It's a small, unassuming button, close to the voicepipe.
+250
+They work hard!
+251
+You don't want to disturb them.
+252
+They soon will be shiny new cars.
+253
+You see the bright sunlight getting through the windows refracted through volatile dust specks.
+254
+One of those trip hammers is being used by Anteo and is very noisy.
+255
+Those two trip hammers are not being used, now.
+256
+Lineshafts on the roof distribute power in the factory and are moved by a large steam engine. When you were a kid, you wondered how the belts never walked off the pulleys. Your father once showed you that the driving pulleys are crowned and the belt self-centres on it.
+257
+No. You don't need to look at blueprints, yet.
+258
+This is a well equipped factory!
+259
+Roberta sees you and says:^M^M- Madam, we just received this telegram for you.^M^MShe hands it to you.
+260
+It says: "DEAR EMILIA STOP I'M AT SACRA SAN MICHELE STOP COME TO SEE ME IF YOU CAN. FATHER MILIERI." Oh, yes, Father Antonio Milieri was a Franciscan missionary in Luxor. You knew him during your stay in Egypt, he helped you a lot during the archeological searches. The Sacra, or the Saint Michael's Abbey is not far from Turin. You may go there today if you find a car... It won't be difficult, here!
+261
+You go to the engine hall and you ask permission to Giovanna to test-drive one of the finished cars. She proposes you to drive of the model 50A, in need to be tested before being shipped. She agrees with you that a trip to the Saint Michael Abbey will be perfect for that. The trip there takes one hour and the car will only require minor adjustments to the brakes.^M
+262
+Father Milieri smiles broadly when he sees you: it's the first time you meet again since three years ago, when you worked in Egypt. You are happy to see him, too. He's a nice man.^M^M- Emilia, I'm so happy that God allowed me to meet you again!^M^MYou have a friendly chat for a few minutes. Father Milieri is a Franciscan, but loves the Abbey and his friends Rosminians are happy to welcome him there when he comes back from Egypt. Then Father Milieri says to you that since last year the situation has worsened in Egypt. Some nations and empires have sent many spies towards the Suez channels, to survey their interests. Many worrisome traffics take place in Egypt, now. Then, Father Milieri says he has to go back to his spiritual exercises.^M^M- My dear Emilia: if you go in Egypt, please be careful!
+263
+Father Milieri is a tall man, about 65 years old, with white hair and a beard. He has lived more than 20 years in Luxor, in Egypt and you met him there during your mission in 1904.
+264
+The 50A is derived from the model 50, it's light and sporty. You like this car.
+265
+Those are corpses of former monks, mummified, holding a cross. Very impressive: "Remember that you have to die." 
+266
+It's the mountainside on the top of it there is the church of the abbey.
+267
+It is stunningly decorated with the astrological signs and figures, finely carved in the marble. Capitals represent allegorical scenes full of the Middle Age symbolism.
+268
+When you try to enter the Abbey, the handyman shouts at you: you don't understand a word, but he clearly does not want you to go inside.
+269
+You try speaking with the handyman, understanding from his patois his name is Salvatore and not much more. He does not seem very smart, by the way...
+270
+He wears a habit, but he has no tonsure, probably he is not a monk. He must be an orphan raised in the abbey, to help friars in heavy works. He is ploughing a small garden, close to the entrance. He speaks patois, he probably comes from the high valley.
+271
+Salvatore pauses his work and notices the car: he screams with joy and runs to have a closer look to it.
+272
+He repeats a word: "màchina", "màchina". He seems really excited by the ITA 50A.
+273
+You make you understand that you can bring him for a drive. He immediately jumps onboard. You sit on the driver's seat and drives towards the nearby Colle Braida, towards Giaveno to head back towards the Avigliana lakes and to the Sacra again. In the hands of a pilot like yours, it's a pretty exciting ride on those twisty roads. Salvatore is delighted! At the end he smiles to you, he will let you enter the abbey.
+274
+They are praying. You dont want to disturb them.
+275
+You have a clear view of the beautiful Avigliana castle and the lakes on a side. You also see Turin and Superga on the hill behind the city.
+276
+The stairs are made with stone and climb towards the entrance of the abbey.
+277
+It seems solid, but it is open, now.
+278
+He does not look interested.
+279
+At this hour, a ray of light entering from the portal illuminates directly the skeletons. Brr!
+280
+It seems local marble.
+281
+It's a nice place.
+282
+You see a magnificent view of the Graian and Cottian Alps on the two sides of the valley. The Rocciamelone is the highest mountain nearby and is very easy to recognize by its shape.
+283
+You read somewhere they are being building a new vault: the old one menaced to collapse and was demolished.
+284
+There are three apses, the central one is quite large and is lit by windows and candles.
+285
+Romanesque, transitional Romanesque and Gothic.
+286
+There are strange legends on the Musiné mountain. Some say there are witches there, other say aliens have landed there... Bunch of nonsense!
+287
+The drive towards Turin is uneventful. You give the 50A car back to Giovanna by instructing her about the brake adjust. You spend the next few days preparing yourself to take a ferry towards Egypt and thinking about the Silk Dust rally and what Father Milieri said about the spies.^M^MPassword for part 3: SHIBBOLETH FEMENENRIE
+288
+Those are wild peonies.
+289
+It's a fairy large and powerful steam engine. It's on and it's moving the lineshafts in all the factory, now.
+290
+It's a manual valve on the bottom of the air compressor tank.
+291
+"For in that sleep of death, what dreams may come,^MWhen we have shuffled off this mortal coil..."
+400
+No. You aren't tired, now.
+401
+No need to do that now.
+402
+Use 'bye' if you want to stop playing.
+403
+Oh, no, we are not going to stay here all day!
+407
+This is a text adventure game. Read descriptions carefully and type commands such as 'examine bed'. Type "north", "south", ... to move in the desired direction.. Abbreviations are possible "x" for "examine", "l" to "look" (i.e. describe your current location again), "i" for "inventory," "n" for "north" and so on. To quit the game, type "bye". To restart it, type "restart".
+408
+Please, type a more specific action...
+504
+Please feel free to continue, if you wish to... I've become impervious to swearing and profanity a long time ago.
+505
+No, you don't feel the need.
+518
+You'll examine yourself much better with a mirror.
+996
+You see nothing interesting.
+997
+You don't smell anything in particular, apart from a barely perceptible scent of lavender, coming from your clothes.
+998
+You have a strange sensation, almost as if you were becoming lighter and lighter. After a while, everything becomes normal, again.
+999
+No time for that, now.
+1000
+Okay.
+1001
+Done.
+1002
+Done.
+1003
+a
+1004
+a
+1005
+You can't take that!
+1006
+You can't do that!
+1007
+You don't have that with you!
+1008
+You can't go that way!
+1009
+I beg your pardon?
+1010
+You can't.
+1011
+You already have that with you!
+1012
+What do you want to do? 
+1013
+
+1018
+I wear 
+1019
+
+1020
+You can go: 
+1021
+north
+1022
+south
+1023
+east
+1024
+west
+1025
+up
+1026
+down
+1027
+
+1028
+
+1029
+
+1030
+
+1031
+You notice: 
+1032
+You have with you: 
+1033
+nothing.
+1035

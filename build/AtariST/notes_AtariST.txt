@@ -1,0 +1,24 @@
+ADDITIONAL NOTES FOR THE ATARI ST VERSION OF SILK DUST
+
+    Davide Bucci
+
+I prepared two executables for the Atari ST (tested with TOS 1.62):
+- sd40.tos can be used on a low resolution display, it exploits more colours.
+- sd80.tos is more fit to the medium resolution, shows text on 80 columns and
+  less colours.
+
+Both files are provided separately and in .st disk images:
+
+- Silk_Dust.st              Double side 11-sector formatting
+- Silk_Dust_9sectors.st     Double side  9-sector formatting
+
+The ST version of Silk Dust would not be existing without the work of George
+Nakos, who also provided the code to show the splash screen and converted the
+image.
+
+
+If you have comments or remarks, feel free to write me at:
+
+davbucciNOSPAM@tiscali.it
+
+(email containing attachments will be automatically removed by my provider)

@@ -1,0 +1,20 @@
+ADDITIONAL NOTES FOR THE COMMODORE AMIGA VERSION OF SILK DUST
+
+    Davide Bucci
+
+
+The disk will load at startup the first part of the game. Type the passwords to
+jump to the part of the game you want to play.
+
+Alternatively, load Workbench and open a shell, go in the disk root directory.
+The executable is called:
+
+silkdust
+
+I will soon prepare an icon and an Info file.
+
+If you have comments or remarks, feel free to write me at:
+
+davbucciNOSPAM@tiscali.it
+
+(email containing attachments will be automatically removed by my provider)

@@ -1,0 +1,23 @@
+NOTE FOR BUILDING SILK DUST FOR THE VIC-20
+------------------------------------------
+
+The files produced by AWS2C can not work stright away for the VIC-20.
+Given the un-continuous nature of the VIC-20 memory with the 32KB expansion,
+the segment RODATA should be split in two between the MAIN memory and the
+HIGH memory.
+
+**************
+silkdust1_no_UTF8.c should be modified by adding the following pragma around
+after the definition of message88:
+
+#pragma rodata-name ("HIMEM")
+
+**************
+silkdust2_no_UTF8.c should be modified by adding the following pragma around
+after the definition of message226:
+
+#pragma rodata-name ("HIMEM")
+
+**************
+silkdust34_no_UTF8.c should be modified by adding the following pragma around
+after the definition of message618:

@@ -1,0 +1,23 @@
+         ADDITIONAL NOTES FOR THE COMMODORE VIC20 VERSION OF SILK DUST
+
+                                Davide Bucci
+
+
+This version of the game runs on the Commodore VIC20.
+Run the loader to decide which part of the game you want to play.
+You will need a 32KB RAM expansion installed in your computer. The expansion
+must fill the banks 1,2,3 and 5. On VICE, in go to the Settings menu, then
+Resource Inspector, finally click on the RAM settings. Check that banks 1,2,3
+and 5 are active.
+
+The splash screen has been adapted by Orion70 of the Denial forum.
+The font used in the 40-column routine has been drawn by Mike of the Denial
+forum.
+
+Many thanks to all beta testers!
+
+If you have comments or remarks, feel free to write me at:
+
+davbucciNOSPAM@tiscali.it
+
+(email containing attachments will be automatically removed by my provider)

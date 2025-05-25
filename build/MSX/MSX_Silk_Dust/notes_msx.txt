@@ -1,0 +1,19 @@
+ADDITIONAL NOTES FOR THE MSX VERSION OF SILK DUST
+
+    Davide Bucci
+
+This version contains Silk Dust split in three different files. You will need
+the password at the end of each part to start the following one.
+It is not possible to load and save the game state, so the passwords are the
+only way to get at a particular moment in the game. Write them down.
+
+The three .cas files have been tested with the OpenMSX emulator configured to
+provide a Toshiba HX-10 machine with 28815 bytes free after the boot.
+It is important to have enough free memory to load the game that requires about
+28kbytes. You find the .cas as well as .wav files in the archive.
+
+If you have comments or remarks, feel free to write me at:
+
+davbucciNOSPAM@tiscali.it
+
+(email containing attachments will be automatically removed by my provider)

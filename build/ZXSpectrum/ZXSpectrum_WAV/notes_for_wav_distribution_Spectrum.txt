@@ -1,0 +1,15 @@
+                                    SILK DUST
+
+                         A text adventure, by Davide Bucci
+
+This archive contains the tape files of the game for the ZXSpectrum 48, distributed as
+WAV audio files. Two version are provided:
+- the "standard" audio files that are longer, but more reliable
+- the "turbo" audio files that are much shorter, but fail with a suboptimal audio system
+
+Both versions have been obtained directly by the output of the z88dk compiler, then
+low-pass filtered with Audacity at 12kHz. This makes them compatible with the Fuse
+emulator and may reduce aliasing problems.
+
+The tape version of Silk Dust on the Spectrum 48 can not save the game state: you should
+use the passwords provided by the game.

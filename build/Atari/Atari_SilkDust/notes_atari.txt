@@ -1,0 +1,20 @@
+ADDITIONAL NOTES FOR THE ATARI 8-BIT COMPUTERS VERSION OF SILK DUST
+
+    Davide Bucci
+
+
+This version of the game runs on Atari 8-bit computers.
+It is distributed as three .xex executable files that you can load on an 
+emulator or transfer to your computer.
+You also find a .atr disk image that contains the three files and comes with
+dos.
+
+
+If you have comments or remarks, feel free to write me at:
+
+davbucciNOSPAM@tiscali.it
+
+(email containing attachments will be automatically removed by my provider)
+
+ACKNOWLEDGMENT: I would like to warmly thank Filippo Santellocco for his help
+porting the game towards Atari systems.

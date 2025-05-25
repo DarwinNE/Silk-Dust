@@ -1,0 +1,135 @@
+==
+I have listed some possible changes in the order they appear in the text file.
+I have used just the part of the message with the change, rather than the whole thing each time.
+A few are corrections and most are just suggestions for consideration.
+Good Luck...
+
+
+Note:
+`Panelling` is UK spelling
+`Paneling` is US spelling
+
+
+Bathroom:
+
+there is an impressive tub recessed in the floor ->
+there is an impressive tub recessed into the floor
+
+
+Garden, Magnoglia tree:
+Magnoglia -> 
+Magnolia
+
+
+Upper road, south:
+you can enter in a bakery, in a haberdashery, and into a bicycles and bikes repair workshop. ->
+you can enter a bakery, a haberdashery or a bicycle and motorbike repair shop.   (?)
+
+
+Upper road, north:
+You have arrived at the entrance of the village, ->
+You have arrived at the entrance to the village, 
+
+next to the road that passes the upper part of it. ->
+beside the road that passes the upper part of it. 
+
+
+Small harbour:
+delimit a canal in the harbour. ->
+delimit a channel in the harbour.
+
+
+Alley:
+Leaves and acorns that have fallen from the trees creak under your feet as you walk among them. ->
+Leaves and acorns that have fallen from the trees crunch under your feet as you walk among them.
+
+
+Rose garden:
+cared by skilful hands. ->
+cared for by skilful hands.
+
+
+Stonemason's workshop:
+Decorative marble plates are hung to the wall and showcase the products sold. ->
+Decorative marble plates are hung to the wall which showcase the products sold.
+
+
+Your father's office.:
+He is probably thinking to a new engine or something similar. ->
+He is probably designing a new engine or something similar.
+
+
+East Balcony:
+You are on a balcony, where you see mountains in front of you across the valley the, among them, mount Musiné. ->
+You are on a balcony, where you see mountains in front of you across the valley, among them, mount Musiné.
+
+Toolshed:
+It's an old wooden shed, in need of some repairs, as water infiltrates inside. Salvatore stores here the tools he uses for the vegetable garden. ->
+It's an old wooden shed, in need of some repairs, as rain gets inside. Salvatore stores the tools he uses for the vegetable garden here. 
+
+
+Tavern:
+Fishermen go there after they finish their duties in the sea ->
+Fishermen go there when they finish their work at sea.
+
+
+Introduction (1):
+You came at the ITA factory this morning  ->
+You came to the ITA factory this morning 
+
+Introduction (2):
+Four days ago, you have boarded ->
+Four days ago, you boarded
+
+For the moment, it has been a nice cruise ->
+So far, it has been a nice cruise
+
+Msg.20:
+Habitants of Varenna live there. ->
+Inhabitants of Varenna live in them.
+
+
+Msg.63:
+He is an old man and is occupied cleaning a minute steam generator of a motorbike. ->
+He is an old man and is occupied cleaning a minute steam generator from a motorbike.
+
+
+Msg.79:
+You says that you are in Varenna to test the ITA car ->
+You say that you are in Varenna to test the ITA car
+
+
+Msg.106:
+Let's discuss there. ->
+Let's talk there.
+
+
+Msg.125:
+wondering what was the life of the artists who worked here, ->
+wondering what life was like for the artists who worked here,
+
+Msg.143:
+You have a tour around sewing articles, buttons and cloths ->
+You have browse around the sewing items, buttons and cloth
+
+
+Msg.302:
+you should dress something ->
+you should dress in something 
+
+
+Msg.308
+ You may go there today ->
+ You can go there today
+
+
+Msg.606:
+A stare from the cook makes you understand it's better not explore the pantry while he can see you ->
+A stare from the cook tells you it's better not explore the pantry while he can see you
+
+Msg.623:
+You can descend on the pirates' ship,
+You can descend to the pirates' ship,
+
+==
+

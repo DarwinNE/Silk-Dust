@@ -1,0 +1,36 @@
+Version 0.1 -> 0.1.1
+--------------------
+(suggestions by Chris Carter)
+
+[FIXED] - Talk several times to Albert -> you can't
+[FIXED] - I am using DOSBOX, and after I've run around and kissed Albert, run around some more and something triggered us all eating, but the messages are too long for DOSBOX and it does not scroll back, so some pause may be needed in the message.
+[FIXED] - Same for message about pirates when leaving Emilia's room after (1)
+[FIXED] - I am locked in Emilia's room (cabin) with the porthole open and I'm trying to work out what command to use to get up the ladder... `U` give me a strange message... `You can't go that way! You are protected by the darkness and you see that there is nobody in the port promenade deck, you can go there.`
+[FIXED] - Implement `Use umbrella to grab ladder`
+[FIXED] - Implement `use umbrella to get ladder`
+[FIXED] - Implement 'hook ladder using umbrella`
+[FIXED] - Implement 'use umbreall to hook ladder'
+[FIXED] - Get cannon makes sort that it enters in the inventory -> you can not take the cannon!
+[FIXED] - Spike the cannon -> implement synonyms such as "hammer nails in cannon"
+[FIXED] - when locked in cabin "use umbrella to climb ladder" then "u" can't go "d" anymore!
+
+Version 0.1.1
+-------------
+(suggestions by Chris Carter)
+
+[FIXED] - After the cannon had been unloaded, the command `x cannon` still shows a message saying it is loaded.
+[FIXED] - "ignite the gunpowder" -> add synonyms such as `use match to ignite gunpowder` and varied `match` with `matches`  `ignite` with `explode`, `burn` and `light`
+
+Version 0.1.2
+-------------
+Part three:
+[FIXED] - Aft the loading deck there is the captains cabin. When trying to enter it, Emilia denies that because she needs permission. What is missing is that the captians cabin is mentioned when Emilia arrives on the loading deck. It does make sense that she mentions that the captains cabin is aft.
+
+Part four:
+[FIXED] - Chapter four is stunningly short! I don't know if it is a memory issue that you have to cut it short, but if not, it should be expanded. Let me know and I'll think about ways of making the last chapter longer.
+[FIXED] - Leaving the tavern to the east will result in directly getting on the pirate boat, although Emilia should first be at the harbour. 
+
+Version 0.5
+-----------
+
+"burn a match" yields "you can't go that way"

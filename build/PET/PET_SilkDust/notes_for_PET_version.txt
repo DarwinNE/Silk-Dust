@@ -1,0 +1,19 @@
+                                    SILK DUST
+
+                         A text adventure, by Davide Bucci
+
+This version of the game should run on a Commodore PET computer with at least 
+32KB of RAM and a 40 or 80 column display. PET40 and PET80 in the file names 
+refer to this. For your convenience, the game is distributed in both six .prg
+files that you can load immediately in your emulator (drag and drop in Vice,
+for instance), or with two disk images that should work for a 2032 disk drive.
+
+PET 3032: Type POKE 59468,14 before running the game to switch to the lower case
+font. Load the 40 column version of the game.
+
+PET 4032: Load the 40 column version of the game.
+
+PET 8032, 8096, 8296: Load the 80 column version of the game.
+
+PET 2001, 3008, 3016, 4016: Unsupported.
+

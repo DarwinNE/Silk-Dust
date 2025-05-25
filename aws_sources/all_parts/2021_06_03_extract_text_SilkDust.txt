@@ -1,0 +1,2367 @@
+LOCAZIONI
+1
+You are in a bedroom. You slept here last night. The walls are covered by elegant upholstery. You see your bed in a corner and a small desk with a chair. The room is brightly lit by a window to the east and a large library occupies the entire south wall.
+
+Bedroom
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+2
+You admire the landing at the top of a large staircase, decorated with marble panelling and a fresco. Large houseplants adorn two corners of the room.
+
+Staircase top
+3
+4
+1
+0
+0
+6
+0
+0
+0
+0
+3
+You stand in a well equipped bathroom. In front of you there is an impressive tub recessed into the floor, in maiolica and marble, accessible through three steps. On your right there are two basins and a large mirror hung to the wall. The floor is covered in marble.
+
+Bathroom
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+4
+A vast room opens in front of you. Red upholstery covers the wall and a large wooden table with chairs occupies its centre. Above it hangs a large chandelier with decorated burners. Paintings on the wall represent views of Lake Como.
+
+Salon
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+5
+You are in a room decorated with carved walnut furniture and the walls are covered with dark wallpaper. The atmosphere is cosy and muffled, there is the brass voicepipe system in a corner and a large window to the west lightens the room.
+
+Black room
+22
+6
+0
+0
+0
+0
+0
+0
+0
+0
+6
+You stand at the bottom of the staircase. You see the marble panelling and the fresco visible from upstairs, too.
+
+Staircase bottom
+5
+7
+-1
+8
+2
+0
+0
+0
+0
+0
+7
+You are in a large room wich has walls covered with wallpaper and a painted ceiling. A large tapestry is at your left whilst you walk on the soft carpet that covers the floor.
+
+Red room
+6
+0
+0
+0
+0
+0
+0
+0
+0
+0
+8
+You stand outside Villa Briccorosso, in the shade of a magnificent Magnolia tree. You admire the view of Lake Como through the marble columns of a small porch just in front of the lake.
+
+Garden, Magnolia tree
+9
+16
+6
+0
+0
+0
+0
+0
+0
+0
+9
+You are in front of a fountain, not far from the lake shore. A path leads upwards, towards the city centre of Varenna.
+
+Garden, Fountain
+0
+8
+22
+0
+10
+0
+0
+0
+0
+0
+10
+You are in a square in the city centre, surrounded by a church and other buildings. You feel a slight breeze blowing.
+
+Upper square
+11
+255
+0
+15
+0
+9
+0
+0
+0
+0
+11
+You are walking on a road. Carriages must pass here, as the alleys below are too small and too steep for them. Small shops surround the road, you can enter a bakery, a haberdashery or a bicycles and bikes repair shop.
+
+Upper road, south
+12
+10
+0
+0
+0
+14
+0
+0
+0
+0
+12
+You have arrived at the entrance to the village, beside the road that passes the upper part of it. You can enter in a stonemason's workshop from here.
+
+Upper road, north
+0
+11
+0
+0
+0
+13
+0
+0
+0
+0
+13
+You are in a typical small harbour. There is an old fisherman's boat abandoned on the shore in bad shape. You see an odd-looking post in the lake to delimit a channel in the harbour.
+
+Small harbour
+0
+14
+0
+0
+12
+0
+0
+0
+0
+0
+14
+You stand in the middle of a small square, just above Lake Como. Placid waves come from the lake to the shore, nearby. It's a charming place and there is a little bar with tables outside.
+
+Lowest square
+13
+15
+0
+0
+11
+0
+0
+0
+0
+0
+15
+You are in a small and twisted alley lined with tall oaks and surrounded by high walls. Such places are common and characteristic here. Leaves and acorns that have fallen from the trees crunch under your feet as you walk among them.
+
+Alley
+14
+0
+10
+0
+0
+0
+0
+0
+0
+0
+16
+You are in a beautiful botanical garden on the shore of Lake Como, full of aromatic herbs. A statue of a nymph embellishes the place. A small gate leads to the east, towards the barn behind the villa.
+
+Botanical garden
+8
+17
+255
+0
+0
+0
+0
+0
+0
+0
+17
+Many roses of multiple shapes and colours grow neatly around you, cared for by skilful hands.
+
+Rose garden
+16
+0
+0
+0
+0
+0
+0
+0
+0
+0
+18
+You are in a room with several bicycles hung from the roof and a working bench. Two motorbikes are parked on the other side of the room, in front of a large fuel can.
+
+Bicycle and motorbike shop
+0
+0
+0
+11
+0
+0
+0
+0
+0
+0
+19
+You are in a small shop. Decorative marble plates are hung to the wall, which showcase the products sold. Varenna is close to marble quarries and the stone is worked here.
+
+Stonemason's workshop
+0
+0
+0
+12
+0
+0
+0
+0
+0
+0
+20
+You are stranded in a road, very close to the lake.
+
+Twisty road
+0
+0
+0
+21
+0
+0
+0
+0
+0
+0
+21
+You are in a small shore. The place is beautiful and the late morning sun is very pleasant, but you are not in the right mood to appreciate it.
+
+Lake shore
+0
+0
+20
+0
+0
+0
+0
+0
+0
+0
+22
+Princess Briccorosso invites the Italian Exploration Society to do conferences here as she is a former president and funder. You can see the lake from the window to the west and the usual set of chairs and desks that are appropriate in such a place.
+
+Conference room
+0
+5
+0
+9
+0
+0
+0
+0
+0
+0
+30
+You are standing in a large courtyard. The factory entrance is in front of you and a barn, with a small door, is on your right.
+
+Factory courtyard
+31
+0
+0
+0
+0
+0
+0
+0
+0
+0
+31
+The central hall is the heart of the factory. It is large and well illuminated by windows on the sides of the high roof. You see many workers busy, assembling chassis and preparing mechanical parts.
+
+Main hall
+32
+30
+33
+35
+0
+0
+0
+0
+0
+0
+32
+In front of you, you see the place where steam engines for cars are assembled and tested. You see a large bench full of tools and a pillar drill, driven by a large leather belt from one of the rotating lineshafts hung from the roof.
+
+Engine hall
+0
+31
+0
+34
+0
+0
+0
+0
+0
+0
+33
+This is the place where the coach-builders work. Two large trip hammers occupy the centre of the hall, moved by leather belts taking power from the lineshaft attached to the roof. A voicepipe is visible on the north wall.
+
+Coach-building hall
+0
+0
+0
+31
+0
+0
+0
+0
+0
+0
+34
+You know your father's office well. His wooden desk is full of blueprints and a large book full of calculations. He is probably designing a new engine or something similar.
+
+Your father's office.
+0
+35
+32
+0
+0
+0
+0
+0
+0
+0
+35
+This is the place where the administrative stuff is done. All the blueprints of the factory are kept in this place, on large shelves.
+
+Administration and archives
+34
+0
+31
+36
+0
+0
+0
+0
+0
+0
+36
+This place is occupied by a desk, a drawing board and is elegantly decorated with a painting.
+
+Your uncle's office
+0
+0
+35
+0
+0
+0
+0
+0
+0
+0
+37
+This place contains the main steam engine of the factory.
+
+Barn
+0
+0
+0
+30
+0
+0
+0
+0
+0
+0
+40
+You stand before a staircase leading to the front of a monumental wooden door. From this elevated place, the view towards the east is charming. There's a toolshed to the south, with a wooden door.
+
+Entrance of the abbey
+0
+47
+46
+99
+41
+0
+0
+0
+0
+0
+41
+You are on a steep stairway under a high ceiling, built next to the rock of the mountain, literally under the church. Light shines through the portal at the top of the stairway. You see four skeletons, standing above you in a niche on the west wall. 
+
+Stairway of the dead
+0
+0
+0
+0
+42
+40
+0
+0
+0
+0
+42
+You see a beautiful portal, with a semicircular arch supported by pillars, finely carved in the stone.
+
+Zodiac portal
+43
+0
+0
+0
+0
+41
+0
+0
+0
+0
+43
+You are on a balcony, where you see all the Susa valley, towards the Rocciamelone mountain.
+
+West Balcony
+0
+42
+44
+0
+0
+0
+0
+0
+0
+0
+44
+You are inside the church of the abbey. You see various architectural styles, as this church has clearly been built and extended in different periods. Apses are built in bricks and the back of the church has an irregular shape. There is work in progress on the vault.
+
+Church
+0
+0
+45
+43
+0
+46
+0
+0
+0
+0
+45
+You are on a balcony, where you see mountains in front of you across the valley, among them, mount Musiné.
+
+East Balcony
+0
+0
+0
+44
+0
+0
+0
+0
+0
+0
+46
+You walk amongst the ruins of an abandoned part of the abbey. Some bushes with flower buds grow here and there.
+
+Ruins
+0
+0
+0
+40
+44
+0
+0
+0
+0
+0
+47
+It's an old wooden shed, in need of some repairs, as rain gets inside. Salvatore stores the tools he uses for the vegetable garden here.
+
+Toolshed
+40
+0
+0
+0
+0
+0
+0
+0
+0
+0
+60
+This is where the captain and the crew navigate and control the ferry.^M^MYou can go: aft
+
+Bridge
+0
+62
+0
+0
+0
+0
+0
+0
+0
+0
+61
+You are standing on a covered deck; there are wooden deckchairs pointing towards the sea.^M^MYou can go: aft starboard
+
+Promenade deck (port)
+0
+64
+62
+0
+0
+0
+0
+0
+0
+0
+62
+You are inside the ferry's central deckhouse. Wood panels kept together by brass elements cover the floor, forming a parquet pattern.^M^MYou can go: fore aft starboard port down
+
+Deckhouse
+60
+65
+63
+61
+0
+72
+0
+0
+0
+0
+63
+You are standing on a covered deck; there are wooden deckchairs pointing towards the sea.^M^MYou can go: aft port
+
+Promenade deck (starboard)
+0
+66
+0
+62
+0
+0
+0
+0
+0
+0
+64
+Nothing but sea is visible to the horizon.^M^MYou can go: fore starboard
+
+Deck (port)
+61
+0
+65
+0
+0
+0
+0
+0
+0
+0
+65
+You see the large hatch, through which the ferry is loaded, closed by a heavy metallic cover. A large crane on a king post is used for this, not far from the captain's cabin at the aft end of the ship.^M^MYou can go: fore aft starboard port
+
+Loading deck
+62
+67
+66
+64
+0
+0
+0
+0
+0
+0
+66
+You are standing next to the sea.^M^MYou can go: fore port
+
+Deck (starboard)
+63
+0
+0
+65
+0
+0
+0
+0
+0
+0
+67
+It's a sparsely decorated place, lit by a small lamp. You see a desk with two chairs, a library, the captain's bed and a closet.^M^MYou can go: fore
+
+Captain's cabin
+65
+0
+0
+0
+0
+0
+0
+0
+0
+0
+70
+This is the cabin where Princess Briccorosso sleeps. It's larger than yours and the mahogany furniture is more refined, but apart from that it is not very different. You see books and maps open on her desk which is lit by an elegant table lamp.^M^MYou can go: aft
+
+Briccorosso's cabin
+0
+72
+0
+0
+0
+0
+0
+0
+0
+0
+71
+This is your home during the journey. Your cabin is clean but is not very large, equipped with a bed, a small table with two chairs and a closet. This gives a monastic appearance to this place, lit by a small paraffin lamp. You see the calm Mediterranean sea from a porthole.^M^MYou can go: starboard
+
+Emilia's cabin
+0
+0
+72
+0
+0
+0
+0
+0
+0
+0
+72
+This is a relatively large room lit by a larger paraffin lamp, with a long table where you and all the other passengers eat and spend time together in the evenings before going to sleep.^M^MYou can go: fore aft starboard port up down
+
+Dining room
+70
+75
+73
+71
+62
+81
+0
+0
+0
+0
+73
+This is the place where Albert sleeps, very similar to your own room.^M^MYou can go: port
+
+Albert's cabin
+0
+0
+0
+72
+0
+0
+0
+0
+0
+0
+74
+Several items that Briccorosso prepared for the adventure are here: numerous large canisters containing spare pieces, large jars of paraffin, cans of oil and other lubricants.^M^MYou can go: starboard
+
+Hold (port)
+0
+0
+75
+0
+0
+0
+0
+0
+0
+0
+75
+You stand in the middle of a large hold where goods are stored for transport. A large iron door leads aft towards the crew's quarters.^M^MYou can go: fore aft starboard port
+
+Main hold
+72
+77
+76
+74
+0
+0
+0
+0
+0
+0
+76
+Many goods are stored here: cans of paraffin, oil, many tyres, spares and tools.^M^MYou can go: port
+
+Hold (starboard)
+0
+0
+0
+75
+0
+0
+0
+0
+0
+0
+77
+This is the place where the crew, composed by three men and two women, sleeps. You see their berths, separated by curtains, small cabinets and two portholes.^M^MYou can go: fore
+
+Crew's quarters
+75
+0
+0
+0
+0
+0
+0
+0
+0
+0
+80
+Food and a reserve of drinking water is stored here, kept neatly in boxes placed in compartments.^M^MYou can go: aft
+
+Pantry
+0
+81
+0
+0
+0
+0
+0
+0
+0
+0
+81
+This is the kingdom of Youssef, the cook of the Dynamene. You see a large stove, a basin and a workbench.^M^MYou can go: fore aft up
+
+Galley
+80
+82
+0
+0
+72
+0
+0
+0
+0
+0
+82
+This place is very hot and contains the main ship's engine and ancillary equipment: steam generators, a large water reservoir, fire extinguishers, etc.^M^MYou can go: fore aft
+
+Engine room
+81
+83
+0
+0
+0
+0
+0
+0
+0
+0
+83
+Ferry steam engines burn coal, much less expensive than paraffin. A large quantity is stored there, in bunkers kept separated from the rest of the Dynamene by an air-tight bulkhead. In case of fire, water can be pumped in from the bottom to extinguish it.^M^MYou can go: fore
+
+Coal bunker
+82
+0
+0
+0
+0
+0
+0
+0
+0
+0
+84
+The pirate's ship is much smaller than the Dynamene, but is faster. Nobody is around, all the pirates have boarded the Dynamene, not having left much here.^M^MYou can go: up
+
+The bridge of the pirate ship
+0
+0
+0
+0
+71
+0
+0
+0
+0
+0
+90
+This place is a filthy harbour used by fishermen and small boats in Alexandria's suburb. There are old fish boats and piles of rubbish everywhere.
+
+Fishing harbour
+0
+0
+91
+92
+0
+0
+0
+0
+0
+0
+91
+You stand on the deck of the pirate's ship. There is the cannon you spiked, but now you notice a hatch to inspect the engine and store some luggage.
+
+Pirate's ship
+0
+0
+0
+90
+0
+0
+0
+0
+0
+0
+92
+You are in a crowded and smelly tavern. Fishermen go there when they finish their work at sea and to drink some pints from the bar.
+
+Tavern
+0
+0
+90
+93
+0
+0
+0
+0
+0
+0
+93
+Back room
+
+Back room
+0
+0
+92
+0
+0
+0
+0
+0
+0
+0
+100
+Today is April 19, 1907. You, Emilia Vittorini, arrived yesterday in Varenna, on the shore of the beautiful Lake Como. You are hosted at the magnificent Villa Briccorosso; Princess Lucilla Briccorosso is preparing for the Silk Road Race, a 10,000km rally raid between Cairo in Egypt and Peking in China, to be done by car.^M^MYou represent ITA, founded by your father, the company that built the car the Princess just bought to use during the rally. The car is supposed to be delivered today. Your role will be to assist the delivery, do a test drive and make sure everything is perfectly functional.
+
+Introduction
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+101
+You arrived in Turin on Friday evening, informed your father, then spent the weekend reading. Now it's Tuesday April 23, 1907. You came to the ITA factory this morning to organise details of the delivery of spare parts to Princess Briccorosso. When you left her, she instructed Albert to write a message which should have arrived at the factory by now. You should find your father and discuss it.
+
+Introduction
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+102
+You have spent weeks working with Briccorosso to prepare for the Silk Road rally. It's now July 23, 1907. Four days ago, you boarded a steam ferry called Dynamene to get to Alexandria, in Egypt. It contains the car and everything needed for the expedition. So far, it has been a nice cruise; you spent a lot of time with Briccorosso studying maps and routes between Egypt and India. It's the last evening you will spend onboard: tomorrow morning you are supposed to berth at Alexandria.^M^MTo move on the Dynamene, use fore (f), aft (a), port (p) and starboard (s).
+
+Introduction
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+103
+You and captain Maalouf interrogate the two criminals. They are poor guys looking for easy money and they did not know much. You only learn that they use a fishing harbour not far from where the Dynamene is berthed. Once on shore, you leave the crew to deliver the two criminals to the local police. In the meantime, you and captain Maalouf leave to search for the hostages.
+
+Part 4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+MESSAGGI
+1
+In the mirror you see a young woman, about 5 ft 6 in tall, with brown-red hair, blue eyes and elegantly arched eyebrows, clad in a simple and elegant dress. That's you.
+2
+Two ficus Benjamin there.
+3
+It is an Imperial staircase, relatively large.
+4
+You walk on a wooden parquet floor, covered with carpets.
+5
+It depicts scenes from Ovid's Metamorphosis.
+6
+There are a credenza, a dresser, a large mirror and a large table with chairs. They are made in dark walnut wood, carved with a neo-Renaissance style.
+7
+It's a rather dark wall-paper, roll-printed with lighter decorations depicting leaves and stylised flowers.
+8
+You see the fountain before the villa and a view of the lake.
+9
+The roses emanate a delicate scent.
+10
+The draperies and the wallpaper are red. That makes an intriguing contrast with the large tapestry to the east, representing a hunting scene.
+11
+The Savonnerie carpet is of an intense red and represents leafy rinceaux.
+12
+The paintings on the ceiling represent Diana hunting with her nymphs.
+13
+Certainly, the villa is very elegant!
+14
+How romantic!
+15
+Parsley, Sage, Rosemary and Rose!
+16
+Tags say things such as "Madame Hardy," "Rosa Mundi," "Rosa Officinalis, and "Charles de Mills."
+17
+The water is clear.
+18
+Some of those are tombstones! After all, this is what you'd expect here.
+19
+The breeze carries the smell of the road dust, fish and a piney scent of resin.
+20
+Many typical little houses, painted in pastel colours. Inhabitants of Varenna live in them.
+21
+The church is dedicated to St. John the Baptist and is a comparatively small Romanesque building. The interior contains colourful frescoes made between the 14th and the 16th centuries.
+22
+There are a bakery and a haberdashery as well as a bicycle and motorbike shop to the east.
+23
+On sale.
+24
+Princess Lucilla Briccorosso is 35 years old and is an energetic woman, born into one of the oldest Italian families. She has short blonde hair, is relatively thin and not very tall, but her body is athletic and her green eyes shine with a light of determination. Last night, you had a pleasant dinner with her, with an exquisite bottle of Marzemino: she has voyaged to many places around the word and told you many anecdotes of her adventures. And she loves cars, as you do.
+25
+Briccorosso described Albert as a mother would describe her own child. She rescued him when he was 15 years old in a train wreck, where he lost his father. He must be 24 or 25 years old, is slightly taller than you, with brown hair and a wispy beard. He has a gentle stare in his brown eyes.
+26
+The mechanic probably keeps the paraffin there for the motorbikes.
+27
+Full of spare parts.
+28
+You may come back to get a coffee there, a day or another, but not now.
+29
+They are created by steam boats crossing the lake.
+30
+There are private gardens behind them. You see some oak branches above the walls.
+31
+Behind the statue, you find a leaf rake.
+32
+Elegant posture.
+33
+Quite an ordinary short rake.
+34
+You can almost touch it from the dock. There is an old bucket on top of it.
+35
+It's a wooden post, sticking out of the water.
+36
+You can't reach the bucket, it's too far.
+37
+Success! You now have the bucket in your hands.
+38
+Try talking to the voicepipe.
+39
+No, it will not float.
+40
+It leads towards the kitchen, no reason to go there.
+41
+It's locked. Sergio keeps the two Briccorosso's dogs there.
+42
+Perhaps Sergio can help, you should try to speak to him.
+43
+You must first put the repaired wheel back on!
+50
+Briccorosso smiles and says:^M- My dear Emilia, you woke up early, did you sleep well?^M- Yes, thank you, Princess.^M- I received a telegram, the car will be delivered in two hours; you have time to visit Varenna. By the way, Albert, my mechanic is there already. He is in the garden now. He is a fervent admirer of ITA cars and I am sure he will be delighted to meet you. In the meantime, I will have to meet some people in Menaggio, I will be back this afternoon.
+51
+- Thank you, Princess, with pleasure.
+52
+- Yes, I have already meet him, Princess.
+53
+- Emilia, please, call me Lucilla. I inherited that title, but there is no need to use it every time...^MYou smile:^M- Thank you, Lucilla!^MBriccorosso then leaves the room.
+54
+Albert blushes when you speak to him:^M- Ah, you are... I mean, good morning, Madam Vittorini...^MYou smile.^M- You know, I am... I am... well, I have always admired your cars... Uh... I mean ITA cars...^M- Thank you. Princess Briccorosso said to me you were the best mechanic of all Lombardy.^MAlbert blushes even more intensely.^M- Ah... Well... I mean... The Princess is as always too kind...^MYou continue chatting for a while, but Albert seems embarassed.
+55
+He seems shy and intimidated by your presence.
+56
+The staircase is embellished with yellow and red Verona marbles, peach blossom as well white ones from Carrara. In the red marble, you notice the characteristic ammonite fossils embedded.
+57
+It's a large fresco painted on the walls of the staircase. Princess Briccorosso told you it was commissioned by the previous owner of the villa, a German from Leipzig. You recognise portraits of H. Helmholtz, the physicist, I. Kant the philosopher, A. Schluter the architect and J.S. Bach, the composer. Your uncle always said that Bach was one of the greatest geniuses of the history of mankind.
+58
+You see a barn behind the villa.
+59
+Charming! Earlier this morning, you took a warm bath and you washed your hair. Hot and cold water flow through faucets with the shape of a cygnus' head!
+60
+No, you already completed your morning toilette.
+61
+Certainly not here!
+62
+The two marble basins are thin and sleek.
+63
+He is an old man and is occupied cleaning a minute steam generator from a motorbike.
+64
+The mechanic speaks to you with a strong Lombard accent:^M- Good morning, Miss (he used the term "sciorina"), what can I do for you?
+65
+You ask for paraffin.^M- No, I don't sell it, sorry, it's for the bikes I repair.
+66
+You don't want to disturb him. He's occupied.
+67
+It's a small paraffin burner inside a coil of copper pipe. When it's on, water in the pipe becomes steam that pushes pistons in the steam engine.
+68
+He seems to be too shy, you don't want to make him uncomfortable.
+69
+Not so fast, Emilia!
+70
+Sergio is the princess' handyman, he takes care of the villa. He is about 45 years old, tall and thin, and is an excellent gardener.
+71
+Look, Madam, the car was delivered a few minutes ago. It's beautiful! Albert was very excited, he's gone to look for his tools for the test drive. The delivery guys were in a hurry, they had to take another car to Milan and had to leave.^MAnother car in Milan? It's certainly not an ITA, but you think you will try to find who ordered it.^MSergio leaves to buy eggplant seeds for the garden.
+72
+It's a wonderful steam car! A paraffin burner heats the water that becomes pressurised steam. A two cylinder double-action engine is connected to the back axle, generating a power of 45 HP transmitted to wooden wheels, equipped with Ritaione tyres. A condenser recycles steam, so the car can run for hours without needing water supply. Briccorosso thought that a powerful, albeit relatively heavy, car would be better fit to the harsh conditions of the rally.
+73
+While you are in the shop, you see a delivery truck passing by, towing a trailer with a car: it's the ITA being delivered! 
+74
+You see that the fuel tank is empty. You should find some, it can run on paraffin or kerosene.
+75
+Steam cars need water. You need to fill that tank.
+76
+Albert comes with his tools.^M- Madam, do you want to... test.. the car?^MIt's clear that he is eager to see it in motion!^MYou load the car with the paraffin and the water, then ignite the paraffin burner. After a few minutes, the car's pressure gauges rise. You take the driving seat and Albert sits on your side, you turn a knob at the centre of the steering wheel and the car begins to move.^MYou decide to go towards the north of the Lake via Bellano, Dervio, Dorio.^M^MWhen you pass Olgiasca, Albert says:^M- Madam, there is a strange squeak coming from the rear left wheel.^M^MThe car immediately begins to shake violently and you stop it.
+77
+Albert becomes instantly focused on the wheel. He is not blushing anymore: without hesitation he lifts the rear of the car and quickly removes it. You have seen many mechanics working on the field and you can appreciate his expertise.^M^M- The wheel has been tampered with. The wooden spokes are half cut though. We need something to keep them together. I have a rope and I can tie them, but probably not strong enough.^M^MAlbert finds a rope among his tools and ties the spokes the best he can. You need something to increase the tension.
+78
+You ask where you can find paraffin.^M- You should go see Vittorio, he has a motorbike repair shop in the town.^MYou mention you have already been there but you could not get some.^M- But... did you say it was for the Princess? Vittorio knows her well. She is a longtime client: if you mention the race, he will be eager to help.
+79
+You say that you are in Varenna to test the ITA car Briccorosso will use in the Silk Road race. You need paraffin.^M- Briccorosso? The race? Of course! Always busy the Princess!^MHe hands you a can.^M- Don't bother to pay.
+80
+There is a stately Magnolia Grandiflora. It must be at least 50 years old. On the path towards the garden, numerous large vases form a neat citrus garden.
+81
+Delicate smells of orange, bergamot, lemon and citron surround you.
+82
+Lake Como is beautiful, surrounded by verdant mountains. You see the Pescallo harbour, in Bellagio, at distance.
+83
+It describes marble extraction techniques in quarries. Curiously enough, the most antique one is to carve slots and force wooden wedges into them. Then, the wood is wetted and it expands, breaking the stone.
+84
+You submerge the bucket in the fountain, then you lift it. The water in the bucket is clear.
+85
+You find him cute.
+86
+It's a wooden wheel, Albert has put a rope on it to keep everything together, but you still need a way to expand wood so that the rope will be kept under tension.
+87
+Fishermen probably use it, you can see the clear lake water under the wooden planks.
+88
+You explain your idea to Albert: together, you put the wheel in the lake from the dock. In a few minutes, the water impregnates the wooden spokes and they expand, slightly. The tension of the rope increases, holding everything together.
+89
+The expanded spokes keep the rope under tension. If you proceed carefully, that should be enough to get you back to villa Briccorosso.
+90
+With the help of Albert, you put the wheel onto the car. You begin to drive very carefully: it works! You get back to Varenna at the beginning of the afternoon. When you enter the beautiful garden of villa Briccorosso, Albert says:^M- Eh, ... well... Madam Vittorini... yours was a clever idea.^M- Albert, please, call me Emilia.^MHe turns his head, but you catch a smile on his face out of the corner of your eye.^M^MBriccorosso may have come back, you should find her.^M
+91
+It allows you to talk to someone elsewhere in the villa via several pipes. You may call Sergio, the handyman, if he is in the barn.
+92
+Carefully examine every object. Talk to people. Smell. Draw a map.
+93
+Elisa smiles at you while she is dusting the furniture. She looks occupied and you don't want to bother her.
+94
+She is a tall energetic woman, about fifty years old, with a broad smile and large shoulders.
+95
+They must have fallen from an oak last autumn.
+96
+You force an acorn into the hole: the bucket is repaired. 
+97
+It's an old wooden bucket, it has probably been scrapped because of the hole in the bottom.
+98
+It doesn't look too solid, but it will carry liquid for a while.
+99
+No, it is too big.
+100
+You put the bucket in the tub and you open the cygnus-shaped faucet to fill it with cold water.
+101
+No, you may take some mud, too.
+102
+Oak leaves.
+104
+It is full of garbage.
+105
+That will be enough for the test ride.
+106
+You call into the voicepipe and Sergio answers from the barn:^M - Oh, Madam Emilia! I'm just going to plant parsley and basil seeds in the garden. Let's talk there.
+107
+It's fabric decorated with golden and green leaves on pale green.
+108
+You slept there this night.
+109
+The table and the chair are made of wood, decorated with floral themes. The centre of the table top is covered with leather and there is a gas burner: an ideal place for reading and writing.
+110
+It is the library of an explorer: it contains a collection of travel stories from adventurers of the XVIII and XIX century: mainly in Asia, Africa and South America. You recognise Darwin's "The Voyage of the Beagle," Nellie Bly's "Around the World in Seventy-Two Days," Eliza Scidmore's "China, the Long-Lived Empire." You also see DeVitte's "The Vittorini brothers: Modern motor pioneers" and "Du sentiment religieux des Egyptiens" by Ernesto Schiaparelli.
+111
+You think it is Carrara marble.
+112
+The lake water is too cold in April.
+113
+There is a faint smell of coffee, as you had your breakfast here.
+114
+You smell paraffin, rubber and mineral oil.
+115
+There is a smell of fish.
+116
+Red fabric with golden decorations with geometrical patterns.
+117
+The chairs are comfortable and disposed around an impressive inlayed wooden oval table. You had a pleasant dinner with Briccorosso yesterday here, you finished the bottle of wine while discussing after lunch, the empty bottle must have been brought back to the kitchen early this morning.
+118
+Decorated with oak leaves, a large chandelier lights the place with six burners, in polished brass, equipped with their fragile thorium gas mantles. They are off at the moment.
+119
+They must have been painted at the beginning of the XIX century and they represent local views. You recognise Bellagio, as seen from the lake.
+120
+- Lucilla, we tried the car. It has been sabotaged: we almost lost a wheel near Olgiasca.^M- Sabotaged? But, why?^M- I heard that another car has been delivered to Milan for the Silk Road Raid.^M- Who can possibly do this?^MYou suggest to Briccorosso you will come back to Turin to get the spare parts for the car personally. She agrees with you and the very same afternoon you take your train.^M^MPassword for the second part of the game: SHIBBOLETH OHBASTALA
+122
+You won't need violence to complete this part of the game.
+123
+You try to make your way to the barn, but find your path blocked by the gate. It obviously is locked, as Sergio keeps the two Briccorosso's dogs there.
+124
+It's an old-fashioned shop, with a wooden sign saying "Da Vittorio, cicli e motocicli"
+125
+You enter the church and stay there for a while. You admire the Adoration of the Three Wise Men and the Redeemer between the Virgin Mary and John the Baptist frescoed on the apse. Then, you exit coming back to the square, wondering what life was like for the artists who worked here, in this magnificent place just in front of the lake.
+126
+Mmm... freshly baked bread!
+127
+You put a hand in your pocket and you find a few coins. You are a little hungry and buy a part of miascia for yourself: it's a cake made with bread, milk, fresh and dried fruits flour and sugar. It's delicious.
+128
+No, you are not hungry anymore.
+129
+There is a sign saying "Marmi e graniti."
+130
+Elisa says:^M^M- Madam, please! The floor is wet in this side of the room, do not step on it!
+131
+The floor is in polished marble, very elegant. It's dry, now.
+132
+The floor is in polished marble, very elegant. Elisa has just washed it and half of the room is still wet. You can not walk on this side.
+133
+When you enter the room, you feel an air stream that comes from the open windows. It dries the floor.
+134
+Steam cars need water and paraffin. You need to fill both tanks.
+135
+It's a typical bakery selling bread and local pastry.
+136
+Not much air comes from the window. The floor will take a long time to dry.
+137
+You decide to keep it for when you will drive the car.
+138
+You explore the kitchen in search for something useful. You only find the empty bottle of wine you drank yesterday evening with Briccorosso, with its cork.
+139
+Eccellente Marzemino!
+140
+You force the cork into the hole: the bucket is repaired. 
+141
+It's a pretty ordinary cork that you found in the kitchen.
+142
+The bottle is too small and unpractical to fill the car. Find a larger container.
+143
+You browse around sewing articles, buttons and cloths, but you don't need them at the moment.
+144
+It's a small old-style shop. It looks like it has been there for more than fifty years.
+145
+Examine it, first.
+200
+Your father smiles:^M^M- My dear Emilia, you made quite an impression to Princess Briccorosso. She wrote a letter to request that an agent from ITA joins the rally. And she insisted it should be you.^M^MYou can't believe it! You almost scream with joy: that will be a real adventure! And that Albert... uhm... he is a talented mechanic.^M^M- You will have to drive the car and write articles for the press, to be sent by telegraph during the rally. Coming to spares, here is a letter. Go see your uncle, he will organise the delivery.^M^MYou smile widely while you take it and put it in your pocket.
+201
+You open the letter. There is a list of the spares needed for the car. Albert discovered the rear axle had been tampered with, too. Better give that to your uncle. There is another message, addressed to you.
+202
+While you are opening the door of your uncle's office, Roberta, your uncle's secretary says:^M^M- Madam, Mister Tullio is occupied in a meeting, please come to see him at another moment.
+203
+She is young and looks to be very serious and committed to her work.
+204
+- Roberta, I hear voices from my uncle's office; who is meeting him?^M- A journalist, a certain Rizzitelli, from La voce del mattino, a newspaper in Milan. I don't know much apart from that he has been in discussion with your uncle for at least one hour.
+205
+Her name is Giovanna, but many call her Nanna. She is the young chief mechanic here and she is good at it. Giovanna has come especially from Rome to work at ITA, here in Turin. Everybody appreciates her, her energy and her accent. She is tiny, with long brown hair she keeps together with a red foulard, wearing makeup and bright orange overalls. She is currently assembling a set of five steam engines.
+206
+You summarise what your father said to you and Nanna smiles broadly:^M^M- Emilia, it looks like I'll have a lot of work to do to repair the car when you get back from the rally. Do try to bring it back in one piece!^M^MShe then becomes serious:^M^M- By the way, if I find who sabotaged the best 150 we built, I will make them deeply regret it.^M^MAnd you think she really means it, given the way she menacingly handles the 26mm spanner she has in her hand!
+207
+She looks busy. Maybe later.
+208
+It's a list of spare parts.
+209
+^MVarenna, April 25, 1907^M^MDear Miss Emilia,^M  I just learned that Princess Briccorosso asked you to take part in the rally. My heart is full of joy, as I would be honoured to go on this adventure with a driver as gifted as you. However, my conscience tells me to warn you that it may be dangerous and my life would become meaningless if something happened to you. Please remain assured that whatever your decision, I would be very happy at prospect of meeting you again.^M^MYours truly,^M  Albert Pinel^M^MIt's quite awkward: you are able to take care of yourself, but you blush nonetheless with a certain pleasure reading the message: that young man seems interested to you.
+210
+If you recall well, this voicepipe is connected to your uncle's office.
+211
+You open the cover of the voicepipe and push the button. This sends compressed air that makes a little bell ring in your uncle's office. He answers:^M^M- Hello.^M- I'm Emilia. Do you think you can come? I need to speak to you.^M- Oh, yes, I'll come immediately.^M^MAfter a couple of minutes, you see your uncle arriving in the hall.
+212
+Tullio is your uncle. He is about 45 years old and he is the younger brother of your father. He sports a brown beard and is always dressed in a formal way, but without ostentation. He is a great artist in his field.
+213
+You don't need to call your uncle now. Maybe later.
+214
+No, you want to discuss it with your uncle.
+215
+- Emilia, thanks for having called me! That young journalist was so insistant. He wanted to know everything about the model 150 we sent to Varenna and how Briccorosso is preparing for the rally.
+216
+You already discussed with your uncle. He is probably waiting for the journalist to go away.
+217
+You recognise the familiar oily smell of cutting fluid.
+218
+He's a giant, but with his large hands he crafts delicate metal sculptures.
+219
+He is using one of the noisy power hammers.
+220
+No, you know that Anteo does not like to be interrupted at all while he is working.
+221
+It's too noisy here to use the voicepipe.
+222
+You look at those beautiful new cars: a model 100 and a model 50A.
+223
+- Anteo, sorry to bother you, it seems to me that there is a dent in the bonnet of the model 100 parked in the courtyard. Is that normal?^M^M- WHAT THE...? MARCELLINOOOOO!!!^M^M The boy runs away scared and, with a grunt, Anteo says:^M^M- I'm going to check.^M^MAnteo leaves and stops the hammer. Ahhh, silence!
+224
+He is trying to remove the dent with his bare hands and a small wooden mallet! And with a certain success, from what you can judge. This man is impressive.
+225
+You give the letter with the list of spare parts to your uncle.^M^M- Uhm, Emilia, I will arrange everything. Do you suspect someone? I contacted the chief of the transport company, he is sad about what happened and said they discovered someone broke into their warehouse in Milan the night before the delivery. Their insurance will take care of everything.
+226
+- M'am are you Emilia Vittorini?^M^M- Yes, I am^M^M- Nice to know you, my name is Riziero Rizzitelli and I work for the Voce del mattino newspaper.^M^MThe young man starts to ask you many questions. Fortunately, you gained experience handling insistant questioners three years ago, when you came back from the mission to Egypt. You are able to extract yourself from the conversation, politely yet firmly. At the end, Rizzitelli gives you a copy of the newspaper he works for. He then asks if you think your uncle will return soon and leaves after your negative answer.
+227
+It's a Milanese newspaper called "La voce del mattino." It contains an article in the first page: "Silk Road Rally: the road to the progress?" To summarise, the author is sure that a success of such an endeavour would be beneficial for the communications with the Middle East and road transport would concurrence the construction of the Berlin-Baghdad railway. The article also tells that the director of the newspaper, Altiero di Risso, has chosen to participate to the rally. Ah, so it was his car the one you heard about in Varenna!
+228
+He looks young and overly enthusiastic about his work.
+229
+It is a short wheel base rolling chassis, ready to be equipped with a model 50A body by coachbuilders.
+230
+The rolling chassis is not there anymore, the finished cars are beautiful! Wait a second: is that a dent on the side of the bonnet of the 100? Is it the result of the crash you heard?
+231
+You may try, but it will probably not work.
+232
+While you are about to ask Anteo about the noise, you understand it is better not to disturb him now. Anteo yells at the workshop assistant to get the rolling chassis there. Was that the sound of a crash you just heard? Anteo raises an eyebrow. After a while, Marcellino pushes a rolling chassis there, whistling.
+233
+He is young and quite lazy, everybody calls him "bocia," in Piedmontese. He is an orphan and you know Anteo insisted on hiring him to save him from poverty.
+234
+Your father is a middle-aged man, relatively tall and with bright eyes. Thirteen years ago with his brother he founded a steam car company, called ITA, i.e. Industria Torinese Automobili. He is a mechanical genius and a cultivated man.
+235
+- Marcellino, how are you?^M^M- Fine, Madam!
+236
+You try to call your uncle, but he does not hear you! You notice a button nearby.
+237
+You push the button, but nothing happens. You notice an airline: this thing works with compressed air and there is no pressure just now.
+238
+You ask to Giovanna about the compressed air:^M^M- Oh, yes, I am going to need it, too! Go to the courtyard, you'll find the compressor next to the steam engine, pull the lever on it and it will work. Here is the key for the barn's door.^M^MShe hands you a large rusted key.
+239
+You pull the lever, as instructed by Giovanna, but you immediately hear a burbling sound that you don't like. You switch it off.
+240
+It's a simple compressor system, the lever controls a clutch that engages on the main lineshaft moved by the steam engine. There is a valve on the bottom of the compressor.
+241
+You open the valve for a while. Some rusty water flows out for a while. That compressor truly needed that. You close the valve.
+242
+When you pull the lever, the sound of the compressor is much more reassuring. You see a needle indicating the pressure, slowly rising. That will do!
+243
+The door is locked.
+244
+You push the button and you listen to your uncle's voice from the voicepipe.
+245
+It's funny that a key so large opens a door so small!
+246
+It's a large door in wrought iron soberly decorated, with large glass windows.
+247
+You see a chimney. It must contain the main steam engine of the factory.
+248
+It's the barn's door.
+249
+It's a small, unassuming button, close to the voicepipe.
+250
+They work hard!
+251
+You don't want to disturb them.
+252
+They soon will be shiny new cars.
+253
+You see the bright sunlight getting through the windows refracted through volatile dust specks.
+254
+One of those trip hammers is being used by Anteo and is very noisy.
+255
+Those two trip hammers are not being used, now.
+256
+Lineshafts hung from the roof distribute power in the factory and are moved by a large steam engine. When you were a kid, you wondered how the belts never walked off the pulleys. Your father once showed you that the driving pulleys are crowned and the belt self-centres on it.
+257
+No. You don't need to look at blueprints, yet.
+258
+This is a well equipped factory!
+259
+Roberta sees you and says:^M^M- Madam, we just received this telegram for you.^M^MShe hands it to you.
+260
+It says: "DEAR EMILIA STOP I'M AT SACRA SAN MICHELE STOP COME TO SEE ME IF YOU CAN. FATHER MILIERI." Oh, yes, Father Antonio Milieri was a Franciscan missionary in Luxor. You knew him during your stay in Egypt, he helped you a lot during the archeological searches. The Sacra, or the Saint Michael's Abbey is not far from Turin.
+261
+You go to the engine hall and you ask Giovanna for permission to test-drive one of the finished cars. She proposes you take the model 50A, which is in need of testing before being shipped. She agrees with you that a trip to the Saint Michael Abbey will be perfect for that. The trip there takes one hour and the car will only require minor adjustments to the brakes.^M
+262
+Father Milieri smiles broadly when he sees you: it's the first time you have met since you worked in Egypt three years ago. You are happy to see him too. He's a nice man.^M^M- Emilia, I'm so happy that God allowed me to meet you again!^M^MYou have a friendly chat for a few minutes. Father Milieri is a Franciscan, but loves the Abbey and his friends the Rosminians are happy to have him there when he comes back from Egypt. Then Father Milieri tells you that since last year the situation has worsened in Egypt. Some nations and empires have sent many spies toward the Suez channels, to survey their interests. Many worrying things are taking place in Egypt now. Then, Father Milieri says he has to go back to his spiritual exercises.^M^M- My dear Emilia: if you go in Egypt, please be careful!
+263
+Father Milieri is a tall man, about 65 years old, with white hair and a beard. He has lived for over 20 years in Luxor, in Egypt and you met him there during your mission in 1904.
+264
+The 50A is derived from the model 50, it's light and sporty. You like this car.
+265
+Those are corpses of former monks, mummified, holding a cross. Very impressive: "Remember that you have to die." 
+266
+It's the mountainside. On the top of it there is the church of the abbey.
+267
+It is stunningly decorated with astrological signs and figures, finely carved in marble. Capitals represent allegorical scenes full of the Middle Age symbolism.
+268
+When you try to enter the Abbey, the handyman shouts at you: you don't understand a word, but he clearly does not want you to go inside.
+269
+You try speaking with the handyman, understanding from his patois his name is Salvatore and not much more. He does not seem very smart, by the way...
+270
+He has no tonsure, probably he is not a monk. He must be an orphan raised in the abbey, to help friars with heavy work. He is ploughing a small garden, close to the entrance, he is sweating and must have left his habit elsewhere. He speaks patois, he probably comes from the high valley.
+271
+Salvatore pauses his work and notices the car: he screams with joy and runs to have a closer look to it.
+272
+He repeats a word: "màchina", "màchina". He seems really excited by the ITA 50A.
+273
+You make him understand that you can take him for a drive. He immediately jumps onboard. You get into the driver's seat and drive towards the nearby Colle Braida, towards Giaveno then head back towards the Avigliana lakes and to the Sacra again. In the hands of a pilot like you, it's a pretty exciting ride on those twisty roads. Salvatore is delighted! At the end he smiles to you, he will let you enter the abbey. You have the impression of hearing a metallic sound when he gets out from the car.
+274
+They are praying. You dont want to disturb them.
+275
+You have a clear view of the beautiful Avigliana castle and the lakes beside it. You also see Turin and Superga on the hill behind the city.
+276
+The stairs are made of stone and climb towards the entrance of the abbey.
+277
+It seems solid, but it is open now.
+278
+He does not look interested.
+279
+At this hour, a ray of light entering from the portal illuminates directly the skeletons. Brr!
+280
+It seems local marble.
+281
+It's a nice place.
+282
+You see a magnificent view of the Graian and Cottian Alps on the two sides of the valley. The Rocciamelone is the highest mountain nearby and is very easy to recognize by its shape.
+283
+You read somewhere they are being building a new vault: the old one threatend to collapse and was demolished.
+284
+There are three apses, the central one is quite large and is lit by windows and candles.
+285
+Romanesque, transitional Romanesque and Gothic.
+286
+There are strange legends on the Musiné mountain. Some say there are witches there, other say aliens have landed there... Bunch of nonsense!
+287
+The drive towards Turin is uneventful. You give the 50A car back to Giovanna and tell her about the brake adjustments. You spend the next few days preparing yourself to take a ferry towards Egypt and thinking about the Silk Dust rally and what Father Milieri said about the spies.^M^MPassword for part 3: SHIBBOLETH FEMENENRIE^M
+288
+Those are wild peonies.
+289
+It's a fairy large and powerful steam engine. It's on and it's moving the lineshafts in all of the factory now.
+290
+It's a manual valve on the bottom of the air compressor tank.
+291
+"For in that sleep of death, what dreams may come,^MWhen we have shuffled off this mortal coil..."
+292
+It's stuck!
+293
+You put some drops of oil in the valve.
+294
+There are wrenches of different sizes and an oiler.
+295
+No! Nanna may need it.
+296
+- Nanna, can I please borrow you some tools?^M- Yes, but do not leave them around after you finish.
+297
+Shiny!
+298
+Pretty ordinary.
+299
+No, you feel you would break it.
+300
+You hide yourself from the handiman and try to open the door of the shed, but it is locked.
+301
+You examine the car and you find a small key. Probably Salvatore lost it when he got out of the car.
+302
+^MA monk sees you and begins to shout "outside, outside!" Definitely, you can't get in this moment, you should dress in something to avoid being immediately recognized as someone stranger to the abbey. He escorts you out of the main entrance of the church.^M
+303
+Salvatore takes the key and smiles. He seems to be happy that you brought it back.
+304
+You feel you are forgetting something, but you don't know what.
+305
+You think it's better Salvatore does not see you wearing his tunic and you take it off.
+306
+It's Salvatore's tunic, very simple and with a cap that covers the head.
+307
+It's the little key Salvatore has lost in your car.
+308
+You can go there today if you find a car... It won't be difficult!
+309
+You nose suggests to you the tunic you are wearing would benefit from a good clean.
+310
+The friars are burning incense, here.
+311
+You see the classic tools you expect to work in a garden: a small shovel, a rake and a shear. You'll leave them here.
+312
+It's a view of Cherasco. One of your grandfathers used to live there.
+313
+Your uncle is drawing a landaulette body for a model 100.
+314
+Your uncle keeps his desk tidy and clean.
+315
+To your west, you see the large building that hosts the friars' cells. You knock at the door, but nobody answers. Probably they are praying in the church of the abbey.
+316
+He seems eager to talk with you, but you don't understand much about what he says.
+317
+You unlock the toolshed's door with Salvatore's key. Luckily, he can not see you on this side!
+400
+No. You aren't tired, now.
+401
+No need to do that now.
+402
+Use 'bye' to stop playing.
+403
+Oh, no, we are not going to stay here all day!
+407
+This is a text adventure game. Read descriptions carefully and type commands such as 'examine bed'. Type "north", "south", ... to move in the desired direction.. Abbreviations are possible "x" for "examine", "l" to "look" (i.e. describe your current location again), "i" for "inventory," "n" for "north" and so on. To quit the game, type "bye". To restart it, type "restart".
+408
+Please, type a more specific action...
+504
+Please feel free to continue, if you wish to... I've become impervious to swearing and profanity a long time ago.
+505
+No, you don't feel the need.
+518
+You'll examine yourself much better with a mirror.
+600
+Khalil Maalouf is the captain and is an athletic man, about 40 years old. He is respected by the crew.
+601
+He must be 24 or 25 years old, is slightly taller than you, with brown hair and a wispy beard. He has a gentle stare in his brown eyes. You are quite attracted to him.
+602
+You haven't yet had the opportunity to talk to Albert alone and nobody is around. You look at him seriously and you say to him, coldly:^M- Mr. Pinel, I received your message while I was in Turin. I would like to inform you that I am perfectly able to decide for myself when to take part to an adventure or not.^M^MAlbert looks stunned and mortified.^M^M- Euh, I meant... I wanted to... I'm sorry, I did not want to...^M^MYou then smile and you kiss him intensely. Albert looks even more stunned, yet full of joy.^M^M- Oh, Emilia, I love you, I have loved you since the first moment I saw you in the rose garden, I love you...^M^M- I know...^M^MYou both stay embraced and kissing for a while, but then you stop, as you don't want to be seen. You both continue to stare into each other's eyes in the amber light of one of the most beautiful sunsets the Mediterranean sea can offer to its lucky travellers.
+603
+Princess Lucilla Briccorosso is 35 years old and is an energetic woman, born into one of the oldest Italian families. She has short blonde hair, is relatively thin and not very tall, but her body is athletic and her green eyes shine with a light of determination.
+604
+Youssef is the cook of the Dynamene. He has the physique du rôle you would expect: large shoulders and belly.
+605
+- Youssef, what are you preparing?^M- Oh, hello Madam! Sarah caught some nice sea bream this afternoon and I am preparing them with a side dish of escarole endive stewed Neapolitan style.^M^MThe smell is delicious!
+606
+A stare from the cook tells you it's better not explore the pantry while he can see you.
+607
+Vittorio is the youngest member of the crew and is nicknamed Toyo. He works swiftly and does not speak very much.
+608
+Sarah is tall, about 30 years old, wearing a working suit. She keeps her red hair tied up and is greasing the steam engine.
+609
+No, she's working.
+610
+It's a large triple-action engine. Steam comes from the steam generator next to the coal bunker.
+611
+- We will berth tomorrow morning in Alexandria, captain?^M- Yes, the sea will be calm tonight and I expect we will be there at around 8 in the morning.
+612
+You hear Youssef calling: dinner is served! You meet the crew, the captain, princess Briccorosso and Albert in the dining room.^M^MDynamene offers some luxuries such as silver cutlery for distinguished guests such as Briccorosso; the sea bream are excellent and so is the endive. It's the last evening you will spend aboard and the crew members have been your friends and family for the last four days. After eating, the captain returns to his duties and relieves Neda, so she can take her turn eating.^M^MYou spend the rest of the evening listening to Youssef, a great storyteller who has had many adventures sailing the seven seas. You tried to act casually, but you intercept Albert's stare once or twice.^M^MAt the end of the evening, everybody not on duty goes to rest. You go to your cabin, too, but you can't sleep, thinking of Albert.^M
+613
+When you open the door, you hear a loud thump. You run to the main deck: a small boat is close to the ferry and has shot a grappling hook that caught the railing. The small boat sports a 5cm cannon pointing towards the Dynamene. Captain Maalouf comes, cursing.^M^M- I've heard bands of marauders rob small ferries. A shot from that cannon would probably go through us from side to side.^M^MYou hear an order shouted from the boat:^M^M- Stop engines or we will sink you.^M^MCaptain Maalouf has to follow the order and four armed individuals come aboard.^M^M- Captain remains with us. Everybody else to their cabins or we shoot!^MWhile an unceremonious pirate escorts you to your cabin, you hear the leader of the pirates asking captain Maalouf:^M^M- Where is the princess?^M^MAh, they know about Briccorosso!
+614
+You see the pirates' ship not too far below. There is a rope ladder on the bulwark, close to the porthole.
+615
+No, the door is blocked and those criminals have left someone lookout.
+616
+You open the porthole, noticing you can almost reach the ladder.
+617
+You keep your personal belongings there. It's closed, now.
+618
+You open your closet, to see if you can find something useful inside.
+619
+You see your luggage.
+620
+You search your luggage for something useful. You see your umbrella.
+621
+You are heading towards Egypt, but you are Piemontese, after all. Not really menacing, but maybe it can cause some harm?
+622
+Don't you think you have talked enough with him?
+623
+Yay! With the umbrella you pull the rope ladder towards you. You can descend to the pirates' ship, as nobody remained there.
+624
+Examined in detail, the cannon does not seem so impressive. It is probably 50 years old and has to be ignited with a linstock through its touch hole.
+625
+You would like to talk a lot with him, but not now.
+626
+No, somebody is there!
+627
+You examine the hatch to see if there is a way to get inside, you notice a manhole close to it.
+628
+There is a service ladder, below.
+629
+It's the main loading hatch. Through it, the holds have been loaded with the crane.
+630
+It looks promising.
+631
+The door leading to the crew's quarters is shut.
+632
+Among the tools, you find a hammer and some large nails.
+633
+You insert one nail in the touch hole. It is the right size to completely block it. Covered by the noise of the sea, you hit it with the hammer and you break it off inside. This cannon will not be usable any time soon!
+634
+Good idea, but better unload the cannon, first.
+635
+Indeed, but how?
+636
+You push and pull the cannon a little, it can move to absorb the recoil. After a while, you realize that you can lower the muzzle and the ball rolls to the deck and falls into the sea, followed by the wadding and a little bit of gunpowder which remains on the deck.^MThat's great, but not enough! The pirates would certainly reload it in a matter of minutes.
+637
+You search among the canisters and you find some wax paper supposed to be used to close the jars of paraffin.
+638
+The door is kept closed by a large padlock.
+639
+You pour some gunpowder in the padlock. You hope the explosion will blow it apart, allowing the door to open.
+640
+You find a box of long matches.
+650
+That's an... explosive idea!
+651
+You insert the head of one match in the padlock full of gunpowder. With some apprehension, you light a second match and you ignite the first one. Then you run to the starboard hold, hiding yourself behind the car. You hear a loud BANG! When you return, the padlock is open!
+652
+You see a kitchen knife on the workbench. Better than nothing.
+653
+The explosion will bring the pirates here. You need other arms for the crew.
+654
+Hurray! You find a small gun hidden in a desk drawer.
+655
+^MThe crew seems to be surprised yet relieved to see you. You say:^M^M- I've found this knife and the captain's gun, we can fight the pirates!^M^MNeda smiles and answers:^M- Well, we had hidden some... let's say... hardware... for special occasions. We were trying to open the door when you blew the padlock.^M^MYou notice some large caliber guns, definitely much better than yours. Then you hear steps coming.^M^MTwo criminals enter, but they are easily surprised and disarmed by the crew.^MSarah and Toyo take charge of them. You and the rest of the crew then run to the main deck. Unfortunately, the two remaining pirates fight back and take Princess Briccorosso and Albert as hostages. As they board their boat you hear a curse when they notice what you did to the cannon. Then they leave, kidnapping your friend and your love.^MYou are angry at this !^M^MThe password for the fourth part of the game is SHIBBOLETH FINIANTLABAGNA
+656
+The explosion may attract the criminals. You must definitely do something to neutralize their cannon first.
+657
+You see the cylinder, the shackle and the body, torn apart.
+658
+Solid!
+659
+What you are you thinking? You should go in the crew's quarter immediately. Someone is coming from the central room!
+660
+This place, as everywhere below deck, is lit by small flat-wick paraffin lamps equipped with their characteristic glass chimney.
+661
+No!
+662
+No need to hurry!
+663
+No, that's enough for the moment. You will create a situation later.
+664
+You see a metallic table solidly secured to the ground, with wooden chairs next to it.
+665
+No, leave it alone.
+666
+You see the waves of the Mediterranean sea, tinted by the delicate light of sunset.
+667
+- Emilia, I can't wait to arrive in Egypt. We will have plenty of work to do!
+668
+You have worked on those maps for weeks, now! You almost know them by heart.
+669
+Slightly younger than the captain, Neda is a small woman with black hair and black eyes.
+670
+Roy is the oldest member of the crew, he must be about 60 and has white hair and beard.
+671
+A solid wooden bed, secured to the floor.
+672
+You think it is white oak wood.
+673
+You are not going to get into the captain's cabin without his permission!
+674
+The air smells of iodine and salt, with a faint fishy undertone. You breathe it in voluptuously.
+675
+He must be 24 or 25 years old, is slightly taller than you, with brown hair and a wispy beard. You think you love him...
+676
+It's a large segmented cover made by several wooden hatch-end beams and covered by a tarp. You can not remove them.
+677
+You saw this crane lift the ITA 150 and load it delicately in the holds of the Dynamene four days ago.
+678
+Nothing useful!
+679
+You may sit there and read a book, but not now.
+680
+Books about navigation and marine literature. You notice Herman Melville's Moby Dick!
+681
+You give three firm hammer blows to the wedge and the hatch breaks in half. You scream when you open it to inspect the luggage compartment: Albert and Prince Briccorosso are there, bound and gagged. You immediately free them and kiss intensely Albert in front of Princess Briccorosso who laughs:^M^M- Well, it certainly took a while for you both to decide yourselves!
+682
+You enter the room followed by captain Maalouf, and three armed police officers. You see a little fat individual talking to the two pirates. They are immediately arrested.^M^MTwo hours later, the police discover the fat man is indeed Altiero di Risso. Interrogated, he confesses that he had invested a large quantity of money, through the Banca Commerciale Italiana, in the construction of the Berlin-Baghdad railway. He convinced himself that the Silk Road rally would be very damaging to the railway if it was successful. He feined to participate to the rally as cover so he could sabotage the contestants.^M^MKnowing the determination of Princess Briccorosso, he understood that she would have been his most serious opponent. He paid someone to tamper with the car before delivery in Varenna. Then he paid the pirates to damage the car or throw it into the sea, but they decided to extort some money using the hostages when they learnt that Briccorosso was a princess.^M^MWell, your adventure can continue now. After unloading the ferry you say goodbye to the brave captain Maloouf and to the crew.^M^MNow nothing will stop you participating in the Silk Road rally in three weeks time. But that will be another story...^M^MFinal password: DUIPURUNBAGNANTLOLI
+683
+Briccorosso says:^M^M- I heard the pirates, they thought I could not understand them, but I learnt their dialect three years ago when I went across the Sahara desert in an expedition. They repeated they must be paid by an Italian not far from here, in a tavern or something. They repeated a name: di Risso.^M^Mdi Risso, di Risso... the director of La voce del mattino, that Milanese newspaper who sent that annoying journalist!
+684
+- I love you, Albert^M- I love you, too, Emilia!
+685
+Three agents of the local police, called by your crew, arrive. You decide to search for the criminals together, starting from a nearby tavern.
+686
+You ask the innkeeper discretely for information about the pirate's boat, but he says he knowns nothing.
+687
+The innkeeper says you can't go there. You may ask the police to force him to let you in, but you aren't sure yet the pirates are in the tavern.
+688
+You and a police officer start to interrogate the innkeeper. People in the tavern begin to discreetly go away. He repeats that he knows nothing, but starts sweating heavily.
+689
+The police officers follow you.
+690
+They are armed and ready for action.
+691
+Sweat and fish.
+692
+He seems about 50 years old, with greasy black hair and large shoulders.
+693
+They expect action, not words.
+694
+Not impressive, but better than nothing.
+695
+The furniture is decorated with nice carved wood flowers.
+696
+What a lovely car!
+697
+That will be sent forward in advance, to prepare the rally.
+698
+Large cans of paraffin, sealed with corks and wax paper.
+699
+The crew sleeps there. Let's hope for them that nobody snores!
+700
+They separate the berths to give a little privacy.
+701
+They contain the personal belongings of the crew.
+702
+It is a small, yet well equipped, kitchen.
+703
+Fire is dangerous on a ship!
+704
+Water becomes steam in the steam generators and is then recovered with a condenser. That moves the engine.
+705
+Yum! You get hungry!
+706
+Coal and oil.
+707
+Safety first!
+708
+You personally prefer paraffin as a fuel, but at least it's inexpensive.
+709
+They avoid keeping large quantities of coal together. For safety, you know!
+710
+However, if you want to stop the pirates, you have to find a way to make it unusable.
+711
+It's spiked, now. It will not do any harm for a while.
+712
+There is no reason to go there.
+713
+The hatch is locked!
+714
+Good idea! With what?
+715
+You try to force the wedge between the hatch and its frame, so to break the locker, but it is too blunt and doesn't get inside.
+716
+You put the sharp wedge between the hatch and its frame, it gets inside perfectly. Now you need something to force it further down.
+717
+It's a scrap piece of oak wood, whose shape is approximately a wedge.
+718
+Now its shape is considerably sharper.
+719
+Yuck! The only thing you notice there is a piece of wood, approximately shaped as a wedge.
+720
+You notice a set of silver cutlery in the basin, behind the bar.
+721
+You pick up a fork and you recognize it: there is the Dynamene name engraved on it. Those were stolen by the pirates! You have to visit the back room!
+722
+You can go up and down using the rope ladder.
+723
+You can go down using the porthole.
+724
+You can go up and down using the portholes and the service ladder.
+725
+You can go up using the porthole and the service ladder.
+726
+You can go down using the rope ladder.
+996
+You see nothing interesting.
+997
+You don't smell anything in particular, apart from a barely perceptible scent of lavender, coming from your clothes.
+998
+You have a strange sensation, almost as if you were becoming lighter and lighter. After a while, everything becomes normal, again.
+999
+No time for that, now.
+1000
+Okay.
+1001
+Done.
+1002
+Done.
+1003
+a
+1004
+a
+1005
+You can't take that!
+1006
+You can't do that!
+1007
+You don't have that with you!
+1008
+You can't go that way!
+1009
+I beg your pardon?
+1010
+You can't.
+1011
+You already have that with you!
+1012
+What do you want to do?
+1013
+
+1018
+(worn)
+1019
+
+1020
+You can go: 
+1021
+north
+1022
+south
+1023
+east
+1024
+west
+1025
+up
+1026
+down
+1027
+
+1028
+
+1029
+
+1030
+
+1031
+You notice: 
+1032
+You have with you: 
+1033
+nothing.
+1035
+
+OGGETTI
+24
+
+Princess Briccorosso
+0
+0
+4
+TRUE
+FALSE
+25
+
+Albert Pinel
+0
+0
+17
+TRUE
+FALSE
+26
+
+Bicycle and motorbike mechanic
+0
+0
+18
+TRUE
+FALSE
+27
+
+A can full of paraffin
+0
+0
+0
+TRUE
+FALSE
+28
+
+Steam generator
+0
+0
+18
+TRUE
+FALSE
+29
+
+ITA model 150
+0
+0
+0
+TRUE
+FALSE
+30
+
+Sergio
+0
+0
+0
+TRUE
+FALSE
+31
+
+A bucket full of fresh water
+0
+0
+0
+FALSE
+TRUE
+32
+
+An empty bucket, repaired
+0
+0
+0
+FALSE
+TRUE
+33
+
+A poster
+0
+0
+19
+TRUE
+TRUE
+34
+
+A squeaky wheel
+0
+0
+20
+FALSE
+TRUE
+35
+
+A small dock
+0
+0
+21
+TRUE
+TRUE
+36
+
+A repaired wheel
+0
+0
+0
+FALSE
+TRUE
+37
+
+Elisa, the maid
+0
+0
+5
+TRUE
+TRUE
+38
+
+An old bucket, with a hole
+0
+0
+0
+FALSE
+TRUE
+39
+
+Acorns
+0
+0
+15
+FALSE
+TRUE
+40
+
+Oak leaves
+0
+0
+15
+FALSE
+TRUE
+41
+
+A short leaf rake
+0
+0
+0
+FALSE
+TRUE
+42
+
+A wine bottle, empty
+0
+0
+0
+FALSE
+TRUE
+43
+
+Your uncle Tullio
+0
+0
+36
+TRUE
+TRUE
+44
+
+Your father Augusto
+0
+0
+34
+TRUE
+TRUE
+45
+
+Riziero Rizzitelli, a journalist
+0
+0
+36
+TRUE
+TRUE
+46
+
+A letter
+0
+0
+0
+FALSE
+TRUE
+47
+
+Roberta
+0
+0
+35
+TRUE
+TRUE
+48
+
+Giovanna
+0
+0
+32
+TRUE
+TRUE
+49
+
+Personal message
+0
+0
+0
+FALSE
+TRUE
+170
+
+Anteo, the chief coachbuilder
+0
+0
+33
+TRUE
+TRUE
+171
+
+A newspaper
+0
+0
+0
+FALSE
+TRUE
+172
+
+ITA model 100
+0
+0
+30
+TRUE
+TRUE
+173
+
+Rolling chassis
+0
+0
+30
+TRUE
+TRUE
+174
+
+ITA model 50A
+0
+0
+30
+TRUE
+TRUE
+175
+
+Marcellino, the workshop assistant
+0
+0
+33
+TRUE
+TRUE
+176
+
+A button, close to the voicepipe
+0
+0
+0
+TRUE
+TRUE
+177
+
+A large rusted key
+0
+0
+0
+FALSE
+TRUE
+178
+
+The steam engine
+0
+0
+37
+TRUE
+TRUE
+179
+
+The compressor
+0
+0
+37
+TRUE
+TRUE
+180
+
+A valve
+0
+0
+0
+TRUE
+TRUE
+181
+
+A telegram
+0
+0
+0
+FALSE
+TRUE
+182
+
+Father Antonio Milieri
+0
+0
+45
+TRUE
+TRUE
+183
+
+The handyman
+0
+0
+40
+TRUE
+TRUE
+184
+
+Friars
+0
+0
+44
+TRUE
+TRUE
+186
+
+Captain Maalouf
+0
+0
+60
+TRUE
+TRUE
+187
+
+Youssef, the cook
+0
+0
+81
+TRUE
+TRUE
+188
+
+Sarah, the machinist
+0
+0
+82
+TRUE
+TRUE
+189
+
+Toyo, the stoker
+0
+0
+83
+TRUE
+TRUE
+190
+
+Neda, the second in command
+0
+0
+60
+TRUE
+TRUE
+191
+
+Roy, the boatswain
+0
+0
+60
+TRUE
+TRUE
+192
+
+A large steam engine
+0
+0
+82
+TRUE
+TRUE
+193
+
+Your luggage
+0
+0
+0
+TRUE
+TRUE
+194
+
+An umbrella
+0
+0
+0
+FALSE
+TRUE
+195
+
+A 50mm cannon
+0
+0
+84
+TRUE
+TRUE
+196
+
+A manhole
+0
+0
+0
+TRUE
+TRUE
+197
+
+A hammer
+0
+0
+0
+FALSE
+TRUE
+198
+
+Some large nails
+0
+0
+0
+FALSE
+TRUE
+199
+
+Some gunpowder
+0
+0
+0
+FALSE
+TRUE
+240
+
+Silver cutlery
+0
+0
+0
+FALSE
+TRUE
+241
+
+A wooden wedge
+0
+0
+0
+FALSE
+TRUE
+242
+
+A sharp wooden wedge
+0
+0
+0
+FALSE
+TRUE
+243
+
+Wax paper
+0
+0
+0
+FALSE
+TRUE
+244
+
+Wax paper
+0
+0
+0
+FALSE
+TRUE
+245
+
+Wax paper with gunpowder
+0
+0
+0
+FALSE
+TRUE
+246
+
+A box of long matches
+0
+0
+0
+FALSE
+TRUE
+247
+
+A large padlock
+0
+0
+0
+TRUE
+TRUE
+248
+
+A small gun
+0
+0
+0
+FALSE
+TRUE
+249
+
+A kitchen knife
+0
+0
+0
+FALSE
+TRUE
+250
+
+A tall pirate
+0
+0
+0
+TRUE
+TRUE
+251
+
+A scarred pirate
+0
+0
+0
+TRUE
+TRUE
+252
+
+Pieces of a blown padlock
+0
+0
+0
+FALSE
+TRUE
+254
+
+Three armed police officers
+0
+0
+0
+TRUE
+TRUE
+255
+
+The innkeeper
+0
+0
+92
+TRUE
+TRUE
+285
+
+Oiler
+0
+0
+0
+FALSE
+TRUE
+286
+
+Wrenches
+0
+0
+0
+FALSE
+TRUE
+287
+
+A friar's tunic
+0
+0
+47
+FALSE
+TRUE
+288
+
+A little key
+0
+0
+0
+FALSE
+TRUE

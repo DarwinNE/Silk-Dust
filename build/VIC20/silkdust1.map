@@ -1,0 +1,1012 @@
+Modules list:
+-------------
+silkdust1_no_UTF8.o:
+    CODE              Offs=000000  Size=001BDE  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=002A2C  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=0001EF  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000181  Align=00001  Fill=0000
+    HIMEM             Offs=000000  Size=001176  Align=00001  Fill=0000
+inout.o:
+    CODE              Offs=001BDE  Size=000472  Align=00001  Fill=0000
+    RODATA            Offs=002A2C  Size=000003  Align=00001  Fill=0000
+    BSS               Offs=0001EF  Size=00008E  Align=00001  Fill=0000
+loadsave.o:
+    CODE              Offs=002050  Size=00048D  Align=00001  Fill=0000
+    RODATA            Offs=002A2F  Size=000086  Align=00001  Fill=0000
+    BSS               Offs=00027D  Size=00000B  Align=00001  Fill=0000
+vic40col.o:
+    RODATA            Offs=002AB5  Size=000306  Align=00001  Fill=0000
+    BSS               Offs=000288  Size=000004  Align=00001  Fill=0000
+    LOADHI            Offs=000000  Size=000002  Align=00001  Fill=0000
+    HIMEM             Offs=001176  Size=000291  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(_directerrno.o):
+    CODE              Offs=0024DD  Size=00000A  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(_fdesc.o):
+    CODE              Offs=0024E7  Size=00001D  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(_file.o):
+    DATA              Offs=000181  Size=00001E  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(_fopen.o):
+    CODE              Offs=002504  Size=00007B  Align=00001  Fill=0000
+    BSS               Offs=00028C  Size=000002  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(_mappederrno.o):
+    CODE              Offs=00257F  Size=000010  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(_oserror.o):
+    BSS               Offs=00028E  Size=000001  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(_seterrno.o):
+    CODE              Offs=00258F  Size=000009  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(addeqsp.o):
+    CODE              Offs=002598  Size=000011  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(addysp.o):
+    CODE              Offs=0025A9  Size=00000E  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(bneg.o):
+    CODE              Offs=0025B7  Size=00000E  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(callmain.o):
+    CODE              Offs=0025C5  Size=000017  Align=00001  Fill=0000
+    DATA              Offs=00019F  Size=000004  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(close.o):
+    CODE              Offs=0025DC  Size=000038  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(condes.o):
+    CODE              Offs=002614  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=0001A3  Size=000025  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(crt0.o):
+    BSS               Offs=00028F  Size=000001  Align=00001  Fill=0000
+    STARTUP           Offs=000000  Size=00003A  Align=00001  Fill=0000
+    INIT              Offs=000000  Size=00001A  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(decax1.o):
+    CODE              Offs=002620  Size=000007  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(decaxy.o):
+    CODE              Offs=002627  Size=000009  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(decsp1.o):
+    CODE              Offs=002630  Size=000009  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(decsp4.o):
+    CODE              Offs=002639  Size=00000D  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(devnum.o):
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(diskcmd.o):
+    CODE              Offs=002646  Size=0000C4  Align=00001  Fill=0000
+    BSS               Offs=000290  Size=000017  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(div.o):
+    CODE              Offs=00270A  Size=000015  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(errno.o):
+    BSS               Offs=0002A7  Size=000002  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(exehdr.o):
+    EXEHDR            Offs=000000  Size=00000C  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(fclose.o):
+    CODE              Offs=00271F  Size=000022  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(fgetc.o):
+    CODE              Offs=002741  Size=00008A  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(fgets.o):
+    CODE              Offs=0027CB  Size=0000B1  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(filedes.o):
+    CODE              Offs=00287C  Size=00000E  Align=00001  Fill=0000
+    DATA              Offs=0001C8  Size=000010  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(filename.o):
+    CODE              Offs=00288A  Size=0000A0  Align=00001  Fill=0000
+    BSS               Offs=0002A9  Size=000003  Align=00001  Fill=0000
+    DATA              Offs=0001D8  Size=000024  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(filetype.o):
+    DATA              Offs=0001FC  Size=000001  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(filevars.o):
+    INIT              Offs=00001A  Size=000001  Align=00001  Fill=0000
+    ONCE              Offs=00000C  Size=00000C  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(fopen.o):
+    CODE              Offs=00292A  Size=000018  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(fputs.o):
+    CODE              Offs=002942  Size=000044  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(incax5.o):
+    CODE              Offs=002986  Size=000005  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(incaxy.o):
+    CODE              Offs=00298B  Size=00000B  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(incsp1.o):
+    CODE              Offs=002996  Size=000007  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(incsp2.o):
+    CODE              Offs=00299D  Size=000016  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(incsp3.o):
+    CODE              Offs=0029B3  Size=000005  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(incsp4.o):
+    CODE              Offs=0029B8  Size=000005  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(incsp6.o):
+    CODE              Offs=0029BD  Size=000005  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(kernal.o):
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(ldaxi.o):
+    CODE              Offs=0029C2  Size=00000D  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(ldaxsp.o):
+    CODE              Offs=0029CF  Size=000009  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(leaaxsp.o):
+    CODE              Offs=0029D8  Size=00000C  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(loadaddr.o):
+    LOADADDR          Offs=000000  Size=000002  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(makebool.o):
+    CODE              Offs=0029E4  Size=00002C  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(mod.o):
+    CODE              Offs=002A10  Size=000011  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(mul.o):
+    CODE              Offs=002A21  Size=000045  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(mul8.o):
+    CODE              Offs=002A66  Size=00003A  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(mulax10.o):
+    CODE              Offs=002AA0  Size=000019  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(mulax3.o):
+    CODE              Offs=002AB9  Size=000011  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(mulax6.o):
+    CODE              Offs=002ACA  Size=000016  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(negabs.o):
+    CODE              Offs=002AE0  Size=000012  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(open.o):
+    CODE              Offs=002AF2  Size=0000BE  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(oserror.o):
+    CODE              Offs=002BB0  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=002DBB  Size=00005A  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(popptr1.o):
+    CODE              Offs=002BC6  Size=00000E  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(pusha.o):
+    CODE              Offs=002BD4  Size=000016  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(pushax.o):
+    CODE              Offs=002BEA  Size=00001A  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(pushwsp.o):
+    CODE              Offs=002C04  Size=00001C  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(read.o):
+    CODE              Offs=002C20  Size=00007E  Align=00001  Fill=0000
+    BSS               Offs=0002AC  Size=000001  Align=00001  Fill=0000
+    ONCE              Offs=000018  Size=00000C  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(regswap2.o):
+    CODE              Offs=002C9E  Size=000016  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(return0.o):
+    CODE              Offs=002CB4  Size=000004  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(rwcommon.o):
+    CODE              Offs=002CB8  Size=00001C  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(scratch.o):
+    CODE              Offs=002CD4  Size=000019  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(shelp.o):
+    CODE              Offs=002CED  Size=000020  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(staspidx.o):
+    CODE              Offs=002D0D  Size=000016  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(status.o):
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(staxsp.o):
+    CODE              Offs=002D23  Size=00000B  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(staxspi.o):
+    CODE              Offs=002D2E  Size=00001B  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(strcmp.o):
+    CODE              Offs=002D49  Size=000021  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(strlen.o):
+    CODE              Offs=002D6A  Size=000016  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(subeqsp.o):
+    CODE              Offs=002D80  Size=000015  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(udiv.o):
+    CODE              Offs=002D95  Size=00004F  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(write.o):
+    CODE              Offs=002DE4  Size=000054  Align=00001  Fill=0000
+    ONCE              Offs=000024  Size=000011  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(zerobss.o):
+    CODE              Offs=002E38  Size=000023  Align=00001  Fill=0000
+/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/lib/vic20.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000002  00001B  00001A  00001
+LOADADDR              001FFF  002000  000002  00001
+EXEHDR                002001  00200C  00000C  00001
+STARTUP               00200D  002046  00003A  00001
+CODE                  002047  004EA1  002E5B  00001
+RODATA                004EA2  007CB8  002E17  00001
+DATA                  007CB9  007EB5  0001FD  00001
+LOADHI                009FFE  009FFF  000002  00001
+ONCE                  00A000  00A03A  00003B  00001
+HIMEM                 00A03B  00B441  001407  00001
+INIT                  00B442  00B45C  00001B  00001
+BSS                   00B45D  00B709  0002AD  00001
+
+
+Exports list by name:
+---------------------
+BASIN                     00FFCF RLA    BSOUT                     00FFD2 RLA    
+CHKIN                     00FFC6 RLA    CKOUT                     00FFC9 RLA    
+CLOSE                     00FFC3 RLA    CLRCH                     00FFCC RLA    
+OPEN                      00FFC0 RLA    READST                    00FFB7 RLA    
+SETLFS                    00FFBA RLA    SETNAM                    00FFBD RLA    
+ST                        000090 RLZ    __BSS_RUN__               00B45D RLA    
+__BSS_SIZE__              0002AD REA    __CONSTRUCTOR_COUNT__     000003 REA    
+__CONSTRUCTOR_TABLE__     00A035 RLA    __DESTRUCTOR_COUNT__      000001 REA    
+__DESTRUCTOR_TABLE__      007CB7 RLA    __EXEHDR__                000001 REA    
+__LOADADDR__              000001 REA    __MAIN_SIZE__             005F72 REA    
+__MAIN_START__            00200D RLA    __STACKSIZE__             000080 REA    
+__STARTUP__               000001 REA    __directerrno             004524 RLA    
+__errno                   00B704 RLA    __fdesc                   00452E RLA    
+__filetab                 007E3A RLA    __filetype                007EB5 RLA    
+__fopen                   00454B RLA    __mappederrno             0045C6 RLA    
+__oserror                 00B6EB RLA    __osmaperrno              004BF7 RLA    
+__seterrno                0045D6 RLA    _actor                    00B679 RLA    
+_cgetc40ch                00B24D RLA    _close                    004623 RLA    
+_clrscr                   00B1D8 RLA    _counter                  00B53E RLA    
+_current_position         00B4BA RLA    _dictionary               00505B RLA    
+_eatcr                    003D7E RLA    _fclose                   004766 RLA    
+_fgetc                    004788 RLA    _fgets                    004812 RLA    
+_fopen                    004971 RLA    _fputs                    004989 RLA    
+_gets40ch                 00B253 RLA    _initGraphic              00B1B1 RLA    
+_interrogationAndAnalysis 003DE2 RLA    _loadgame                 0041B1 RLA    
+_ls                       00B67A RLA    _main                     003BFE RLA    
+_marker                   00B4BD RLA    _negative                 00B2C5 RLA    
+_next_position            00B4BB RLA    _noun1                    00B675 RLA    
+_noun2                    00B677 RLA    _obj                      007DC2 RLA    
+_open                     004B4D RLA    _playerInput              00B64D RLA    
+_positive                 00B2CB RLA    _putc40ch                 00B2D1 RLA    
+_puts40ch                 00B239 RLA    _read                     004C67 RLA    
+_rowc                     00B64C RLA    _savegame                 004097 RLA    
+_strcmp                   004D90 RLA    _strlen                   004DB1 RLA    
+_verb                     00B673 RLA    _world                    007CB9 RLA    
+_write                    004E2B RLA    _writesameln              003C25 RLA    
+addeq0sp                  0045DF RLA    addeqysp                  0045E1 RLA    
+addysp                    0045F1 RLA    bnega                     004602 RLA    
+booleq                    004A31 RLA    boolne                    004A2B RLA    
+callmain                  00460C RLA    closeallfiles             004B39  LAI   
+closecmdchannel           0046C3 RLA    curunit                   00B45C RLA    
+decax1                    004667 RLA    decaxy                    00466E RLA    
+decsp1                    004677 RLA    decsp4                    004680 RLA    
+devnum                    0000BA RLZ    donelib                   00465B RLA    
+fdtab                     007E81 RLA    fnaddmode                 004960 RLA    
+fncmd                     007E91 RLA    fncomplete                004958 RLA    
+fnisfile                  00B708 RLA    fnlen                     00B707 RLA    
+fnparse                   0048EC RLA    fnset                     00494E RLA    
+fnunit                    00B706 RLA    freefd                    0048C3 RLA    
+incax5                    0049CD RLA    incaxy                    0049D4 RLA    
+incsp1                    0049DD RLA    incsp2                    0049EC RLA    
+incsp3                    0049FA RLA    incsp4                    0049FF RLA    
+incsp6                    004A04 RLA    initcurunit               00A00C  LAI   
+initlib                   00A000 RLA    initstdin                 00A018  LAI   
+initstdout                00A024  LAI   ldax0sp                   004A16 RLA    
+ldaxi                     004A09 RLA    ldaxidx                   004A0B RLA    
+ldaxysp                   004A18 RLA    leaa0sp                   004A1F RLA    
+mul8x16                   004AAF RLA    mul8x16a                  004AB9 RLA    
+mulax10                   004AE7 RLA    mulax3                    004B00 RLA    
+mulax6                    004B11 RLA    negax                     004B2B RLA    
+opencmdchannel            004696 RLA    popax                     0049E4 RLA    
+popptr1                   004C0D RLA    popsargsudiv16            004D34 RLA    
+ptr1                      00000A RLZ    ptr2                      00000C RLZ    
+ptr3                      00000E RLZ    ptr4                      000010 RLZ    
+push0                     004C31 RLA    pusha                     004C1F RLA    
+pusha0                    004C33 RLA    pushax                    004C35 RLA    
+pushw0sp                  004C4B RLA    pushwysp                  004C4D RLA    
+readdiskerror             0046DE RLA    regbank                   000016 RLZ    
+regswap2                  004CE5 RLA    return0                   004CFB RLA    
+rwcommon                  004CFF RLA    scratch                   004D1B RLA    
+sp                        000002 RLZ    sreg                      000004 RLZ    
+staspidx                  004D54 RLA    stax0sp                   004D6A RLA    
+staxspidx                 004D75 RLA    staxysp                   004D6C RLA    
+subeqysp                  004DC9 RLA    tmp1                      000012 RLZ    
+tmp2                      000013 RLZ    tmp3                      000014 RLZ    
+tosdiva0                  004751 RLA    tosmoda0                  004A57 RLA    
+tosmula0                  004AAD RLA    tosmulax                  004A68 RLA    
+udiv16                    004DED RLA    unittab                   007E89 RLA    
+writefndiskcmd            004716 RLA    zerobss                   004E7F RLA    
+
+
+
+Exports list by value:
+----------------------
+__STARTUP__               000001 REA    __LOADADDR__              000001 REA    
+__EXEHDR__                000001 REA    __DESTRUCTOR_COUNT__      000001 REA    
+sp                        000002 RLZ    __CONSTRUCTOR_COUNT__     000003 REA    
+sreg                      000004 RLZ    ptr1                      00000A RLZ    
+ptr2                      00000C RLZ    ptr3                      00000E RLZ    
+ptr4                      000010 RLZ    tmp1                      000012 RLZ    
+tmp2                      000013 RLZ    tmp3                      000014 RLZ    
+regbank                   000016 RLZ    __STACKSIZE__             000080 REA    
+ST                        000090 RLZ    devnum                    0000BA RLZ    
+__BSS_SIZE__              0002AD REA    __MAIN_START__            00200D RLA    
+_main                     003BFE RLA    _writesameln              003C25 RLA    
+_eatcr                    003D7E RLA    _interrogationAndAnalysis 003DE2 RLA    
+_savegame                 004097 RLA    _loadgame                 0041B1 RLA    
+__directerrno             004524 RLA    __fdesc                   00452E RLA    
+__fopen                   00454B RLA    __mappederrno             0045C6 RLA    
+__seterrno                0045D6 RLA    addeq0sp                  0045DF RLA    
+addeqysp                  0045E1 RLA    addysp                    0045F1 RLA    
+bnega                     004602 RLA    callmain                  00460C RLA    
+_close                    004623 RLA    donelib                   00465B RLA    
+decax1                    004667 RLA    decaxy                    00466E RLA    
+decsp1                    004677 RLA    decsp4                    004680 RLA    
+opencmdchannel            004696 RLA    closecmdchannel           0046C3 RLA    
+readdiskerror             0046DE RLA    writefndiskcmd            004716 RLA    
+tosdiva0                  004751 RLA    _fclose                   004766 RLA    
+_fgetc                    004788 RLA    _fgets                    004812 RLA    
+freefd                    0048C3 RLA    fnparse                   0048EC RLA    
+fnset                     00494E RLA    fncomplete                004958 RLA    
+fnaddmode                 004960 RLA    _fopen                    004971 RLA    
+_fputs                    004989 RLA    incax5                    0049CD RLA    
+incaxy                    0049D4 RLA    incsp1                    0049DD RLA    
+popax                     0049E4 RLA    incsp2                    0049EC RLA    
+incsp3                    0049FA RLA    incsp4                    0049FF RLA    
+incsp6                    004A04 RLA    ldaxi                     004A09 RLA    
+ldaxidx                   004A0B RLA    ldax0sp                   004A16 RLA    
+ldaxysp                   004A18 RLA    leaa0sp                   004A1F RLA    
+boolne                    004A2B RLA    booleq                    004A31 RLA    
+tosmoda0                  004A57 RLA    tosmulax                  004A68 RLA    
+tosmula0                  004AAD RLA    mul8x16                   004AAF RLA    
+mul8x16a                  004AB9 RLA    mulax10                   004AE7 RLA    
+mulax3                    004B00 RLA    mulax6                    004B11 RLA    
+negax                     004B2B RLA    closeallfiles             004B39  LAI   
+_open                     004B4D RLA    __osmaperrno              004BF7 RLA    
+popptr1                   004C0D RLA    pusha                     004C1F RLA    
+push0                     004C31 RLA    pusha0                    004C33 RLA    
+pushax                    004C35 RLA    pushw0sp                  004C4B RLA    
+pushwysp                  004C4D RLA    _read                     004C67 RLA    
+regswap2                  004CE5 RLA    return0                   004CFB RLA    
+rwcommon                  004CFF RLA    scratch                   004D1B RLA    
+popsargsudiv16            004D34 RLA    staspidx                  004D54 RLA    
+stax0sp                   004D6A RLA    staxysp                   004D6C RLA    
+staxspidx                 004D75 RLA    _strcmp                   004D90 RLA    
+_strlen                   004DB1 RLA    subeqysp                  004DC9 RLA    
+udiv16                    004DED RLA    _write                    004E2B RLA    
+zerobss                   004E7F RLA    _dictionary               00505B RLA    
+__MAIN_SIZE__             005F72 REA    __DESTRUCTOR_TABLE__      007CB7 RLA    
+_world                    007CB9 RLA    _obj                      007DC2 RLA    
+__filetab                 007E3A RLA    fdtab                     007E81 RLA    
+unittab                   007E89 RLA    fncmd                     007E91 RLA    
+__filetype                007EB5 RLA    initlib                   00A000 RLA    
+initcurunit               00A00C  LAI   initstdin                 00A018  LAI   
+initstdout                00A024  LAI   __CONSTRUCTOR_TABLE__     00A035 RLA    
+_initGraphic              00B1B1 RLA    _clrscr                   00B1D8 RLA    
+_puts40ch                 00B239 RLA    _cgetc40ch                00B24D RLA    
+_gets40ch                 00B253 RLA    _negative                 00B2C5 RLA    
+_positive                 00B2CB RLA    _putc40ch                 00B2D1 RLA    
+curunit                   00B45C RLA    __BSS_RUN__               00B45D RLA    
+_current_position         00B4BA RLA    _next_position            00B4BB RLA    
+_marker                   00B4BD RLA    _counter                  00B53E RLA    
+_rowc                     00B64C RLA    _playerInput              00B64D RLA    
+_verb                     00B673 RLA    _noun1                    00B675 RLA    
+_noun2                    00B677 RLA    _actor                    00B679 RLA    
+_ls                       00B67A RLA    __oserror                 00B6EB RLA    
+__errno                   00B704 RLA    fnunit                    00B706 RLA    
+fnlen                     00B707 RLA    fnisfile                  00B708 RLA    
+READST                    00FFB7 RLA    SETLFS                    00FFBA RLA    
+SETNAM                    00FFBD RLA    OPEN                      00FFC0 RLA    
+CLOSE                     00FFC3 RLA    CHKIN                     00FFC6 RLA    
+CKOUT                     00FFC9 RLA    CLRCH                     00FFCC RLA    
+BASIN                     00FFCF RLA    BSOUT                     00FFD2 RLA    
+
+
+
+Imports list:
+-------------
+BASIN (kernal.o):
+    read.o                    cbm/cbm.inc(47)
+    diskcmd.o                 cbm/cbm.inc(47)
+BSOUT (kernal.o):
+    read.o                    cbm/cbm.inc(49)
+    diskcmd.o                 cbm/cbm.inc(49)
+    write.o                   cbm/cbm.inc(49)
+    crt0.o                    vic20/crt0.s(10)
+CHKIN (kernal.o):
+    read.o                    cbm/cbm.inc(44)
+    diskcmd.o                 cbm/cbm.inc(44)
+CKOUT (kernal.o):
+    diskcmd.o                 cbm/cbm.inc(45)
+    write.o                   cbm/cbm.inc(45)
+CLOSE (kernal.o):
+    open.o                    cbm/cbm.inc(36)
+    diskcmd.o                 cbm/cbm.inc(36)
+    close.o                   cbm/cbm.inc(36)
+CLRCH (kernal.o):
+    read.o                    cbm/cbm.inc(46)
+    diskcmd.o                 cbm/cbm.inc(46)
+    write.o                   cbm/cbm.inc(46)
+OPEN (kernal.o):
+    read.o                    cbm/cbm.inc(35)
+    open.o                    cbm/cbm.inc(35)
+    diskcmd.o                 cbm/cbm.inc(35)
+    write.o                   cbm/cbm.inc(35)
+READST (kernal.o):
+    read.o                    cbm/cbm.inc(32)
+    write.o                   cbm/cbm.inc(32)
+SETLFS (kernal.o):
+    read.o                    cbm/cbm.inc(33)
+    open.o                    cbm/cbm.inc(33)
+    diskcmd.o                 cbm/cbm.inc(33)
+    write.o                   cbm/cbm.inc(33)
+SETNAM (kernal.o):
+    filename.o                cbm/cbm.inc(34)
+    diskcmd.o                 cbm/cbm.inc(34)
+ST (status.o):
+    crt0.o                    vic20/crt0.s(13)
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__EXEHDR__ (exehdr.o):
+    [linker generated]        vic20-32k_exp1.cfg(5)
+__LOADADDR__ (loadaddr.o):
+    [linker generated]        vic20-32k_exp1.cfg(4)
+__MAIN_SIZE__ ([linker generated]):
+    crt0.o                    vic20/crt0.s(11)
+__MAIN_START__ ([linker generated]):
+    crt0.o                    vic20/crt0.s(11)
+__STACKSIZE__ ([linker generated]):
+    crt0.o                    vic20/crt0.s(12)
+    [linker generated]        vic20-32k_exp1.cfg(12)
+__STARTUP__ (crt0.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(13)
+__directerrno (_directerrno.o):
+    read.o                    /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(10)
+    open.o                    /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(10)
+    close.o                   /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(10)
+    write.o                   /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(10)
+__errno (errno.o):
+    _seterrno.o               /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(7)
+__fdesc (_fdesc.o):
+    fopen.o                   common/fopen.s(10)
+__filetab (_file.o):
+    _fdesc.o                  /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/_file.inc(25)
+__filetype (filetype.o):
+    filename.o                cbm/filename.s(11)
+__fopen (_fopen.o):
+    fopen.o                   common/fopen.s(10)
+__mappederrno (_mappederrno.o):
+    read.o                    /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(10)
+    open.o                    /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(10)
+    close.o                   /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(10)
+    write.o                   /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(10)
+__oserror (_oserror.o):
+    read.o                    /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(7)
+    open.o                    /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(7)
+    _mappederrno.o            /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(7)
+    _directerrno.o            /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(7)
+    write.o                   /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(7)
+__osmaperrno (oserror.o):
+    _mappederrno.o            /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(8)
+__seterrno (_seterrno.o):
+    _mappederrno.o            /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(9)
+    _fopen.o                  /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(9)
+    _directerrno.o            /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(9)
+    fopen.o                   /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(9)
+    fgets.o                   ../libwrk/vic20/fgets.s(15)
+    fclose.o                  /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/errno.inc(9)
+_actor (inout.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(30)
+_cgetc40ch (vic40col.o):
+    inout.o                   inout.s(18)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(21)
+_close (close.o):
+    open.o                    cbm/open.s(14)
+    fclose.o                  common/fclose.s(10)
+_clrscr (vic40col.o):
+    inout.o                   inout.s(13)
+_counter (silkdust1_no_UTF8.o):
+    loadsave.o                loadsave.s(26)
+_current_position (silkdust1_no_UTF8.o):
+    loadsave.o                loadsave.s(23)
+_dictionary (silkdust1_no_UTF8.o):
+    inout.o                   inout.s(33)
+_eatcr (inout.o):
+    loadsave.o                loadsave.s(22)
+_fclose (fclose.o):
+    loadsave.o                loadsave.s(13)
+_fgetc (fgetc.o):
+    fgets.o                   ../libwrk/vic20/fgets.s(13)
+_fgets (fgets.o):
+    loadsave.o                loadsave.s(14)
+_fopen (fopen.o):
+    loadsave.o                loadsave.s(15)
+_fputs (fputs.o):
+    loadsave.o                loadsave.s(16)
+_gets40ch (vic40col.o):
+    inout.o                   inout.s(17)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(20)
+_initGraphic (vic40col.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(16)
+_interrogationAndAnalysis (inout.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(26)
+_loadgame (loadsave.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(24)
+_ls (inout.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(302)
+_main (silkdust1_no_UTF8.o):
+    callmain.o                runtime/callmain.s(11)
+_marker (silkdust1_no_UTF8.o):
+    loadsave.o                loadsave.s(25)
+_negative (vic40col.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(17)
+_next_position (silkdust1_no_UTF8.o):
+    loadsave.o                loadsave.s(24)
+_noun1 (inout.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(28)
+_noun2 (inout.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(29)
+_obj (silkdust1_no_UTF8.o):
+    loadsave.o                loadsave.s(27)
+_open (open.o):
+    _fopen.o                  common/_fopen.s(10)
+_playerInput (inout.o):
+    loadsave.o                loadsave.s(29)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(303)
+_positive (vic40col.o):
+    inout.o                   inout.s(14)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(18)
+_putc40ch (vic40col.o):
+    inout.o                   inout.s(15)
+_puts40ch (vic40col.o):
+    loadsave.o                loadsave.s(18)
+    inout.o                   inout.s(16)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19)
+_read (read.o):
+    fgetc.o                   ../libwrk/vic20/fgetc.s(14)
+_rowc (inout.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(22)
+_savegame (loadsave.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(23)
+_strcmp (strcmp.o):
+    loadsave.o                loadsave.s(17)
+_strlen (strlen.o):
+    fputs.o                   ../libwrk/vic20/fputs.s(14)
+_verb (inout.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(27)
+_world (silkdust1_no_UTF8.o):
+    loadsave.o                loadsave.s(28)
+_write (write.o):
+    fputs.o                   ../libwrk/vic20/fputs.s(15)
+_writesameln (inout.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(25)
+addeq0sp (addeqsp.o):
+    loadsave.o                loadsave.s(661)
+    inout.o                   inout.s(685)
+    inout.o                   inout.s(685)
+addeqysp (addeqsp.o):
+    fgets.o                   ../libwrk/vic20/fgets.s(115)
+addysp (addysp.o):
+    open.o                    cbm/open.s(10)
+    incsp6.o                  runtime/incsp6.s(8)
+    incsp4.o                  runtime/incsp4.s(8)
+    incsp3.o                  runtime/incsp3.s(8)
+    fgets.o                   ../libwrk/vic20/fgets.s(115)
+bnega (bneg.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+booleq (makebool.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+boolne (makebool.o):
+    inout.o                   inout.s(685)
+callmain (callmain.o):
+    crt0.o                    vic20/crt0.s(9)
+closecmdchannel (diskcmd.o):
+    scratch.o                 cbm/scratch.s(8)
+    open.o                    cbm/open.s(12)
+    close.o                   cbm/close.s(9)
+curunit (filevars.o):
+    filename.o                cbm/filename.s(11)
+decax1 (decax1.o):
+    inout.o                   inout.s(685)
+decaxy (decaxy.o):
+    loadsave.o                loadsave.s(661)
+decsp1 (decsp1.o):
+    fgetc.o                   ../libwrk/vic20/fgetc.s(95)
+decsp4 (decsp4.o):
+    fgets.o                   ../libwrk/vic20/fgets.s(115)
+devnum (devnum.o):
+    filevars.o                cbm/filevars.s(9)
+donelib (condes.o):
+    crt0.o                    vic20/crt0.s(7)
+fdtab (filedes.o):
+    read.o                    cbm/filedes.inc(7)
+    open.o                    cbm/filedes.inc(7)
+    close.o                   cbm/filedes.inc(7)
+    write.o                   cbm/filedes.inc(7)
+fnaddmode (filename.o):
+    open.o                    cbm/open.s(11)
+fncmd (filename.o):
+    scratch.o                 cbm/scratch.s(9)
+    diskcmd.o                 cbm/diskcmd.s(14)
+fncomplete (filename.o):
+    open.o                    cbm/open.s(11)
+fnisfile (filename.o):
+    open.o                    cbm/open.s(13)
+fnlen (filename.o):
+    diskcmd.o                 cbm/diskcmd.s(14)
+fnparse (filename.o):
+    open.o                    cbm/open.s(11)
+fnset (filename.o):
+    open.o                    cbm/open.s(11)
+fnunit (filename.o):
+    scratch.o                 cbm/scratch.s(9)
+    open.o                    cbm/open.s(13)
+    diskcmd.o                 cbm/diskcmd.s(14)
+freefd (filedes.o):
+    open.o                    cbm/filedes.inc(9)
+incax5 (incax5.o):
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+incaxy (incaxy.o):
+    incax5.o                  runtime/incax5.s(8)
+    loadsave.o                loadsave.s(661)
+incsp1 (incsp1.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+incsp2 (incsp2.o):
+    staxspi.o                 runtime/staxspi.s(9)
+    staspidx.o                runtime/staspidx.s(8)
+    popptr1.o                 runtime/popptr1.s(8)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    inout.o                   inout.s(685)
+    inout.o                   inout.s(685)
+    inout.o                   inout.s(685)
+    inout.o                   inout.s(685)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+incsp3 (incsp3.o):
+    fgetc.o                   ../libwrk/vic20/fgetc.s(95)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+incsp4 (incsp4.o):
+    _fopen.o                  common/_fopen.s(11)
+    fputs.o                   ../libwrk/vic20/fputs.s(61)
+    loadsave.o                loadsave.s(661)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+incsp6 (incsp6.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+initlib (condes.o):
+    crt0.o                    vic20/crt0.s(7)
+ldax0sp (ldaxsp.o):
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    inout.o                   inout.s(685)
+    inout.o                   inout.s(685)
+    inout.o                   inout.s(685)
+    inout.o                   inout.s(685)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+ldaxi (ldaxi.o):
+    loadsave.o                loadsave.s(661)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+ldaxidx (ldaxi.o):
+    loadsave.o                loadsave.s(661)
+    inout.o                   inout.s(685)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+ldaxysp (ldaxsp.o):
+    fputs.o                   ../libwrk/vic20/fputs.s(61)
+    fgets.o                   ../libwrk/vic20/fgets.s(115)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+leaa0sp (leaaxsp.o):
+    fgetc.o                   ../libwrk/vic20/fgetc.s(95)
+mul8x16 (mul8.o):
+    mul.o                     runtime/mul.s(8)
+mul8x16a (mul8.o):
+    mul.o                     runtime/mul.s(8)
+mulax10 (mulax10.o):
+    loadsave.o                loadsave.s(661)
+mulax3 (mulax3.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+mulax6 (mulax6.o):
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    inout.o                   inout.s(685)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+negax (negabs.o):
+    shelp.o                   runtime/shelp.s(11)
+    mod.o                     runtime/mod.s(11)
+    div.o                     runtime/div.s(11)
+    loadsave.o                loadsave.s(661)
+opencmdchannel (diskcmd.o):
+    scratch.o                 cbm/scratch.s(8)
+    open.o                    cbm/open.s(12)
+popax (incsp2.o):
+    rwcommon.o                cbm/rwcommon.s(9)
+    open.o                    cbm/open.s(10)
+    shelp.o                   runtime/shelp.s(11)
+    vic40col.o                vic40col.s(18)
+popptr1 (popptr1.o):
+    rwcommon.o                cbm/rwcommon.s(9)
+    udiv.o                    runtime/udiv.s(9)
+    strcmp.o                  common/strcmp.s(8)
+    mul8.o                    runtime/mul8.s(9)
+    mul.o                     runtime/mul.s(9)
+popsargsudiv16 (shelp.o):
+    mod.o                     runtime/mod.s(11)
+    div.o                     runtime/div.s(11)
+ptr1 (zeropage.o):
+    read.o                    cbm/read.s(13)
+    filename.o                cbm/filename.s(12)
+    diskcmd.o                 cbm/diskcmd.s(15)
+    _fopen.o                  common/_fopen.s(12)
+    zerobss.o                 common/zerobss.s(9)
+    write.o                   cbm/write.s(11)
+    udiv.o                    runtime/udiv.s(10)
+    strcmp.o                  common/strcmp.s(9)
+    staxspi.o                 runtime/staxspi.s(10)
+    staspidx.o                runtime/staspidx.s(9)
+    shelp.o                   runtime/shelp.s(12)
+    popptr1.o                 runtime/popptr1.s(9)
+    mulax6.o                  runtime/mulax6.s(9)
+    mulax3.o                  runtime/mulax3.s(9)
+    mulax10.o                 runtime/mulax10.s(9)
+    mul8.o                    runtime/mul8.s(10)
+    mul.o                     runtime/mul.s(10)
+    ldaxi.o                   runtime/ldaxi.s(8)
+    fclose.o                  common/fclose.s(11)
+    div.o                     runtime/div.s(12)
+    vic40col.o                vic40col.s(20)
+    loadsave.o                loadsave.s(11)
+    inout.o                   inout.s(11)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(11)
+ptr2 (zeropage.o):
+    rwcommon.o                cbm/rwcommon.s(10)
+    read.o                    cbm/read.s(13)
+    write.o                   cbm/write.s(11)
+    strlen.o                  common/strlen.s(12)
+    strcmp.o                  common/strcmp.s(9)
+    vic40col.o                vic40col.s(20)
+ptr3 (zeropage.o):
+    rwcommon.o                cbm/rwcommon.s(10)
+    read.o                    cbm/read.s(13)
+    write.o                   cbm/write.s(11)
+    vic40col.o                vic40col.s(20)
+ptr4 (zeropage.o):
+    udiv.o                    runtime/udiv.s(10)
+    shelp.o                   runtime/shelp.s(12)
+    mul8.o                    runtime/mul8.s(10)
+    mul.o                     runtime/mul.s(10)
+    vic40col.o                vic40col.s(20)
+push0 (pushax.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+pusha (pusha.o):
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+pusha0 (pushax.o):
+    fgetc.o                   ../libwrk/vic20/fgetc.s(95)
+    fputs.o                   ../libwrk/vic20/fputs.s(61)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+pushax (pushax.o):
+    fgetc.o                   ../libwrk/vic20/fgetc.s(95)
+    callmain.o                runtime/callmain.s(11)
+    fputs.o                   ../libwrk/vic20/fputs.s(61)
+    fopen.o                   common/fopen.s(11)
+    fgets.o                   ../libwrk/vic20/fgets.s(115)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    inout.o                   inout.s(685)
+    inout.o                   inout.s(685)
+    inout.o                   inout.s(685)
+    inout.o                   inout.s(685)
+    inout.o                   inout.s(685)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+pushw0sp (pushwsp.o):
+    loadsave.o                loadsave.s(661)
+pushwysp (pushwsp.o):
+    fputs.o                   ../libwrk/vic20/fputs.s(61)
+    loadsave.o                loadsave.s(661)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+readdiskerror (diskcmd.o):
+    open.o                    cbm/open.s(12)
+    close.o                   cbm/close.s(9)
+regbank (zeropage.o):
+    fgetc.o                   ../libwrk/vic20/fgetc.s(10)
+    regswap2.o                runtime/regswap2.s(8)
+    fputs.o                   ../libwrk/vic20/fputs.s(10)
+    fgets.o                   ../libwrk/vic20/fgets.s(10)
+regswap2 (regswap2.o):
+    fgetc.o                   ../libwrk/vic20/fgetc.s(95)
+    fputs.o                   ../libwrk/vic20/fputs.s(61)
+    fgets.o                   ../libwrk/vic20/fgets.s(115)
+return0 (return0.o):
+    _fopen.o                  common/_fopen.s(11)
+    _fdesc.o                  common/_fdesc.s(9)
+rwcommon (rwcommon.o):
+    read.o                    cbm/read.s(11)
+    write.o                   cbm/write.s(10)
+scratch (scratch.o):
+    open.o                    cbm/open.s(11)
+sp (zeropage.o):
+    decsp1.o                  runtime/decsp1.s(8)
+    leaaxsp.o                 runtime/leaaxsp.s(8)
+    fgetc.o                   ../libwrk/vic20/fgetc.s(10)
+    decsp4.o                  runtime/decsp4.s(8)
+    addysp.o                  runtime/addysp.s(8)
+    _fopen.o                  common/_fopen.s(12)
+    subeqsp.o                 runtime/subeqsp.s(8)
+    staxspi.o                 runtime/staxspi.s(10)
+    staxsp.o                  runtime/staxsp.s(8)
+    staspidx.o                runtime/staspidx.s(9)
+    regswap2.o                runtime/regswap2.s(8)
+    pushwsp.o                 runtime/pushwsp.s(8)
+    pushax.o                  runtime/pushax.s(8)
+    pusha.o                   runtime/pusha.s(8)
+    popptr1.o                 runtime/popptr1.s(9)
+    ldaxsp.o                  runtime/ldaxsp.s(8)
+    incsp2.o                  runtime/incsp2.s(8)
+    incsp1.o                  runtime/incsp1.s(8)
+    fputs.o                   ../libwrk/vic20/fputs.s(10)
+    fgets.o                   ../libwrk/vic20/fgets.s(10)
+    crt0.o                    /Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/cc65-github/cc65/asminc/zeropage.inc(11)
+    addeqsp.o                 runtime/addeqsp.s(8)
+    loadsave.o                loadsave.s(10)
+    inout.o                   inout.s(10)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(10)
+sreg (zeropage.o):
+    udiv.o                    runtime/udiv.s(10)
+    mod.o                     runtime/mod.s(12)
+    loadsave.o                loadsave.s(10)
+    inout.o                   inout.s(10)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(10)
+staspidx (staspidx.o):
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+stax0sp (staxsp.o):
+    fgets.o                   ../libwrk/vic20/fgets.s(115)
+    loadsave.o                loadsave.s(661)
+staxspidx (staxspi.o):
+    loadsave.o                loadsave.s(661)
+staxysp (staxsp.o):
+    fgets.o                   ../libwrk/vic20/fgets.s(115)
+subeqysp (subeqsp.o):
+    fgets.o                   ../libwrk/vic20/fgets.s(115)
+tmp1 (zeropage.o):
+    read.o                    cbm/read.s(13)
+    filename.o                cbm/filename.s(12)
+    diskcmd.o                 cbm/diskcmd.s(15)
+    staxspi.o                 runtime/staxspi.s(10)
+    staspidx.o                runtime/staspidx.s(9)
+    shelp.o                   runtime/shelp.s(12)
+    mul.o                     runtime/mul.s(10)
+    mod.o                     runtime/mod.s(12)
+    incaxy.o                  runtime/incaxy.s(8)
+    fgets.o                   ../libwrk/vic20/fgets.s(11)
+    div.o                     runtime/div.s(12)
+    decaxy.o                  runtime/decaxy.s(8)
+    vic40col.o                vic40col.s(21)
+tmp2 (zeropage.o):
+    rwcommon.o                cbm/rwcommon.s(10)
+    read.o                    cbm/read.s(13)
+    open.o                    cbm/open.s(15)
+    close.o                   cbm/close.s(10)
+    shelp.o                   runtime/shelp.s(12)
+    div.o                     runtime/div.s(12)
+    vic40col.o                vic40col.s(21)
+tmp3 (zeropage.o):
+    read.o                    cbm/read.s(13)
+    open.o                    cbm/open.s(15)
+    vic40col.o                vic40col.s(21)
+tosdiva0 (div.o):
+    loadsave.o                loadsave.s(661)
+tosmoda0 (mod.o):
+    loadsave.o                loadsave.s(661)
+tosmula0 (mul8.o):
+    loadsave.o                loadsave.s(661)
+    loadsave.o                loadsave.s(661)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+    silkdust1_no_UTF8.o       silkdust1_no_UTF8.s(19634)
+tosmulax (mul.o):
+    loadsave.o                loadsave.s(661)
+udiv16 (udiv.o):
+    shelp.o                   runtime/shelp.s(11)
+unittab (filedes.o):
+    read.o                    cbm/filedes.inc(8)
+    open.o                    cbm/filedes.inc(8)
+    close.o                   cbm/filedes.inc(8)
+writefndiskcmd (diskcmd.o):
+    scratch.o                 cbm/scratch.s(8)
+zerobss (zerobss.o):
+    crt0.o                    vic20/crt0.s(8)
+

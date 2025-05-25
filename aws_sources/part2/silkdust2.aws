@@ -1,0 +1,2122 @@
+AWS
+VERSIONE
+3.0
+0
+7
+7
+0
+Silk Dust, part 2
+Davide Bucci
+Version 1.0.3, Sept. 2020 - May 2025
+
+1
+
+0
+0
+110
+FALSE
+0
+0
+CONDIZIONIHI
+IF AT 101 THEN PRESSKEY GOTO 30 ENDIF Print the introduction and wait a key.
+IF AT 35 AND SET? 33 AND RES? 34 THEN MESS 259 SET 34 TO 181 1500 WAIT ENDIF Roberta sees you and gives you the telegram.
+IF AT 40 AND RES? 41 THEN DECR 40 ENDIF If you are at the entrance of the Sacra, decrement couter.
+IF AT 40 AND EQU? 40 0 AND RES? 42 THEN MESS 271 SET 42 ENDIF If the counter 40 = 0, Salvatore has noticed the car
+IF AT 44 AND ISNOTWEARING 187 THEN MESS 302 GOTO 43 ENDIF A monk sees you and forces you outside.
+IF AT 40 AND ISWEARING 187 THEN MESS 305 UNWEAR 187 ENDIF Do not wear Salvatore's tunic in front of him.
+CONDIZIONILOW
+if verb 70 and noun 409 then mess 518 wait endif Examine me
+if verb 73 then quit endif
+if verb 74 or verb 0 and noun 72 then inve wait endif
+if verb 987 then restart endif
+if verb 110 then look wait endif
+IF verb 100 OR vbnoeq 0 AND noun 80 THEN nord WAIT ENDIF  Go north.
+IF verb 100 OR vbnoeq 0 AND noun 81 THEN sud WAIT ENDIF   Go south.
+IF verb 100 OR vbnoeq 0 AND noun 82 THEN est WAIT ENDIF   Go east.
+IF verb 100 OR vbnoeq 0 AND noun 83 THEN ovest WAIT ENDIF Go west.
+IF verb 100 OR vbnoeq 0 AND noun 84 THEN alto WAIT ENDIF  Go up.
+IF verb 100 OR vbnoeq 0 AND noun 85 THEN basso WAIT ENDIF Go down.
+IF verb 201 THEN MESS 400 WAIT ENDIF Sleep
+IF VERB 122 THEN MESS 403 WAIT ENDIF Wait... Oh, no!
+IF VERB 12 and noun 10 THEN MESS 401 WAIT ENDIF Open window -> no
+IF VERB 1000 then MESS 998 WAIT ENDIF XYZZY
+IF VERB 400 THEN mess 504 WAIT ENDIF Curse
+IF VERB 401 THEN MESS 61 WAIT ENDIF Pee
+IF VERB 70 AND NOUN 174 AND AVAI 174 THEN MESS 264 WAIT ENDIF Examine model 50 car.
+IF VERB 70 AND NOUN 177 AND AVAI 177 THEN MESS 245 WAIT ENDIF Examine key.
+IF VERB 70 AND ACTOR 175 AND AVAI 175 THEN MESS 233 WAIT ENDIF Examine Marcellino.
+IF VERB 75 AND ACTOR 175 AND AVAI 175 THEN MESS 235 WAIT ENDIF Speak to Marcellino.
+IF VERB 70 AND NOUN 173 AND AVAI 173 THEN MESS 229 WAIT ENDIF Examine rolling chassis.
+IF VERB 70 AND NOUN 171 AND AVAI 171 THEN MESS 227 SET 27 WAIT ENDIF Examine newspaper.
+IF VERB 70 AND ACTOR 170 AND AVAI 170 THEN MESS 218 WAIT ENDIF Examine Anteo, the coachbuilder.
+IF VERB 70 AND NOUN 185 AND AVAI 185 THEN MESS 297 WAIT ENDIF Examine oiler.
+IF VERB 70 AND NOUN 186 AND AVAI 186 THEN MESS 298 WAIT ENDIF Examine set of wrenches.
+IF VERB 70 AND NOUN 187 AND AVAI 187 THEN MESS 306 WAIT ENDIF Examine tunic.
+IF VERB 70 AND NOUN 177 AND AVAI 188 THEN MESS 307 WAIT ENDIF Examine key.
+IF VERB 75 AND ACTOR 170 AND AVAI 170 THEN MESS 220 WAIT ENDIF Speak to Anteo.
+IF VERB 70 AND ACTOR 43 AND AVAI 43 THEN MESS 212 WAIT ENDIF Examine Tullio, your uncle.
+IF VERB 66 AND NOUN 46 AND ACTOR 43 AND AVAI 46 AND AVAI 43 THEN MESS 225 TO 46 0 SET 26 WAIT ENDIF Give letter to uncle.
+IF VERB 70 AND NOUN 49 AND AVAI 49 THEN MESS 209 WAIT ENDIF Read Albert's personal message.
+IF VERB 70 AND NOUN 181 AND AVAI 181 AND ROOMLT 40 THEN MESSNOLF 260 MESS 308 SET 35 WAIT ENDIF Read telegram (before going to the Sacra).
+IF VERB 70 AND NOUN 181 AND AVAI 181 THEN MESS 260 SET 35 WAIT ENDIF Read telegram.
+IF VERB 70 AND NOUN 46 AND AVAI 46 AND SET? 22 THEN MESS 208 WAIT ENDIF Read letter. Only a list of spare parts.
+IF VERB 70 AND NOUN 46 AND AVAI 46 THEN MESS 201 SET 22 TO 49 1500 WAIT ENDIF Read letter. Find Albert's personal message directed to you.
+IF VERB 75 AND ACTOR 43 AND AVAI 43 AND AVAI 46 AND RES? 23 THEN MESS 215 SET 23 WAIT ENDIF Talk the first time with your uncle.
+IF VERB 66 AND NOUN 46 AND ACTOR 43 AND AVAI 43 AND AVAI 46 AND RES? 23 THEN MESS 215 SET 23 WAIT ENDIF Talk the first time with your uncle.
+IF VERB 75 AND ACTOR 43 AND AVAI 43 AND SET? 23 THEN MESS 216 WAIT ENDIF Talk a second time with your uncle.
+IF VERB 70 AND ACTOR 45 AND AVAI 45 THEN MESS 228 WAIT ENDIF Examine Riziero Rizzitelli, the journalist.
+IF VERB 75 AND ACTOR 45 AND AVAI 45 THEN MESS 226 TO 171 1500 TO 45 0 SET 33 WAIT ENDIF Talk with Riziero Rizzitelli, the young journalist.
+IF ROOMGT 30 AND ROOMLT 34 AND VERB 143 THEN MESS 217 WAIT ENDIF Smell inside the factory.
+IF VERB 143 AND ISWEARING 187 THEN MESS 309 WAIT ENDIF Smell while wearing Salvatore's tunic.
+IF VERB 69 AND NOUN 176 AND AVAI 176 AND SET? 29 THEN MESS 244 WAIT ENDIF Push button near the voicepipe, with the compressed air on.
+IF VERB 69 AND NOUN 176 AND AVAI 176 THEN MESS 237 SET 28 WAIT ENDIF Push button near the voicepipe, without compressed air -> nothing happens, but notice that it works with compressed air.
+IF VERB 70 AND NOUN 176 AND AVAI 176 THEN MESS 249 WAIT ENDIF Examine button.
+IF VERB 70 AND ACTOR 183 AND AVAI 183 AND SET? 42 THEN MESS 272 WAIT ENDIF Examine Salvatore, the handyman, after he noticed your car.
+IF VERB 70 AND ACTOR 183 AND AVAI 183 THEN MESS 270 WAIT ENDIF Examine Salvatore, the handyman.
+IF VERB 75 AND ACTOR 183 AND AVAI 183 AND SET? 41 THEN MESS 316 WAIT ENDIF Speak with Salvatore, the handyman a second time.
+IF VERB 75 AND ACTOR 183 AND AVAI 183 AND SET? 42 AND RES? 41 THEN MESS 273 SET 41 WAIT ENDIF Speak with Salvatore, the handyman. Propose a drive.
+IF VERB 66 AND NOUN 177 AND AVAI 188 AND ACTOR 183 AND SET? 40 AND RES? 44 AND OBJLOCEQ 187 47 THEN MESS 303 TO 188 0 SET 44 WAIT ENDIF Give back the key to Salvatore.
+IF VERB 66 AND NOUN 177 AND AVAI 188 AND ACTOR 183 THEN MESS 505 WAIT ENDIF Give back the key to Salvatore, tunic not in the right place.
+IF VERB 66 AND ACTOR 183 THEN MESS 278 WAIT ENDIF Offer something to Salvatore -> not interested.
+IF VERB 75 AND ACTOR 183 AND AVAI 183 THEN MESS 269 CSET 40 5  WAIT ENDIF Speak with Salvatore, the handyman. Set the counter 40 so that Salvatore notices the car after a while.
+IF VERB 120 AND NOUN 187 THEN WEAR 187 OKAY ENDIF Wear tunic
+IF VERB 121 AND NOUN 187 THEN UNWEAR 187 OKAY ENDIF Wear tunic
+IF VERB 143 THEN MESS 997 WAIT ENDIF Smell...
+IF VERB 66 THEN MESS 401 WAIT ENDIF Give...
+IF VERB 211 OR VERB 406 OR VERB 67 THEN mess 401 WAIT ENDIF Touch..., Drink..., Wash...
+IF VERB 50 AND NO1GT 24 AND NO1LT 50 THEN GET NO1 OKAY ENDIF Take an object
+IF VERB 55 AND NO1GT 24 AND NO1LT 50 THEN DROP NO1 OKAY ENDIF Drop an object
+IF VERB 50 AND NO1GT 169 AND NO1LT 200 THEN GET NO1 OKAY ENDIF Take an object
+IF VERB 55 AND NO1GT 169 AND NO1LT 200 THEN DROP NO1 OKAY ENDIF Drop an object
+IF VERB 407 THEN MESS 407 WAIT ENDIF
+IF VERB 70 AND NOUN 79 THEN LOOK WAIT ENDIF Examine room = look
+IF VERB 210 THEN MESS 231 WAIT ENDIF Pray
+IF VERB 70 THEN MESS 996 WAIT ENDIF Examine (without a known object)
+IF VERB 15 THEN MESS 408 WAIT ENDIF Use... "use a more specific verb".
+IF VERB 78 THEN MESS 122 WAIT ENDIF Break/Destroy/Kill...
+IF VERB 988 THEN LOAD WAIT ENDIF Load
+IF VERB 989 THEN SAVE WAIT ENDIF Save
+IF VERB 76 THEN MESS 402 WAIT ENDIF Exit/Quit -> use "bye"
+CONDIZIONILOCALI
+30
+IF VERB 70 AND NOUN 237 THEN MESS 246 WAIT ENDIF Examine entrance of the factory.
+30
+IF VERB 70 AND NOUN 238 THEN MESS 247 WAIT ENDIF Examine barn.
+30
+IF VERB 70 AND NOUN 29 AND AVAI 173 THEN MESS 222 WAIT ENDIF Examine cars, the 100 is not yet dented.
+30
+IF VERB 70 AND NOUN 29 THEN MESS 230 SET 25 WAIT ENDIF Examine cars, the 100 is not yet dented.
+30
+IF VERB 70 AND ACTOR 170 AND AVAI 170 THEN MESS 218 MESS 224 WAIT ENDIF Examine Anteo, while he is trying to repair the dent on the finished car.
+30
+IF VERB 12 AND NOUN 4 AND NOTAVAI 177 THEN MESS 243 WAIT ENDIF Try to open the door without a key.
+30
+IF VERB 70 AND NOUN 4 THEN MESS 248 WAIT ENDIF Examine door.
+30
+IF VERB 12 AND NOUN 4 THEN MESS 245 SETCONN 30 3 37 WAIT ENDIF Open the door with the rusty key.
+30
+IF VERB 56 AND NOUN 173 OR NOUN 29 AND SET? 35 THEN RESETALL TO 49 1500 TO 181 1500 TO 171 1500 MESS 261 TO 174 40 CSET 40 100 GOTO 40 WAIT ENDIF Drive model 50 to the Sacra.
+30
+IF VERB 56 AND NOUN 29 THEN MESS 401 WAIT ENDIF Drive car, no need
+31
+IF VERB 70 AND NOUN 212 THEN MESS 250 WAIT ENDIF Examine workers.
+31
+IF NOUN 212 THEN MESS 251 WAIT ENDIF ... workers.
+31
+IF VERB 70 AND NOUN 173 THEN MESS 252 WAIT ENDIF Examine chassis.
+31
+IF NOUN 10 OR NOUN 216 AND VERB 70 THEN MESS 253 WAIT ENDIF Examine windows/roof.
+32
+IF VERB 70 AND ACTOR 48 THEN MESS 205 WAIT ENDIF Examine Giovanna.
+32
+IF VERB 75 AND ACTOR 48 AND RES? 20 THEN MESS 207 WAIT ENDIF Speak to Giovanna, before having spoken with your father.
+32
+IF VERB 75 AND ACTOR 48 AND RES? 28 THEN MESS 206 WAIT ENDIF Speak to Giovanna, after having spoken with your father.
+32
+IF VERB 75 AND ACTOR 48 AND RES? 31 THEN MESS 238 TO 177 1500 SET 31 WAIT ENDIF Ask to Giovanna about the compressed air. She gives you the large key.
+32
+IF VERB 75 AND ACTOR 48 THEN MESS 207 WAIT ENDIF Speak to Giovanna, after having received the key.
+32
+IF VERB 70 AND NOUN 206 THEN MESS 258 WAIT ENDIF Examine tools.
+32
+IF VERB 70 AND NOUN 240 THEN MESS 256 WAIT ENDIF Examine lineshaft.
+32
+IF VERB 70 AND NOUN 51 AND RES? 37 THEN MESS 294 BRIN 185 BRIN 186 SET 37 WAIT ENDIF Find the wrenches and the oiler.
+32
+IF VERB 50 AND NOUN 185 OR NOUN 186 AND RES? 38 THEN MESS 295 WAIT ENDIF Take Nanna's tools.
+32
+IF VERB 50 AND NOUN 185 OR NOUN 186 THEN MESS 296 ENDIF Take Nanna's tools after you know you have to fix the valve. No wait here!
+33
+IF VERB 70 AND NOUN 240 THEN MESS 256 WAIT ENDIF Examine lineshaft.
+33
+IF VERB 70 AND NOUN 239 AND RES? 24 THEN MESS 254 WAIT ENDIF Examine trip hammer, one is used.
+33
+IF VERB 70 AND NOUN 239 THEN MESS 255 WAIT ENDIF Examine trip hammer, both are stopped.
+33
+IF VERB 70 AND NOUN 240 THEN MESS 256 WAIT ENDIF Examine lineshaft.
+33
+IF VERB 70 AND ACTOR 170 AND AVAI 170 AND RES? 24 THEN MESS 218 MESS 219 WAIT ENDIF Examine Anteo, the coachbuilder. He is using the large and noisy hammer.
+33
+IF VERB 75 AND ACTOR 170 AND AVAI 170 AND RES? 25 AND NOTAVAI 173 AND SET? 39 THEN MESS 232 BRIN 173 WAIT ENDIF Speak to Anteo. Bring here the rolling chassis.
+33
+IF VERB 75 AND ACTOR 170 AND SET? 25 AND AVAI 170 THEN MESS 223 SET 24 TO 170 30 TO 175 0 WAIT ENDIF Speak to Anteo, tell him about the dent.
+33
+IF VERB 70 AND NOUN 97 THEN MESS 210 WAIT ENDIF Examine voicepipe.
+33
+IF VERB 75 AND NOUN 97 AND SET? 22 AND SET? 24 AND SET? 29 THEN MESS 211 BRIN 43 WAIT ENDIF Talk to the voicepipe, compressed air working. Bring there your uncle.
+33
+IF VERB 75 AND NOUN 97 AND SET? 22 AND RES? 29 THEN MESS 236 BRIN 176 SET 30 WAIT ENDIF
+33
+IF VERB 75 AND NOUN 97 AND SET? 22 THEN MESS 221 SET 39 WAIT ENDIF Talk to the voicepipe. Hammer is still creating noise.
+33
+IF VERB 75 AND NOUN 97 THEN MESS 213 WAIT ENDIF Talk to the voicepipe, but haven't yet read the letters given by your father.
+34
+IF VERB 70 AND ACTOR 44 THEN MESS 234 WAIT ENDIF Examine your father.
+34
+IF VERB 75 AND ACTOR 44 AND RES? 20 THEN SET 20 MESS 200 TO 46 1500 WAIT ENDIF Speak with your father, receive Albert's letter.
+34
+IF VERB 75 AND ACTOR 44 THEN MESS 66 WAIT ENDIF Speak with your father, receive Albert's letter.
+35
+IF VERB 70 AND ACTOR 47 THEN MESS 203 WAIT ENDIF Examine Roberta.
+35
+IF VERB 70 AND NOUN 241 OR NOUN 242 THEN MESS 257 WAIT ENDIF Examine shelves/blueprints
+35
+IF VERB 100 OR VBNOEQ 0 AND NOUN 83 AND RES? 21 AND RES? 23 THEN MESS 202 WAIT ENDIF Try to go west towards your uncle office, but Roberta stops you.
+35
+IF VERB 75 AND ACTOR 47 AND RES? 23 AND RES? 33 THEN MESS 204 WAIT ENDIF Speak with Roberta.
+35
+IF VERB 75 AND ACTOR 47 AND RES? 33 THEN MESS 207 WAIT ENDIF Speak with Roberta after your uncle is not anymore in his office -> She is busy and you don't want to disturb her.
+35
+IF VERB 66 AND NOUN 46 AND ACTOR 47 AND AVAI 46 THEN MESS 214 WAIT ENDIF Give the letter to Roberta. You want to discuss with your uncle.
+36
+IF VERB 70 AND NOUN 61 THEN MESS 312 WAIT ENDIF Examine painting.
+36
+IF VERB 70 AND NOUN 9 THEN MESS 313 WAIT ENDIF Examine drawing board.
+36
+IF VERB 70 AND NOUN 51 THEN MESS 314 WAIT ENDIF Examine table.
+37
+IF VERB 69 AND NOUN 179 AND RES? 32 THEN MESS 239 WAIT ENDIF Pull the lever/activate compressor. Water in the lines! Needs a good purge.
+37
+IF VERB 69 AND NOUN 179 THEN MESS 242 SET 29 WAIT ENDIF Pull the lever/activate compressor. Compressed air is on.
+37
+IF VERB 70 AND NOUN 179 THEN MESS 240 BRIN 180 WAIT ENDIF Examine compressor.
+37
+IF VERB 70 AND NOUN 178 THEN MESS 289 WAIT ENDIF Examine engine.
+37
+IF VERB 70 AND NOUN 180 THEN MESS 290 WAIT ENDIF Examine valve.
+37
+IF VERB 12 AND NO1EQ 180 AND NO2EQ 186 THEN MESS 299 WAIT ENDIF Open the valve with a wrench.
+37
+IF VERB 12 AND NOUN 180 AND SET? 36 THEN MESS 241 SET 32 WAIT ENDIF Open the (lubed) valve to purge the water.
+37
+IF VERB 12 AND NOUN 180 THEN MESS 292 SET 38 WAIT ENDIF Open valve (stuck)
+37
+IF VERB 71 OR VERB 15 AND NO1EQ 185 AND NO2EQ 180 THEN SET 36 MESS 293 WAIT ENDIF Put oil on valve.
+37
+IF VERB 71 OR VERB 15 AND NO1EQ 186 AND NO2EQ 180 THEN MESS 299 WAIT ENDIF Use wrenches on the valve.
+40
+IF VERB 100 OR VERB 0 AND NOUN 83 THEN MESS 315 WAIT ENDIF   Go east -> you find nobody.
+40
+IF VERB 70 AND NOUN 53 THEN MESS 275 WAIT ENDIF Examine view.
+40
+IF VERB 70 AND NOUN 7 THEN MESS 276 WAIT ENDIF Examine staircase.
+40
+IF VERB 70 AND NOUN 4 THEN MESS 277 WAIT ENDIF Examine portal.
+40
+IF VERB 100 OR VERB 0 AND NOUN 84 AND RES? 41 THEN MESS 268 WAIT ENDIF  Go up. ->   Can't, because of Salvatore
+40
+IF VERB 100 OR VERB 0 AND NOUN 82 AND RES? 41 THEN MESS 268 WAIT ENDIF  Go east. -> Can't, because of Salvatore
+40
+IF VERB 56 AND NOUN 29 AND SET? 40 AND SET? 44 AND OBJLOCEQ 187 47 THEN MESS 287 EXIT WAIT ENDIF End of part 2: come back in Turin.
+40
+IF VERB 56 AND NOUN 29 AND SET? 40 THEN MESS 304 WAIT ENDIF You want to leave, but you haven't given back the key to Salvatore or put back his tunic in the shed.
+40
+IF VERB 100 OR VBNOEQ 0 AND NOUN 81 AND NOTAVAI 188 THEN MESS 300 WAIT ENDIF   Go south -> no key!
+40
+IF VERB 100 OR VBNOEQ 0 AND NOUN 81 AND RES? 45 THEN SET 45 MESS 317 ENDIF   Go south with the key -> NO WAIT HERE!
+40
+IF VERB 70 AND NOUN 174 OR NOUN 29 AND SET? 41 AND RES? 43 THEN MESS 301 BRIN 188 SET 43 WAIT ENDIF Examine car after having driven Salvatore around. Find shed's key.
+40
+IF VERB 50 AND NOUN 177 THEN GET 188 OKAY ENDIF Take key.
+41
+IF VERB 70 AND NOUN 161 OR NOUN 165 THEN MESS 265 WAIT ENDIF Examine skeletons.
+41
+IF VERB 75 AND NOUN 161 OR NOUN 165 THEN MESS 291 WAIT ENDIF Speak with skeletons.
+41
+IF VERB 70 AND NOUN 4 THEN MESS 279 WAIT ENDIF Examine portal.
+41
+IF VERB 70 AND NOUN 102 THEN MESS 266 WAIT ENDIF Examine rock.
+42
+IF VERB 70 AND NOUN 102 THEN MESS 280 WAIT ENDIF Examine stone.
+42
+IF VERB 70 AND NOUN 4 OR NOUN 166 THEN MESS 267 WAIT ENDIF Examine Zodiac Portal.
+43
+IF VERB 70 AND NOUN 53 OR NOUN 167 THEN MESS 282 WAIT ENDIF Examine view/mountains.
+44
+IF VERB 70 AND ACTOR 184 THEN MESS 274 WAIT ENDIF Examine/speak to friars.
+44
+IF VERB 70 AND NOUN 168 THEN MESS 283 WAIT ENDIF Examine work in progress.
+44
+IF VERB 70 AND NOUN 169 THEN MESS 284 WAIT ENDIF Examine apses.
+44
+IF VERB 70 AND NOUN 122 THEN MESS 285 WAIT ENDIF Examine styles.
+44
+IF VERB 143 THEN MESS 310 WAIT ENDIF Smell...
+45
+IF VERB 70 AND NOUN 167 THEN MESS 286 WAIT ENDIF Examine Musiné.
+45
+IF ACTOR 182 OR ACTOR 44 AND VERB 75 AND RES? 40 THEN MESS 262 SET 40 WAIT ENDIF Speak to Father Milieri.
+45
+IF ACTOR 182 OR ACTOR 44 AND VERB 75 THEN MESS 66 WAIT ENDIF Speak to Father Milieri, again.
+45
+IF ACTOR 182 OR ACTOR 44 AND VERB 70 THEN MESS 263 WAIT ENDIF Examine father Milieri.
+46
+IF VERB 70 AND NOUN 62 THEN MESS 288 WAIT ENDIF Examine flowers.
+47
+IF VERB 70 AND NOUN 206 THEN MESS 311 WAIT ENDIF Examine tools.
+110
+IF VERB 230 AND NOUN 231 THEN RESETALL GOTO 101 WAIT ENDIF Enter password for the second part of the game.
+DIZIONARIO
+MAKE
+1
+VERBO
+BOAT
+2
+NOME
+BOATS
+2
+NOME
+DRAPERIES
+3
+NOME
+TAPESTRIES
+3
+NOME
+TAPESTRY
+3
+NOME
+PATTERN
+3
+NOME
+PATTERNS
+3
+NOME
+UPHOLSTERY
+3
+NOME
+WALLPAPER
+3
+NOME
+PAPER
+3
+NOME
+DOOR
+4
+NOME
+GATE
+4
+NOME
+PORTAL
+4
+NOME
+ARCH
+4
+NOME
+PILLARS
+4
+NOME
+PILLAR
+4
+NOME
+FOUNTAIN
+5
+NOME
+BAR
+6
+NOME
+STAIRCASE
+7
+NOME
+STAIRS
+7
+NOME
+STEPS
+7
+NOME
+MAIOLICA
+8
+NOME
+POTTERY
+8
+NOME
+BOARD
+9
+NOME
+WINDOW
+10
+NOME
+WINDOWS
+10
+NOME
+DRAWER
+11
+NOME
+DRAWERS
+11
+NOME
+OPEN
+12
+VERBO
+UNLOCK
+12
+VERBO
+CLOSET
+13
+NOME
+TUB
+14
+NOME
+BATTHUB
+14
+NOME
+USE
+15
+VERBO
+BICYCLE
+17
+NOME
+BICYCLES
+17
+NOME
+BIKE
+17
+NOME
+MOTORBIKE
+17
+NOME
+BIKES
+17
+NOME
+MOTORBIKES
+17
+NOME
+BED
+18
+NOME
+HOUSEPLANT
+19
+NOME
+HOUSEPLANTS
+19
+NOME
+FICUS
+19
+NOME
+WAVES
+20
+NOME
+FRESCOES
+22
+NOME
+FRESCO
+22
+NOME
+CEILING
+22
+NOME
+PRINCESS
+24
+ATTORE
+LUCILLA
+24
+ATTORE
+BRICCOROSSO
+24
+ATTORE
+MADAM
+24
+ATTORE
+ALBERT
+25
+ATTORE
+PINEL
+25
+ATTORE
+MECHANIC
+26
+ATTORE
+VITTORIO
+26
+ATTORE
+CAN
+27
+NOME
+TIN
+27
+NOME
+JAR
+27
+NOME
+KEROSENE
+27
+NOME
+PARAFFIN
+27
+NOME
+GENERATOR
+28
+NOME
+CAR
+29
+NOME
+CARS
+29
+NOME
+ITA
+29
+NOME
+150
+29
+NOME
+100
+29
+NOME
+SERGIO
+30
+ATTORE
+GARDENER
+30
+ATTORE
+BUCKET
+32
+NOME
+POSTER
+33
+NOME
+WHEEL
+34
+NOME
+DOCK
+35
+NOME
+ELISA
+37
+ATTORE
+MAID
+37
+ATTORE
+ACORNS
+39
+NOME
+ACORN
+39
+NOME
+LEAF
+40
+NOME
+LEAVES
+40
+NOME
+RAKE
+41
+NOME
+TULLIO
+43
+ATTORE
+UNCLE
+43
+ATTORE
+FATHER
+44
+ATTORE
+AUGUSTO
+44
+ATTORE
+RIZIERO
+45
+ATTORE
+RIZZITELLI
+45
+ATTORE
+JOURNALIST
+45
+ATTORE
+LETTER
+46
+NOME
+ROBERTA
+47
+ATTORE
+SECRETARY
+47
+ATTORE
+NANNA
+48
+ATTORE
+GIOVANNA
+48
+ATTORE
+MESSAGE
+49
+NOME
+GET
+50
+VERBO
+GRAB
+50
+VERBO
+TAKE
+50
+VERBO
+TABLE
+51
+NOME
+BENCH
+51
+NOME
+CHAIR
+51
+NOME
+CHAIRS
+51
+NOME
+DESK
+51
+NOME
+THANK
+52
+VERBO
+LAKE
+53
+NOME
+VIEW
+53
+NOME
+SHORE
+53
+NOME
+VALLEY
+53
+NOME
+PORCH
+54
+NOME
+DROP
+55
+VERBO
+LEAVE
+55
+VERBO
+THROW
+55
+VERBO
+TOSS
+55
+VERBO
+DRIVE
+56
+VERBO
+ENTER
+56
+VERBO
+VILLA
+57
+NOME
+CHANDELIER
+58
+NOME
+LAMP
+58
+NOME
+LAMPS
+58
+NOME
+BURNER
+58
+NOME
+BURNERS
+58
+NOME
+BASIN
+59
+NOME
+BASINS
+59
+NOME
+GARDEN
+60
+NOME
+HERBS
+60
+NOME
+PAINTING
+61
+NOME
+PAINTINGS
+61
+NOME
+FLOWER
+62
+NOME
+FLOWERS
+62
+NOME
+BUDS
+62
+NOME
+SWIM
+63
+VERBO
+DIVE
+63
+VERBO
+GIVE
+66
+VERBO
+OFFER
+66
+VERBO
+BRUSH
+67
+VERBO
+WASH
+67
+VERBO
+WALL
+68
+NOME
+WALLS
+68
+NOME
+PANEL
+68
+NOME
+PANELS
+68
+NOME
+PANELING
+68
+NOME
+MARBLE
+68
+NOME
+PLATE
+68
+NOME
+PLATES
+69
+NOME
+ACTIVATE
+69
+VERBO
+PULL
+69
+VERBO
+ACTION
+69
+VERBO
+MOVE
+69
+VERBO
+PUSH
+69
+VERBO
+PRESS
+69
+VERBO
+DEPRESS
+69
+VERBO
+EX
+70
+VERBO
+EXAMINE
+70
+VERBO
+X
+70
+VERBO
+READ
+70
+VERBO
+SEARCH
+70
+VERBO
+SLIDE
+71
+VERBO
+PUT
+71
+VERBO
+SET
+71
+VERBO
+I
+72
+NOME
+INV
+72
+NOME
+INVE
+72
+NOME
+INVENTORY
+72
+NOME
+BYE
+73
+VERBO
+SHOW
+74
+VERBO
+CHAT
+75
+VERBO
+SPEAK
+75
+VERBO
+TALK
+75
+VERBO
+SHOUT
+75
+VERBO
+EXIT
+76
+VERBO
+STOP
+76
+VERBO
+QUIT
+76
+VERBO
+PLAY
+77
+VERBO
+BREAK
+78
+VERBO
+DESTROY
+78
+VERBO
+STRANGLE
+78
+VERBO
+KILL
+78
+VERBO
+ROOM
+79
+NOME
+N
+80
+NOME
+NORTH
+80
+NOME
+S
+81
+NOME
+SOUTH
+81
+NOME
+E
+82
+NOME
+EAST
+82
+NOME
+W
+83
+NOME
+WEST
+83
+NOME
+ABOVE
+84
+NOME
+U
+84
+NOME
+UP
+84
+NOME
+UPSTAIRS
+84
+NOME
+BELOW
+85
+NOME
+D
+85
+NOME
+DOWN
+85
+NOME
+DOWNSTAIRS
+85
+VERBO
+UNDER
+85
+NOME
+FILL
+86
+VERBO
+WATER
+87
+NOME
+BUY
+88
+VERBO
+STATUE
+89
+NOME
+NYMPH
+89
+NOME
+POLE
+90
+NOME
+POST
+90
+NOME
+PICK
+95
+VERBO
+VOICEPIPE
+97
+NOME
+SHOP
+98
+NOME
+SHOPS
+98
+NOME
+BUILDING
+98
+NOME
+BUILDINGS
+98
+NOME
+PALACE
+98
+NOME
+PALACES
+98
+NOME
+HOUSE
+98
+NOME
+HOUSES
+98
+NOME
+CHURCH
+99
+NOME
+GO
+100
+VERBO
+RUN
+100
+VERBO
+WALK
+100
+VERBO
+TREE
+101
+NOME
+TREES
+101
+NOME
+PLANT
+101
+NOME
+PLANTS
+101
+NOME
+MAGNOLIA
+101
+NOME
+STONE
+102
+NOME
+STONES
+102
+NOME
+ROCK
+102
+NOME
+ROCKS
+102
+NOME
+ROSE
+103
+NOME
+ROSES
+103
+NOME
+STORE
+108
+NOME
+STORES
+108
+NOME
+L
+110
+VERBO
+LOOK
+110
+VERBO
+REPAIR
+111
+VERBO
+WEAR
+120
+VERBO
+UNDRESS
+121
+VERBO
+UNWEAR
+121
+VERBO
+WAIT
+122
+VERBO
+STYLE
+123
+NOME
+STYLES
+123
+NOME
+SMELL
+143
+VERBO
+FURNITURE
+144
+NOME
+CREDENZA
+144
+NOME
+DRESSER
+144
+NOME
+OBJECT
+156
+NOME
+FLOOR
+159
+NOME
+GROUND
+159
+NOME
+LIFT
+160
+VERBO
+SKELETON
+161
+NOME
+SKELETONS
+161
+NOME
+MUMMIES
+161
+NOME
+MUMMY
+161
+NOME
+FIRE
+164
+NOME
+NICHE
+165
+NOME
+LIGHT
+166
+NOME
+ALPS
+167
+NOME
+MOUNTAIN
+167
+NOME
+MOUNTAINS
+167
+NOME
+ROCCIAMELONE
+167
+NOME
+MUSINE
+167
+NOME
+MUSINÉ
+167
+NOME
+WORK
+168
+NOME
+APSES
+169
+NOME
+ANTEO
+170
+ATTORE
+NEWSPAPER
+171
+NOME
+VOCE
+171
+NOME
+CHASSIS
+173
+NOME
+PIECES
+173
+NOME
+PARTS
+173
+NOME
+50A
+174
+NOME
+MARCELLINO
+175
+ATTORE
+ASSISTANT
+175
+ATTORE
+BUTTON
+176
+NOME
+KEY
+177
+NOME
+ENGINE
+178
+NOME
+COMPRESSOR
+179
+NOME
+LEVER
+179
+NOME
+VALVE
+180
+NOME
+TELEGRAM
+181
+NOME
+ANTONIO
+182
+ATTORE
+MILIERI
+182
+ATTORE
+HANDYMAN
+183
+ATTORE
+SALVATORE
+183
+ATTORE
+FRIAR
+184
+ATTORE
+FRIARS
+184
+ATTORE
+OIL
+185
+NOME
+OILER
+185
+NOME
+WRENCHES
+186
+NOME
+WRENCH
+186
+NOME
+TUNIC
+187
+NOME
+LIBRARY
+200
+NOME
+BOOK
+200
+NOME
+BOOKS
+200
+NOME
+SIT
+201
+VERBO
+SLEEP
+201
+VERBO
+CLOTHES
+202
+NOME
+CLOSE
+203
+VERBO
+TOOL
+206
+NOME
+TOOLS
+206
+NOME
+DRILL
+206
+NOME
+PRAY
+210
+VERBO
+DRINK
+211
+VERBO
+EAT
+211
+VERBO
+SWALLOW
+211
+VERBO
+WORKER
+212
+NOME
+WORKERS
+212
+NOME
+TURN
+213
+VERBO
+ROOF
+216
+NOME
+MIRROR
+219
+NOME
+CARPET
+228
+NOME
+HANDRAIL
+229
+NOME
+SHIBBOLETH
+230
+VERBO
+OHBASTALA
+231
+NOME
+KNOCK
+236
+VERBO
+ENTRANCE
+237
+NOME
+BARN
+238
+NOME
+HAMMER
+239
+NOME
+LINESHAFT
+240
+NOME
+LINE-SHAFT
+240
+NOME
+LINESHAFTS
+240
+NOME
+LINE-SHAFTS
+240
+NOME
+BELT
+240
+NOME
+BELTS
+240
+NOME
+SHAFT
+240
+NOME
+SHELF
+241
+NOME
+SHELVES
+241
+NOME
+BLUEPRINT
+242
+NOME
+BLUEPRINTS
+242
+NOME
+CURSE
+400
+VERBO
+FUCK
+400
+VERBO
+CUNT
+400
+VERBO
+CUNTS
+400
+VERBO
+PISS
+400
+VERBO
+PEE
+401
+VERBO
+SHIT
+401
+VERBO
+POO
+401
+VERBO
+CARESS
+406
+VERBO
+PET
+406
+VERBO
+TOUCH
+406
+VERBO
+KISS
+406
+VERBO
+HELP
+407
+VERBO
+INFO
+407
+VERBO
+HINT
+408
+VERBO
+EMILIA
+409
+NOME
+ME
+409
+NOME
+MYSELF
+409
+NOME
+RESTART
+987
+VERBO
+LOAD
+988
+VERBO
+SAVE
+989
+VERBO
+XYZZY
+1000
+VERBO
+THEN
+9999
+SEPARATORE
+AND
+9999
+SEPARATORE
+LOCAZIONI
+30
+You are standing in a large courtyard. The factory entrance is in front of you and a barn, with a small door, is on your right.
+
+Factory courtyard
+31
+0
+0
+0
+0
+0
+0
+0
+0
+0
+31
+The central hall is the heart of the factory. It is large and well illuminated by windows on the sides of the high roof. You see many workers busy, assembling chassis and preparing mechanical parts.
+
+Main hall
+32
+30
+33
+35
+0
+0
+0
+0
+0
+0
+32
+In front of you, you see the place where steam engines for cars are assembled and tested. You see a large bench full of tools and a pillar drill, driven by a large leather belt from one of the rotating lineshafts hung from the roof.
+
+Engine hall
+0
+31
+0
+34
+0
+0
+0
+0
+0
+0
+33
+This is the place where the coach-builders work. Two large trip hammers occupy the centre of the hall, moved by leather belts taking power from the lineshaft attached to the roof. A voicepipe is visible on the north wall.
+
+Coach-building hall
+0
+0
+0
+31
+0
+0
+0
+0
+0
+0
+34
+You know your father's office well. His wooden desk is full of blueprints and a large book full of calculations. He is probably designing a new engine or something similar.
+
+Your father's office
+0
+35
+32
+0
+0
+0
+0
+0
+0
+0
+35
+This is the place where the administrative stuff is done. All the blueprints of the factory are kept in this place, on large shelves.
+
+Administration and archives
+34
+0
+31
+36
+0
+0
+0
+0
+0
+0
+36
+This place is occupied by a desk, a drawing board and is elegantly decorated with a painting.
+
+Your uncle's office
+0
+0
+35
+0
+0
+0
+0
+0
+0
+0
+37
+This place contains the main steam engine of the factory.
+
+Barn
+0
+0
+0
+30
+0
+0
+0
+0
+0
+0
+40
+You stand before a staircase leading to the front of a monumental wooden door. From this elevated place, the view towards the east is charming. There's a toolshed to the south, with a wooden door.
+
+Entrance of the abbey
+0
+47
+46
+99
+41
+0
+0
+0
+0
+0
+41
+You are on a steep stairway under a high ceiling, built next to the rock of the mountain, literally under the church. Light shines through the portal at the top of the stairway. You see four skeletons, standing above you in a niche on the west wall. 
+
+Stairway of the dead
+0
+0
+0
+0
+42
+40
+0
+0
+0
+0
+42
+You see a beautiful portal, with a semicircular arch supported by pillars, finely carved in the stone.
+
+Zodiac portal
+43
+0
+0
+0
+0
+41
+0
+0
+0
+0
+43
+You are on a balcony, where you see all the Susa valley, towards the Rocciamelone mountain.
+
+West Balcony
+0
+42
+44
+0
+0
+0
+0
+0
+0
+0
+44
+You are inside the church of the abbey. You see various architectural styles, as this church has clearly been built and extended in different periods. Apses are built in bricks and the back of the church has an irregular shape. There is work in progress on the vault.
+
+Church
+0
+0
+45
+43
+0
+46
+0
+0
+0
+0
+45
+You are on a balcony, where you see mountains in front of you across the valley, among them, mount Musiné.
+
+East Balcony
+0
+0
+0
+44
+0
+0
+0
+0
+0
+0
+46
+You walk amongst the ruins of an abandoned part of the abbey. Some bushes with flower buds grow here and there.
+
+Ruins
+0
+0
+0
+40
+44
+0
+0
+0
+0
+0
+47
+It's an old wooden shed, in need of some repairs, as rain gets inside. Salvatore stores the tools he uses for the vegetable garden there.
+
+Toolshed
+40
+0
+0
+0
+0
+0
+0
+0
+0
+0
+101
+You arrived in Turin on Friday evening, informed your father, then spent the weekend reading. Now it's Tuesday April 23, 1907. You came to the ITA factory this morning to organise details of the delivery of spare parts to Princess Briccorosso. When you left her, she instructed Albert to write a message which should have arrived at the factory by now. You should find your father and discuss it.
+
+Introduction
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+110
+Enter password
+
+Introduction
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+MESSAGGI
+61
+Certainly not here!
+66
+You don't want to disturb him. He's occupied.
+122
+You won't need violence to complete this part of the game.
+200
+Your father smiles:^M^M- My dear Emilia, you made quite an impression to Princess Briccorosso. She wrote a letter to request that an agent from ITA joins the rally. And she insisted it should be you.^M^MYou can't believe it! You almost scream with joy: that will be a real adventure! And that Albert... uhm... he is a talented mechanic.^M^M- You will have to drive the car and write articles for the press, to be sent by telegraph during the rally. Coming to spares, here is a letter. Go see your uncle, he will organise the delivery.^M^MYou smile widely while you take it and put it in your pocket.
+201
+You open the letter. There is a list of the spares needed for the car. Albert discovered the rear axle had been tampered with, too. Better give that to your uncle. There is another message, addressed to you.
+202
+While you are opening the door of your uncle's office, Roberta, your uncle's secretary says:^M^M- Madam, Mister Tullio is occupied in a meeting, please come to see him at another moment.
+203
+She is young and looks to be very serious and committed to her work.
+204
+- Roberta, I hear voices from my uncle's office; who is meeting him?^M- A journalist, a certain Rizzitelli, from La voce del mattino, a newspaper in Milan. I don't know much apart from that he has been in discussion with your uncle for at least one hour.
+205
+Her name is Giovanna, but many call her Nanna. She is the young chief mechanic here and she is good at it. Giovanna has come especially from Rome to work at ITA, here in Turin. Everybody appreciates her, her energy and her accent. She is tiny, with long brown hair she keeps together with a red foulard, wearing makeup and bright orange overalls. She is currently assembling a set of five steam engines.
+206
+You summarise what your father said to you and Nanna smiles broadly:^M^M- Emilia, it looks like I'll have a lot of work to do to repair the car when you get back from the rally. Do try to bring it back in one piece!^M^MShe then becomes serious:^M^M- By the way, if I find who sabotaged the best 150 we built, I will make them deeply regret it.^M^MAnd you think she really means it, given the way she menacingly handles the 26mm spanner she has in her hand!
+207
+She looks busy. Maybe later.
+208
+It's a list of spare parts.
+209
+^MVarenna, April 25, 1907^M^MDear Miss Emilia,^M  I just learned that Princess Briccorosso asked you to take part in the rally. My heart is full of joy, as I would be honoured to go on this adventure with a driver as gifted as you. However, my conscience tells me to warn you that it may be dangerous and my life would become meaningless if something happened to you. Please remain assured that whatever your decision, I would be very happy at prospect of meeting you again.^M^MYours truly,^M  Albert Pinel^M^MIt's quite awkward: you are able to take care of yourself, but you blush nonetheless with a certain pleasure reading the message: that young man seems interested to you.
+210
+If you recall well, this voicepipe is connected to your uncle's office.
+211
+You open the cover of the voicepipe and push the button. This sends compressed air that makes a little bell ring in your uncle's office. He answers:^M^M- Hello.^M- I'm Emilia. Do you think you can come? I need to speak to you.^M- Oh, yes, I'll come immediately.^M^MAfter a couple of minutes, you see your uncle arriving in the hall.
+212
+Tullio is your uncle. He is about 45 years old and he is the younger brother of your father. He sports a brown beard and is always dressed in a formal way, but without ostentation. He is a great artist in his field.
+213
+You don't need to call your uncle now. Maybe later.
+214
+No, you want to discuss it with your uncle.
+215
+- Emilia, thanks for having called me! That young journalist was so insistant. He wanted to know everything about the model 150 we sent to Varenna and how Briccorosso is preparing for the rally.
+216
+You already discussed with your uncle. He is probably waiting for the journalist to go away.
+217
+You recognise the familiar oily smell of cutting fluid.
+218
+He's a giant, but with his large hands he crafts delicate metal sculptures.
+219
+He is using one of the noisy power hammers.
+220
+No, you know that Anteo does not like to be interrupted at all while he is working.
+221
+It's too noisy here to use the voicepipe.
+222
+You look at those beautiful new cars: a model 100 and a model 50A.
+223
+- Anteo, sorry to bother you, it seems to me that there is a dent in the bonnet of the model 100 parked in the courtyard. Is that normal?^M^M- WHAT THE...? MARCELLINOOOOO!!!^M^M The boy runs away scared and, with a grunt, Anteo says:^M^M- I'm going to check.^M^MAnteo leaves and stops the hammer. Ahhh, silence!
+224
+He is trying to remove the dent with his bare hands and a small wooden mallet! And with a certain success, from what you can judge. This man is impressive.
+225
+You give the letter with the list of spare parts to your uncle.^M^M- Uhm, Emilia, I will arrange everything. Do you suspect someone? I contacted the chief of the transport company, he is sad about what happened and said they discovered someone broke into their warehouse in Milan the night before the delivery. Their insurance will take care of everything.
+226
+- M'am are you Emilia Vittorini?^M^M- Yes, I am.^M^M- Nice to know you, my name is Riziero Rizzitelli and I work for the Voce del mattino newspaper.^M^MThe young man starts to ask you many questions. Fortunately, you gained experience handling insistant questioners three years ago, when you came back from the mission to Egypt. You are able to extract yourself from the conversation, politely yet firmly. At the end, Rizzitelli gives you a copy of the newspaper he works for. He then asks if you think your uncle will return soon and leaves after your negative answer.
+227
+It's a Milanese newspaper called "La voce del mattino." It contains an article in the first page: "Silk Road Rally: the road to the progress?" To summarise, the author is sure that a success of such an endeavour would be beneficial for the communications with the Middle East and road transport would concurrence the construction of the Berlin-Baghdad railway. The article also tells that the director of the newspaper, Altiero di Risso, has chosen to participate to the rally. Ah, so his car was the one you heard about in Varenna!
+228
+He looks young and overly enthusiastic about his work.
+229
+It is a short wheel base rolling chassis, ready to be equipped with a model 50A body by coachbuilders.
+230
+The rolling chassis is not there anymore, the finished cars are beautiful! Wait a second: is that a dent on the side of the bonnet of the 100? Is it the result of the crash you heard?
+231
+You may try, but it will probably not work.
+232
+While you are about to ask Anteo about the noise, you understand it is better not to disturb him now. Anteo yells at the workshop assistant to get the rolling chassis there. Was that the sound of a crash you just heard? Anteo raises an eyebrow. After a while, Marcellino pushes a rolling chassis there, whistling.
+233
+He is young and quite lazy, everybody calls him "bocia," in Piedmontese. He is an orphan and you know Anteo insisted on hiring him to save him from poverty.
+234
+Your father is a middle-aged man, relatively tall and with bright eyes. Thirteen years ago with his brother he founded a steam car company, called ITA, i.e. Industria Torinese Automobili. He is a mechanical genius and a cultivated man.
+235
+- Marcellino, how are you?^M^M- Fine, Madam!
+236
+You try to call your uncle, but he does not hear you! You notice a button nearby.
+237
+You push the button, but nothing happens. You notice an airline: this thing works with compressed air and there is no pressure just now.
+238
+You ask to Giovanna about the compressed air:^M^M- Oh, yes, I am going to need it, too! Go to the courtyard, you'll find the compressor next to the steam engine, pull the lever on it and it will work. Here is the key for the barn's door.^M^MShe hands you a large rusted key.
+239
+You pull the lever, as instructed by Giovanna, but you immediately hear a burbling sound that you don't like. You switch it off.
+240
+It's a simple compressor system, the lever controls a clutch that engages on the main lineshaft moved by the steam engine. There is a valve on the bottom of the compressor.
+241
+You open the valve for a while. Some rusty water flows out for a while. That compressor truly needed that. You close the valve.
+242
+When you pull the lever, the sound of the compressor is much more reassuring. You see a needle indicating the pressure, slowly rising. That will do!
+243
+The door is locked.
+244
+You push the button and you listen to your uncle's voice from the voicepipe.
+245
+It's funny that a key so large opens a door so small!
+246
+It's a large door in wrought iron soberly decorated, with large glass windows.
+247
+You see a chimney. It must contain the main steam engine of the factory.
+248
+It's the barn's door.
+249
+It's a small, unassuming button, close to the voicepipe.
+250
+They work hard!
+251
+You don't want to disturb them.
+252
+They soon will be shiny new cars.
+253
+You see the bright sunlight getting through the windows refracted through volatile dust specks.
+254
+One of those trip hammers is being used by Anteo and is very noisy.
+255
+Those two trip hammers are not being used, now.
+256
+Lineshafts hung from the roof distribute power in the factory and are moved by a large steam engine. When you were a kid, you wondered how the belts never walked off the pulleys. Your father once showed you that the driving pulleys are crowned and the belt self-centres on it.
+257
+No. You don't need to look at blueprints, yet.
+258
+This is a well-equipped factory!
+259
+Roberta sees you and says:^M^M- Madam, we just received this telegram for you.^M^MShe hands it to you.
+260
+It says: "DEAR EMILIA STOP I'M AT SACRA SAN MICHELE STOP COME TO SEE ME IF YOU CAN. FATHER MILIERI." Oh, yes, Father Antonio Milieri was a Franciscan missionary in Luxor. You knew him during your stay in Egypt, he helped you a lot during the archeological searches. The Sacra, or the Saint Michael's Abbey is not far from Turin.
+261
+You go to the engine hall and you ask Giovanna for permission to test-drive one of the finished cars. She proposes you take the model 50A, which is in need of testing before being shipped. She agrees with you that a trip to the Saint Michael Abbey will be perfect for that. The trip there takes one hour and the car will only require minor adjustments to the brakes.^M
+262
+Father Milieri smiles broadly when he sees you: it's the first time you have met since you worked in Egypt three years ago. You are happy to see him too. He's a nice man.^M^M- Emilia, I'm so happy that God allowed me to meet you again!^M^MYou have a friendly chat for a few minutes. Father Milieri is a Franciscan, but loves the Abbey and his friends the Rosminians are happy to have him there when he comes back from Egypt. Then Father Milieri tells you that since last year the situation has worsened in Egypt. Some nations and empires have sent many spies toward the Suez channels, to survey their interests. Many worrying things are taking place in Egypt now. Then, Father Milieri says he has to go back to his spiritual exercises.^M^M- My dear Emilia: if you go in Egypt, please be careful!
+263
+Father Milieri is a tall man, about 65 years old, with white hair and a beard. He has lived for over 20 years in Luxor, in Egypt and you met him there during your mission in 1904.
+264
+The 50A is derived from the model 50, it's light and sporty. You like this car.
+265
+Those are corpses of former monks, mummified, holding a cross. Very impressive: "Remember that you have to die." 
+266
+It's the mountainside. On the top of it there is the church of the abbey.
+267
+It is stunningly decorated with astrological signs and figures, finely carved in marble. Capitals represent allegorical scenes full of the Middle Age symbolism.
+268
+When you try to enter the Abbey, the handyman shouts at you: you don't understand a word, but he clearly does not want you to go inside.
+269
+You try speaking with the handyman, understanding from his patois his name is Salvatore and not much more. He does not seem very smart, by the way...
+270
+He has no tonsure, probably he is not a monk. He must be an orphan raised in the abbey, to help friars with heavy work. He is ploughing a small garden, close to the entrance, he is sweating and must have left his habit elsewhere. He speaks patois, he probably comes from the high valley.
+271
+Salvatore pauses his work and notices the car: he screams with joy and runs to have a closer look to it.
+272
+He repeats a word: "màchina", "màchina". He seems really excited by the ITA 50A.
+273
+You make him understand that you can take him for a drive. He immediately jumps onboard. You get into the driver's seat and drive towards the nearby Colle Braida, towards Giaveno then head back towards the Avigliana lakes and to the Sacra again. In the hands of a pilot like you, it's a pretty exciting ride on those twisty roads. Salvatore is delighted! At the end he smiles to you, he will let you enter the abbey. You have the impression of hearing a metallic sound when he gets out from the car.
+274
+They are praying. You dont want to disturb them.
+275
+You have a clear view of the beautiful Avigliana castle and the lakes beside it. You also see Turin and Superga on the hill behind the city.
+276
+The stairs are made of stone and climb towards the entrance of the abbey.
+277
+It seems solid, but it is open now.
+278
+He does not look interested.
+279
+At this hour, a ray of light entering from the portal illuminates directly the skeletons. Brr!
+280
+It seems local marble.
+281
+It's a nice place.
+282
+You see a magnificent view of the Graian and Cottian Alps on the two sides of the valley. The Rocciamelone is the highest mountain nearby and is very easy to recognize by its shape.
+283
+You read somewhere they are being building a new vault: the old one threatened to collapse and was demolished.
+284
+There are three apses, the central one is quite large and is lit by windows and candles.
+285
+Romanesque, transitional Romanesque and Gothic.
+286
+There are strange legends on the Musiné mountain. Some say there are witches there, other say aliens have landed there... Bunch of nonsense!
+287
+The drive towards Turin is uneventful. You give the 50A car back to Giovanna and tell her about the brake adjustments. You spend the next few days preparing yourself to take a ferry towards Egypt and thinking about the Silk Dust rally and what Father Milieri said about the spies.^M^MPassword for part 3: SHIBBOLETH FEMENENRIE
+288
+Those are wild peonies.
+289
+It's a fairy large and powerful steam engine. It's on and it's moving the lineshafts in all of the factory now.
+290
+It's a manual valve on the bottom of the air compressor tank.
+291
+"For in that sleep of death, what dreams may come,^MWhen we have shuffled off this mortal coil..."
+292
+It's stuck!
+293
+You put some drops of oil in the valve.
+294
+There are wrenches of different sizes and an oiler.
+295
+No! Nanna may need it.
+296
+- Nanna, can I please borrow you some tools?^M- Yes, but do not leave them around after you finish.
+297
+Shiny!
+298
+Pretty ordinary.
+299
+No, you feel you would break it.
+300
+You hide yourself from the handiman and try to open the door of the shed, but it is locked.
+301
+You examine the car and you find a small key. Probably Salvatore lost it when he got out of the car.
+302
+^MA monk sees you and begins to shout "outside, outside!" You definitely can't get in right now; you should dress in something to avoid being immediately recognized as someone foreign to the abbey. He escorts you out of the main entrance of the church.^M
+303
+Salvatore takes the key and smiles. He seems to be happy that you brought it back.
+304
+You feel you are forgetting something, but you don't know what.
+305
+You think it's better Salvatore does not see you wearing his tunic and you take it off.
+306
+It's Salvatore's tunic, very simple and with a cap that covers the head.
+307
+It's the little key Salvatore has lost in your car.
+308
+You can go there today if you find a car... It won't be difficult!
+309
+You nose suggests to you the tunic you are wearing would benefit from a good clean.
+310
+The friars are burning incense, here.
+311
+You see the classic tools you expect to work in a garden: a small shovel, a rake and a shear. You'll leave them here.
+312
+It's a view of Cherasco. One of your grandfathers used to live there.
+313
+Your uncle is drawing a landaulette body for a model 100.
+314
+Your uncle keeps his desk tidy and clean.
+315
+To your west, you see the large building that hosts the friars' cells. You knock at the door, but nobody answers. Probably they are praying in the church of the abbey.
+316
+He seems eager to talk with you, but you don't understand much about what he says.
+317
+You unlock the toolshed's door with Salvatore's key. Luckily, he can not see you on this side!
+318
+An assorted set of wrenches.
+400
+No. You aren't tired now.
+401
+No need to do that now.
+402
+Use 'bye' to stop playing.
+403
+Oh, no, we are not going to stay here all day!
+407
+This is a text adventure game. Read descriptions carefully and type commands such as 'examine bed'. Type "north", "south", ... to move in the desired direction.. Abbreviations are possible "x" for "examine", "l" to "look" (i.e. describe your current location again), "i" for "inventory," "n" for "north" and so on. To quit the game, type "bye". To restart it, type "restart".
+408
+Please, type a more specific action...
+504
+Please feel free to continue, if you wish to... I've become impervious to swearing and profanity a long time ago.
+505
+No, you don't feel the need.
+518
+You'll examine yourself much better with a mirror.
+996
+You see nothing interesting.
+997
+You don't smell anything in particular, apart from a barely perceptible scent of lavender, coming from your clothes.
+998
+You have a strange sensation, almost as if you were becoming lighter and lighter. After a while, everything becomes normal, again.
+999
+No time for that, now.
+1000
+Okay.
+1001
+Done.
+1002
+Done.
+1003
+a
+1004
+a
+1005
+You can't take that!
+1006
+You can't do that!
+1007
+You don't have that with you!
+1008
+You can't go that way!
+1009
+I beg your pardon?
+1010
+You can't.
+1011
+You already have that with you!
+1012
+What do you want to do?
+1013
+
+1018
+(worn)
+1019
+
+1020
+You can go: 
+1021
+north
+1022
+south
+1023
+east
+1024
+west
+1025
+up
+1026
+down
+1027
+
+1028
+
+1029
+
+1030
+
+1031
+You notice: 
+1032
+You have with you: 
+1033
+nothing.
+1035
+
+OGGETTI
+43
+
+Your uncle Tullio
+0
+0
+36
+TRUE
+TRUE
+44
+
+Your father Augusto
+0
+0
+34
+TRUE
+TRUE
+45
+
+Riziero Rizzitelli, a journalist
+0
+0
+36
+TRUE
+TRUE
+46
+
+A letter
+0
+0
+0
+FALSE
+TRUE
+47
+
+Roberta
+0
+0
+35
+TRUE
+TRUE
+48
+
+Giovanna
+0
+0
+32
+TRUE
+TRUE
+49
+
+Personal message
+0
+0
+0
+FALSE
+TRUE
+170
+
+Anteo, the chief coachbuilder
+0
+0
+33
+TRUE
+TRUE
+171
+
+A newspaper
+0
+0
+0
+FALSE
+TRUE
+172
+
+ITA model 100
+0
+0
+30
+TRUE
+TRUE
+173
+
+Rolling chassis
+0
+0
+30
+TRUE
+TRUE
+174
+
+ITA model 50A
+0
+0
+30
+TRUE
+TRUE
+175
+
+Marcellino, the workshop assistant
+0
+0
+33
+TRUE
+TRUE
+176
+
+A button, close to the voicepipe
+0
+0
+0
+TRUE
+TRUE
+177
+
+A large rusted key
+0
+0
+0
+FALSE
+TRUE
+178
+
+The steam engine
+0
+0
+37
+TRUE
+TRUE
+179
+
+The compressor
+0
+0
+37
+TRUE
+TRUE
+180
+
+A valve
+0
+0
+0
+TRUE
+TRUE
+181
+
+A telegram
+0
+0
+0
+FALSE
+TRUE
+182
+
+Father Antonio Milieri
+0
+0
+45
+TRUE
+TRUE
+183
+
+The handyman
+0
+0
+40
+TRUE
+TRUE
+184
+
+Friars
+0
+0
+44
+TRUE
+TRUE
+185
+
+Oiler
+0
+0
+0
+FALSE
+TRUE
+186
+
+Wrenches
+0
+0
+0
+FALSE
+TRUE
+187
+
+A friar's tunic
+0
+0
+47
+FALSE
+TRUE
+188
+
+A little key
+0
+0
+0
+FALSE
+TRUE
+FINEDATI

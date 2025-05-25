@@ -1,0 +1,207 @@
+---------------------------- THE QUEEN'S FOOTSTEPS part 1 ---------------------
+Reading queens.aws
+Read header: done
+Read number of CONDIZIONIHI: 7
+Read CONDIZIONIHI: done
+Read number of CONDIZIONILOW: 52
+Read CONDIZIONILOW: done
+Read number of CONDIZIONILOCALI: 85
+Read CONDIZIONILOCALI: done
+Get dictionary size: 241
+Read dictionary: done
+Get the number of rooms in use: 22
+Read world: done
+Get the number of messages in use: 142
+Read messages: done
+Get the number of objects recognised by the game: 17
+Read objects: done
+Analyze AWS code: done
+Number of GOTO commands: 1
+Number of DROP commands: 1
+Create the output file
+Maxroom - obj: 100
+maxobjcode: 49
+    1701   8.94%, code:                 000 [e] i.e. 0x65 (3 bits)
+     881   4.63%, code:                0100 [n] i.e. 0x6E (4 bits)
+     105   0.55%, code:             0001100 [k] i.e. 0x6B (7 bits)
+      28   0.15%, code:           001001100 [O] i.e. 0x4F (9 bits)
+      29   0.15%, code:           101001100 [P] i.e. 0x50 (9 bits)
+      30   0.16%, code:           011001100 [G] i.e. 0x47 (9 bits)
+      14   0.07%, code:          0111001100 [C] i.e. 0x43 (10 bits)
+       2   0.01%, code:       0001111001100 [8] i.e. 0x38 (13 bits)
+       2   0.01%, code:       1001111001100 [7] i.e. 0x37 (13 bits)
+       2   0.01%, code:       0101111001100 [X] i.e. 0x58 (13 bits)
+       1   0.01%, code:      01101111001100 [&] i.e. 0x26 (14 bits)
+       1   0.01%, code:      11101111001100 [6] i.e. 0x36 (14 bits)
+       8   0.04%, code:         11111001100 [-] i.e. 0x2D (11 bits)
+     231   1.21%, code:              101100 [\0] i.e. 0x0 (6 bits)
+     248   1.30%, code:              011100 [f] i.e. 0x66 (6 bits)
+      62   0.33%, code:            00111100 ["] i.e. 0x22 (8 bits)
+      31   0.16%, code:           010111100 [:] i.e. 0x3A (9 bits)
+      31   0.16%, code:           110111100 [!] i.e. 0x21 (9 bits)
+      64   0.34%, code:            01111100 [I] i.e. 0x49 (8 bits)
+      16   0.08%, code:          0011111100 [2] i.e. 0x32 (10 bits)
+       8   0.04%, code:         01011111100 [\n] i.e. 0xA (11 bits)
+       4   0.02%, code:        011011111100 [U] i.e. 0x55 (12 bits)
+       5   0.03%, code:        111011111100 [?] i.e. 0x3F (12 bits)
+      33   0.17%, code:           111111100 [x] i.e. 0x78 (9 bits)
+     975   5.12%, code:                0010 [r] i.e. 0x72 (4 bits)
+     975   5.12%, code:                1010 [i] i.e. 0x69 (4 bits)
+     515   2.71%, code:               00110 [d] i.e. 0x64 (5 bits)
+     534   2.81%, code:               10110 [u] i.e. 0x75 (5 bits)
+     139   0.73%, code:             0001110 [v] i.e. 0x76 (7 bits)
+      34   0.18%, code:           001001110 [R] i.e. 0x52 (9 bits)
+      17   0.09%, code:          0101001110 [q] i.e. 0x71 (10 bits)
+      18   0.09%, code:          1101001110 [0] i.e. 0x30 (10 bits)
+      39   0.20%, code:           011001110 [S] i.e. 0x53 (9 bits)
+      20   0.11%, code:          0111001110 [F] i.e. 0x46 (10 bits)
+      10   0.05%, code:         01111001110 [V] i.e. 0x56 (11 bits)
+      11   0.06%, code:         11111001110 [1] i.e. 0x31 (11 bits)
+     291   1.53%, code:              101110 [p] i.e. 0x70 (6 bits)
+     294   1.55%, code:              011110 [g] i.e. 0x67 (6 bits)
+     303   1.59%, code:              111110 [.] i.e. 0x2E (6 bits)
+    1204   6.33%, code:                0001 [o] i.e. 0x6F (4 bits)
+    1282   6.74%, code:                1001 [t] i.e. 0x74 (4 bits)
+    1282   6.74%, code:                0101 [a] i.e. 0x61 (4 bits)
+     304   1.60%, code:              001101 [m] i.e. 0x6D (6 bits)
+     168   0.88%, code:             0101101 [,] i.e. 0x2C (7 bits)
+      85   0.45%, code:            01101101 ['] i.e. 0x27 (8 bits)
+      42   0.22%, code:           011101101 [E] i.e. 0x45 (9 bits)
+      22   0.12%, code:          0111101101 [M] i.e. 0x4D (10 bits)
+      22   0.12%, code:          1111101101 [H] i.e. 0x48 (10 bits)
+     652   3.43%, code:               11101 [l] i.e. 0x6C (5 bits)
+     662   3.48%, code:               00011 [h] i.e. 0x68 (5 bits)
+     374   1.97%, code:              010011 [c] i.e. 0x63 (6 bits)
+     375   1.97%, code:              110011 [y] i.e. 0x79 (6 bits)
+      94   0.49%, code:            00001011 [Y] i.e. 0x59 (8 bits)
+      23   0.12%, code:          0010001011 [z] i.e. 0x7A (10 bits)
+      12   0.06%, code:         01010001011 [W] i.e. 0x57 (11 bits)
+      12   0.06%, code:         11010001011 [4] i.e. 0x34 (11 bits)
+      12   0.06%, code:         00110001011 [L] i.e. 0x4C (11 bits)
+      12   0.06%, code:         10110001011 [D] i.e. 0x44 (11 bits)
+       6   0.03%, code:        001110001011 [3] i.e. 0x33 (12 bits)
+       6   0.03%, code:        101110001011 [)] i.e. 0x29 (12 bits)
+       3   0.02%, code:       0011110001011 [5] i.e. 0x35 (13 bits)
+       3   0.02%, code:       1011110001011 [9] i.e. 0x39 (13 bits)
+       3   0.02%, code:       0111110001011 [;] i.e. 0x3B (13 bits)
+       3   0.02%, code:       1111110001011 [Q] i.e. 0x51 (13 bits)
+     199   1.05%, code:             1001011 [b] i.e. 0x62 (7 bits)
+      51   0.27%, code:           000101011 [A] i.e. 0x41 (9 bits)
+      25   0.13%, code:          0100101011 [N] i.e. 0x4E (10 bits)
+       6   0.03%, code:        001100101011 [(] i.e. 0x28 (12 bits)
+       7   0.04%, code:        101100101011 [j] i.e. 0x6A (12 bits)
+      13   0.07%, code:         11100101011 [B] i.e. 0x42 (11 bits)
+     104   0.55%, code:            10101011 [T] i.e. 0x54 (8 bits)
+     218   1.15%, code:             1101011 [w] i.e. 0x77 (7 bits)
+     856   4.50%, code:               11011 [s] i.e. 0x73 (5 bits)
+    3175  16.69%, code:                 111 [ ] i.e. 0x20 (3 bits)
+Analyzed: 19029 bytes
+File queens_no_UTF8.c created
+Size occupied by room descriptions: 2921 bytes
+Size occupied by messages: 7905 bytes
+No of critical errors: 0
+
+--------------------------------- SILK DUST part 1 ----------------------------
+                             Status September 25, 2020
+
+../../../aws2c -m -c -s -d -n -w -k -l -5 ../../aws_sources/part1/silkdust1.aws silkdust1_no_UTF8.c
+Reading ../../aws_sources/part1/silkdust1.aws
+Read header: done
+Read number of CONDIZIONIHI: 4
+Read CONDIZIONIHI: done
+Read number of CONDIZIONILOW: 66
+Read CONDIZIONILOW: done
+Read number of CONDIZIONILOCALI: 74
+Read CONDIZIONILOCALI: done
+Get dictionary size: 264
+Read dictionary: done
+Get the number of rooms in use: 22
+Read world: done
+Get the number of messages in use: 153
+Read messages: done
+Get the number of objects recognised by the game: 18
+Read objects: done
+Analyze AWS code: done
+Number of GOTO commands: 3
+Number of DROP commands: 2
+Create the output file
+Maxroom - obj: 100
+maxobjcode: 41
+     949   4.69%, code:                0000 [n] i.e. 0x6E (4 bits)
+     955   4.72%, code:                1000 [i] i.e. 0x69 (4 bits)
+    1987   9.81%, code:                 100 [e] i.e. 0x65 (3 bits)
+     486   2.40%, code:               00010 [u] i.e. 0x75 (5 bits)
+      60   0.30%, code:            00010010 ['] i.e. 0x27 (8 bits)
+      64   0.32%, code:            10010010 [A] i.e. 0x41 (8 bits)
+     132   0.65%, code:             1010010 [v] i.e. 0x76 (7 bits)
+     263   1.30%, code:              110010 [w] i.e. 0x77 (6 bits)
+    1046   5.16%, code:                1010 [r] i.e. 0x72 (4 bits)
+     264   1.30%, code:              000110 [f] i.e. 0x66 (6 bits)
+     268   1.32%, code:              100110 [g] i.e. 0x67 (6 bits)
+     541   2.67%, code:               10110 [d] i.e. 0x64 (5 bits)
+      15   0.07%, code:          0000001110 [R] i.e. 0x52 (10 bits)
+      16   0.08%, code:          1000001110 [q] i.e. 0x71 (10 bits)
+      16   0.08%, code:          0100001110 [E] i.e. 0x45 (10 bits)
+       8   0.04%, code:         01100001110 [1] i.e. 0x31 (11 bits)
+       4   0.02%, code:        011100001110 [2] i.e. 0x32 (12 bits)
+       5   0.02%, code:        111100001110 [G] i.e. 0x47 (12 bits)
+      69   0.34%, code:            10001110 [I] i.e. 0x49 (8 bits)
+     140   0.69%, code:             1001110 [k] i.e. 0x6B (7 bits)
+     274   1.35%, code:              101110 [b] i.e. 0x62 (6 bits)
+     274   1.35%, code:              011110 [p] i.e. 0x70 (6 bits)
+      35   0.17%, code:           000111110 [-] i.e. 0x2D (9 bits)
+      17   0.08%, code:          0100111110 [C] i.e. 0x43 (10 bits)
+      19   0.09%, code:          1100111110 [V] i.e. 0x56 (10 bits)
+      76   0.38%, code:            10111110 [T] i.e. 0x54 (8 bits)
+      39   0.19%, code:           001111110 ["] i.e. 0x22 (9 bits)
+      39   0.19%, code:           101111110 [S] i.e. 0x53 (9 bits)
+       5   0.02%, code:        000011111110 [X] i.e. 0x58 (12 bits)
+       2   0.01%, code:       0100011111110 [;] i.e. 0x3B (13 bits)
+       1   0.00%, code:      01100011111110 [K] i.e. 0x4B (14 bits)
+       1   0.00%, code:     011100011111110 [3] i.e. 0x33 (15 bits)
+       1   0.00%, code:     111100011111110 [6] i.e. 0x36 (15 bits)
+      10   0.05%, code:         10011111110 [W] i.e. 0x57 (11 bits)
+      22   0.11%, code:          1011111110 [M] i.e. 0x4D (10 bits)
+      43   0.21%, code:           111111110 [B] i.e. 0x42 (9 bits)
+    1237   6.11%, code:                0001 [t] i.e. 0x74 (4 bits)
+    1285   6.35%, code:                1001 [o] i.e. 0x6F (4 bits)
+    1363   6.73%, code:                0101 [a] i.e. 0x61 (4 bits)
+     346   1.71%, code:              001101 [y] i.e. 0x79 (6 bits)
+     352   1.74%, code:              101101 [.] i.e. 0x2E (6 bits)
+     734   3.62%, code:               11101 [l] i.e. 0x6C (5 bits)
+     358   1.77%, code:              000011 [m] i.e. 0x6D (6 bits)
+      22   0.11%, code:          0000100011 [H] i.e. 0x48 (10 bits)
+      23   0.11%, code:          1000100011 [!] i.e. 0x21 (10 bits)
+      23   0.11%, code:          0100100011 [x] i.e. 0x78 (10 bits)
+      11   0.05%, code:         01100100011 [0] i.e. 0x30 (11 bits)
+       6   0.03%, code:        011100100011 [z] i.e. 0x7A (12 bits)
+       6   0.03%, code:        111100100011 [j] i.e. 0x6A (12 bits)
+      93   0.46%, code:            10100011 [Y] i.e. 0x59 (8 bits)
+      49   0.24%, code:           001100011 [\n] i.e. 0xA (9 bits)
+      25   0.12%, code:          0101100011 [:] i.e. 0x3A (10 bits)
+      25   0.12%, code:          1101100011 [L] i.e. 0x4C (10 bits)
+      25   0.12%, code:          0011100011 [P] i.e. 0x50 (10 bits)
+       3   0.01%, code:       0001011100011 [4] i.e. 0x34 (13 bits)
+       3   0.01%, code:       1001011100011 [F] i.e. 0x46 (13 bits)
+       6   0.03%, code:        101011100011 [U] i.e. 0x55 (12 bits)
+      13   0.06%, code:         11011100011 [N] i.e. 0x4E (11 bits)
+      14   0.07%, code:         00111100011 [?] i.e. 0x3F (11 bits)
+      14   0.07%, code:         10111100011 [D] i.e. 0x44 (11 bits)
+      14   0.07%, code:         01111100011 [O] i.e. 0x4F (11 bits)
+       7   0.03%, code:        011111100011 [5] i.e. 0x35 (12 bits)
+       1   0.00%, code:     000111111100011 [7] i.e. 0x37 (15 bits)
+       1   0.00%, code:     100111111100011 [J] i.e. 0x4A (15 bits)
+       2   0.01%, code:      10111111100011 [9] i.e. 0x39 (14 bits)
+       2   0.01%, code:      01111111100011 [(] i.e. 0x28 (14 bits)
+       2   0.01%, code:      11111111100011 [)] i.e. 0x29 (14 bits)
+     764   3.77%, code:               10011 [h] i.e. 0x68 (5 bits)
+     212   1.05%, code:             0001011 [,] i.e. 0x2C (7 bits)
+     243   1.20%, code:             1001011 [\0] i.e. 0x0 (7 bits)
+     472   2.33%, code:              101011 [c] i.e. 0x63 (6 bits)
+     944   4.66%, code:               11011 [s] i.e. 0x73 (5 bits)
+    3406  16.82%, code:                 111 [ ] i.e. 0x20 (3 bits)
+Analyzed: 20252 bytes
+File silkdust1_no_UTF8.c created
+Size occupied by room descriptions: 2388 bytes
+Size occupied by messages: 8968 bytes
+No of critical errors: 0

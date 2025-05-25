@@ -1,0 +1,13 @@
+ADDITIONAL NOTES FOR THE MSDOS VERSION OF SILK DUST
+
+    Davide Bucci
+
+This version contains all the game in a single file that is called either
+SILK.EXE or SILKN.EXE. The SILKN.EXE version does not contain the splash screen
+and any ANSI command (colours for the text, etc). It should run on some pretty
+barebone systems.
+
+If you want ANSI coloured text, make sure the following line is contained in
+your CONFIG.SYS file:
+
+DEVICE=DOS\ANSI.SYS

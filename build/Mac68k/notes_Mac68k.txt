@@ -1,0 +1,21 @@
+ADDITIONAL NOTES FOR THE MACINTOSH 68k VERSION OF SILK DUST
+
+    Davide Bucci
+
+
+This version still features the game split in three different parts.
+The Mac memory of course enough to contain all Silk Dust in a single file.
+Write down the passwords at the end of each part of the game.
+
+As a consequence, There are three applications that write files with the same 
+creator and file type. This may create some confusion to the system, but it
+will be of course completely fixed when the three applications will be spliced
+in a single one.
+
+I will soon prepare a version of Silk Dust that is contained in a single file.
+
+If you have comments or remarks, feel free to write me at:
+
+davbucciNOSPAM@tiscali.it
+
+(email containing attachments will be automatically removed by my provider)

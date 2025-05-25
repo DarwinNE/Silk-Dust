@@ -1,0 +1,79 @@
+Version 0.2.2
+-------------
+
+[FIXED] - Bòcia is rendered "Bo'cia". Better to use "Bocia".
+[FIXED] - When turning on the Generator, "activate generator" is okay, but the more obvious choice should be "pull lever", as Emilia describes a lever on the generator. Maybe use this as an optional command.
+[FIXED] - The valve is too obvious and a problem to be solved too easy. You might want to extend that part a little; let the valve be stuck so Emilia has to get a fitting tool to open it. And maybe even then she would have to add grease in order to not break it.
+
+Version 0.3
+-----------
+
+Part two:
+[FIXED] - Entrance  of the abbey: when I get the  key (dropped by Salvatore) no confirmation message is written (like "okay"), just a blank line
+[FIXED]  - East balcony: when I speak to Father, I can speak to him again and he'll  say  the  same things, even though at the end of that he says that  he  should  go  back  to  his  spiritual exercises. Perhaps we shouldn't  be  allowed  to speak to him again (this is subjective of  course).
+
+Version 0.4.2
+-------------
+(Benedikt Weiss)
+
+Chapter two:
+
+[FIXED] - The crash with the rolling chassis is triggered too early: If you pull the lever on the compressor, and after that open the valve, back at the voicepipe Emilia finds it is too loud for using it - after that the event with the chassis should be triggered, not earlier. If you do NOT open the valve after pulling the lever (and subsequently still cannot use the voicepipe) and go back to Anteo, the chassis-event is triggered, although Emilia never encountered the noise-problem.
+[FIXED] - A follow-up-problem: When the chassis-event is triggered without Emilia having opened the valve after pulling the lever and Anteo stops the hammer, Emilia cannot talk to the voicepipe - but not because there still is no pressure, but Emilia states it is too loud in the room. It now stays too loud in the room, because after now opening the valve, the chassis-event will (of course) not be triggered again. This problem should be eliminated with triggering the chassis-event only after having pulled the lever, having opened the valve, discovering it is too loud to use the voicepipe and having left and again entered the factory.
+[FIXED] - Emilia can also take a wrench when examining the workbench in Nannas room. When the player tries to open the valve with it, Emilia states it is stuck. In my opinion it would be better to let her say, that she fears to break the valve, if she puts too much pressure on it with the wrench. Maybe also let her find the oiler in another place than the wrenches - or maybe even let Nanna give the oiler to Emilia after Emilia fails to open the valve with the wrench, if Emilia again talks to Nanna. SHOW APPROPRIATE MESSAGE WITH "OPEN VALVE WITH A WRENCH"
+[FIXED] - In Tullios Office, you can neither examine the painting, the desk or the drawing board. If it fits in, maybe at least add the painting and the drawing board.
+[FIXED] - After getting the key from Salvatore you do not need to unlock the door to the toolshed, but instead just enter it. I guess it would add to the logic (and the atmosphere) if you have to explicitly unlock the door first, OR Emilia states, that she unlocks it for the first time entering the shed. -> MESSAGE WHEN EMILIA ENTERS THE SHED THE FIRST TIME
+[WON'T FIX] - When entering the church, Emilia gets shouted at by a monk when not dressed in the tunic (great, that you built that in!). She then retreats to a balcony. Wouldn't it be more logic, if she descended the stairs again to the entrance to the abbey?
+[FIXED] - Maybe you should find a way to make the abbey seem larger, for example by adding a hallway that leads to the dorm rooms. Emilia could say, she won't enter there because it is inappropriate.
+[FIXED] - Talking to Salvatore again after leaving the abbey leads to Emilia repeating the little roadtrip with him. He AGAIN loses the key, he has already lost. The key isn't to be found in the car again, though. ;)
+
+Version 0.5.1
+-------------
+
+[FIXED] - "Examine set of wrenches" does not work. "Take set of wrenches" does not work as expected. "Set" creates a conflict as it is recognised as a verb.
+- the prompt
+[FIXED] - "I wear" -> "(worn)" in the inventory 
+[FIXED] - maybe the place where friars escort you if you don't wear the tunic when you enter the church.
+
+Version 1.0
+-----------
+
+Problem with this sequence:
+
+shibboleth ohbastala
+
+n
+n
+w
+talk to father
+
+read letter
+read message
+
+e
+s
+e
+talk to voicepipe
+push button
+w
+n
+talk to nanna
+x bench
+take oiler
+s
+s
+open the door
+e
+activate compressor
+x compressor
+open valve
+w
+n
+n
+take oiler
+s
+s
+e
+put oil on the valve
+open valve
+activate compressor

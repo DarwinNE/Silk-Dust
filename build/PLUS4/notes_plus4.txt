@@ -1,0 +1,23 @@
+ADDITIONAL NOTES FOR THE COMMODORE PLUS/4 VERSION OF SILK DUST
+
+    Davide Bucci
+
+
+This version still features the game split in three different parts.
+Write down the passwords at the end of each part of the game.
+
+Type:
+
+DLOAD "*"
+
+followed by RUN. Choose which part of the game you want to play.
+
+
+The Commodore Plus/4 splash screen has been kindly adapted by Luca/FIRE.
+I would also thank him for the kindly advices about the Plus/4 implementation.
+
+If you have comments or remarks, feel free to write me at:
+
+davbucciNOSPAM@tiscali.it
+
+(email containing attachments will be automatically removed by my provider)

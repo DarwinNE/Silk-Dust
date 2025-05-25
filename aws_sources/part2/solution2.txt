@@ -1,0 +1,91 @@
+shibboleth ohbastala
+
+n
+n
+w
+talk to father
+
+read letter
+read message
+
+e
+s
+e
+talk to voicepipe
+push button
+w
+n
+talk to nanna
+s
+s
+open the door
+e
+activate compressor
+x compressor
+open valve
+w
+n
+n
+x bench
+take oiler
+s
+s
+e
+put oil on the valve
+open valve
+activate compressor
+w
+n
+e
+talk to voicepipe
+talk to anteo
+w
+s
+x cars
+n
+e
+talk to anteo
+talk to voicepipe
+talk to uncle
+give letter to uncle
+w
+w
+w
+talk to rizzitelli
+
+read newspaper
+e
+read telegram
+e
+s
+drive car
+x handyman
+talk to handyman
+wait
+wait
+wait
+wait
+x handyman
+talk to salvatore
+
+x car
+take key
+s
+take tunic
+n
+u
+u
+n
+wear tunic
+e
+e
+talk to milieri
+
+w
+d
+w
+s
+drop tunic
+n
+give key to salvatore
+drive car
