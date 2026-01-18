@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Specify here the directory where the distribution files will be copied:
-ditdir="/Users/davidebucci/Documents/Synchronized/mysite/varie/silk"
+ditdir="/Users/davidebucci/Desktop/Synchronized/mysite/varie/two_days"
 
 # Path to the c1541 tool (handle .d64 disks):
 c1541command="/Applications/Emulators/VICE2.4/tools/c1541"
@@ -10,19 +10,17 @@ c1541command="/Applications/Emulators/VICE2.4/tools/c1541"
 m20command="m20"
 
 # Path to the xdftool (for Amiga adf disks)
-xdftoolcommand="/Users/davidebucci/Documents/Synchronized/Vintage/Computing/Commodore/Amiga/amitools/bin/xdftool"
+xdftoolcommand="/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Commodore/Amiga/amitools/bin/xdftool"
 
 # Directory where the CPC mastering tools are present:
-pp="/Users/davidebucci/Documents/Synchronized/Vintage/Computing/Amstrad/CPC/cpc-mastering"
+pp="/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Amstrad/CPC/cpc-mastering"
 
 # Python script of the mkcas utility:
-mkcas="/Users/davidebucci/Documents/Synchronized/Vintage/Computing/Amstrad/mkcas/mkcas.py"
-
-# cas2wav (part of castools for MSX computers).
-cas2wav="/Users/davidebucci/Documents/Synchronized/Vintage/Computing/MSX/castools/cas2wav"
+mkcas="/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Amstrad/mkcas/mkcas.py"
 
 # Full filename of Apple Commander (it requires Java)
-acjarfile="/Users/davidebucci/Documents/Synchronized/Vintage/Computing/Apple/AppleII/AppleCommander-ac-1.6.0.jar"
+acjarfile="/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Apple/AppleII/AppleCommander-ac-13.0.jar"
+#acjarfile="/mnt/d/Users/hkzla/software/applecommander/AppleCommander-ac-13.0.jar"
 
 # Full filename of Atari disk tools
-ataritools="/Users/davidebucci/Documents/Synchronized/Vintage/Computing/Atari/atari-tools/atr"
+ataritools="/Users/davidebucci/Desktop/Synchronized/Vintage/Computing/Atari/atari-tools/atr"
